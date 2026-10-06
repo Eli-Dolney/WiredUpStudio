@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "published": true,
+  "title": "Atlas Dragon",
+  "description": "A little dragon with a bright sense of adventure. Explore Atlas\u2019s low-poly silhouette, luminous cyan markings, and lantern in motion.",
+  "model": {
+    "url": "/models/atlas-dragon/Atlas_Dragon.glb",
+    "bytes": 682732,
+    "sha256": "832a60fbfa66c8112a798cf53cdf513e8c5cb001968662b582b9d7e689531110"
+  },
+  "poster": "/models/atlas-dragon/Atlas_Hero.png",
+  "downloads": [
+    {
+      "url": "/models/atlas-dragon/Atlas_LowPoly_Pack.zip",
+      "bytes": 7509498,
+      "sha256": "f582da96d31a83e611809aeb7ca804188eb92ca3c2109bc9d4b61b3623d1e57d",
+      "label": "Download complete pack",
+      "format": "ZIP"
+    },
+    {
+      "url": "/models/atlas-dragon/Atlas_Dragon.glb",
+      "bytes": 682732,
+      "sha256": "832a60fbfa66c8112a798cf53cdf513e8c5cb001968662b582b9d7e689531110",
+      "label": "Download animated model",
+      "format": "GLB"
+    },
+    {
+      "url": "/models/atlas-dragon/Atlas_LowPoly.blend",
+      "bytes": 3705388,
+      "sha256": "bf242f4cd3f203ad36b15f6f3ddef088fcf3d8600653b48b0ad47d96da918fd6",
+      "label": "Download Blender source",
+      "format": "BLEND"
+    }
+  ],
+  "license": {
+    "label": "CC0 1.0 Universal",
+    "url": "/models/atlas-dragon/LICENSE.txt"
+  },
+  "details": [
+    "3,752 triangles \u00b7 22 bones",
+    "Five clips: Idle, Walk, Wave, Jump, Hover",
+    "14 embedded materials \u00b7 No external textures",
+    "ZIP includes Blender, animated FBX, static OBJ/MTL, renders and import notes"
+  ]
+}

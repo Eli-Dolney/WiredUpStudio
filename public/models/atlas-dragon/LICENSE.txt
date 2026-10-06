@@ -1,0 +1,13 @@
+Atlas Low-Poly Pack
+CC0 1.0 Universal (CC0-1.0)
+
+The owner dedicates this pack's original 3D assets, animations, material definitions, rendered previews and documentation to the public domain under CC0 1.0 Universal, to the extent permitted by law.
+
+Use, copying, modification and redistribution are permitted, including commercial use. Credit appreciated, never required.
+
+Canonical dedication: https://creativecommons.org/publicdomain/zero/1.0/
+Full legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode.en
+
+The CC0 legal code governs this dedication. No patent or trademark rights are granted. Third-party rights are unaffected. The work is provided as-is without warranties.
+
+No third-party software source code is bundled in this asset pack. Blender and export-format tools retain their own licenses; this dedication does not relicense those tools.
