@@ -1,0 +1,185 @@
+NET & TAME / SAFARI PACK
+
+Created: October 3, 2026
+Original models: Elephant, Giraffe, Lion, Zebra, Capybara, Meerkat, Red Panda, Penguin.
+The eight species match the existing Wildlife Reserve roster.
+Direction: faceted low-poly forms, natural proportions, restrained faces.
+The supplied Sketchfab collection was viewed as a style reference only.
+No seller geometry, textures, downloads or purchased assets were used.
+
+WHAT IS INCLUDED
+- .bbmodel: editable polygon meshes with embedded color palette in Blockbench.
+- .obj + .mtl: static mesh/material handoff for Blender or a 3D importer.
+- .rig.json: motion-group names and pivot positions matching the game's conventions.
+- manifest.json: pack contents and measured triangle/vertex counts.
+- Safari-Pack.svg/png: geometry-rendered front-three-quarter and side views.
+- 01-Safari: complete editable pack; 01-Safari-Foundations preserves the approved trio.
+- 02-Safari-Rigged: eight weighted glTF skins, skeletal clips and pose evidence.
+
+UNITS AND EDITING
+OBJ and pivot JSON use studs, Y-up, facing -Z. Blockbench uses four units per stud.
+Quadrupeds separate body, head, tail and four legs; the tailless capybara has six
+groups. Meerkat arms and penguin flippers use their own groups. All groups include
+pivot metadata for the next rigging pass.
+The 01-Safari static sources are not skinned. The separate 02-Safari-Rigged exports
+add weighted leg/knee/foot bones, a giraffe neck and seven skeletal clips.
+Each motion group is now one connected, closed shell, with internal intersections
+removed. Adjacent groups overlap at their anatomical joints for later rigid-part
+animation; this is not one continuous, skin-deformation-ready surface. Do not run
+the older cube-only import-blockbench.mjs on these polygon models.
+
+POLISH PASS
+Leg roots taper inside the torso; facial details are seated against the skin.
+Penguin/meerkat bellies and red-panda coat markings are surface colors, not raised
+slabs. Tusks, tail tufts, ankles and other formerly detached parts are connected.
+The preview uses per-pixel depth instead of painter sorting, removing false cracks.
+Asset checks verify each group and the whole assembled animal are connected,
+alongside closed topology, winding, palette UVs and matching OBJ exports.
+The polished Penguin was visually checked in Blockbench. The inspection sheet
+provides front, left, rear and right views of all eight exported models.
+
+GAME STATUS
+NetAndTameZoo-LivingHabitats.rbxlx adds procedural native-Part fallback animation
+and habitat activities. The polished mesh skins still need owner import in Studio;
+they are not embedded or uploaded by the file generator. See README's Animated
+Safari Rigs steps and tools/InstallSafariRig.lua. Mesh templates automatically
+replace the corresponding native-Part model once installed. Check owner access,
+scale, catching and performance before publishing. No animation asset IDs are
+fabricated; procedural Bone/Motor6D playback uses the shared numeric pose source.
+Current glTF heights are game-scale studs (Elephant 12, Giraffe 15). Older static
+Blockbench/OBJ sources keep their approved modeling scale.
+The giraffe's coat is modeled into the surface rather than a painted texture;
+it uses more triangles and is a candidate for texture baking in an optimization pass.
+
+ROSTER ORGANIZATION
+Safari: Elephant, Giraffe, Lion, Zebra, Capybara, Meerkat, Red Panda, Penguin (complete).
+Ocean: Crab, Harbor Seal, Sea Turtle, Sea Otter, Dolphin, Manta Ray, Octopus,
+Reef Shark (editable meshes in 03-Ocean; weighted glTF rigs in 04-Ocean-Rigged).
+Arctic: Arctic Fox, Snowy Owl, Polar Bear, Walrus, Arctic Hare, Musk Ox,
+Reindeer and Harp Seal (05-Arctic sources; 06-Arctic-Rigged weighted exports).
+Ember: Ember Red Panda, Magma Lion, Obsidian Elephant, Lava Rhino, Ash Wolf,
+Cinder Boar, Phoenix and Basalt Tortoise (07-Ember sources; 08-Ember-Rigged exports).
+These are asset collections, not new paid/random shop packs.
+
+OCEAN PACK / OCTOBER 4, 2026
+The Ocean models use the same original faceted style and surface-color approach.
+Targets: crab width 4.5 studs; seal length 6.5; turtle length 5.5; otter length 5;
+dolphin length 9; manta width 10; octopus span 6; shark length 9.5.
+Crab +X is scuttle direction; all models face -Z. Water-reference height is recorded
+for swimmers; the otter's waterline passes through its back for surface floating.
+Grounded animals are crab, seal and octopus. Swimming poses may extend below Y=0;
+their origin is a swimming reference, not a seabed contact point.
+Each rig has Idle, Walk, Flee, Rest, Eat, Drink and Alert. Walk maps to the species'
+locomotion. Drink is a compatible interaction for aquatic anatomy. Marine clips
+come from AnimalMotion.lua and the glTF viewer plays the actual exported tracks.
+The octopus has eight three-joint arm chains; the crab has eight articulated legs,
+two wrist chains and moving pincers. Manta wing chains, dolphin/shark tail chains,
+otter spine/paws, and seal/turtle flippers retain their own motion profiles.
+
+Ocean-Pack.png: geometry lineup; Ocean-Inspection.png: six views per animal.
+04-Ocean-Rigged/Ocean-Rig-Poses.png: sampled skinned poses.
+Ocean-Animation-Viewer.html: self-contained offline WebGL glTF player with all
+eight animals, seven clips, camera controls, pause and timeline scrubbing.
+Open .bbmodel files in Blockbench for geometry edits or glTF in a skin-capable
+editor for weighted rig edits. OBJ is static and does not preserve animation.
+Use --pack ocean on the model, rig, render and art/rig test commands. These
+commands never regenerate Safari assets. tools/build-ocean-viewer.mjs refreshes
+the player after changing exported Ocean rigs. No place build or upload is made.
+Studio import: Custom rig, Keep Zero Influence Bones ON, Ignore Vertex Colors OFF.
+Use tools/InstallAnimalRig.lua after the latest scripts/metadata are synchronized.
+The new water species still need future water routing and habitat integration.
+
+OCEAN VERIFICATION
+Eight meshes total 19,164 triangles, each below 10,000. Geometry checks pass for
+closed connected shells, consistent winding, palette UVs, target sizes and OBJ
+parity. 335,623 skin/clip checks pass. All 2,688 sampled animation poses are finite;
+ground animals stay above the floor. 224 deformed-shell checks verify that parts
+remain connected at four phases of every clip. Both existing Safari suites pass,
+and a before/after checksum confirms the Safari assets were not modified.
+The six-view inspection sheet, skinned pose sheet and interactive glTF viewer were
+visually inspected. Browser playback was observed for crab, manta and octopus.
+Blockbench source-file inspection was attempted, but its native file picker did
+not accept automated input reliably; that application-specific check is pending.
+No Roblox import, upload, gameplay test or device-performance claim is made.
+
+ARCTIC PACK / OCTOBER 4, 2026
+Eight original winter models, 25,652 triangles total; each below 10,000 triangles.
+Targets in studs: ArcticFox height 3.5, SnowyOwl height 3.5, PolarBear height 7,
+Walrus length 9, ArcticHare height 3.3, MuskOx height 6.5, Reindeer height 8.5
+including antlers, HarpSeal length 6.5. All face -Z and use Y=0 ground reference.
+The owl uses grounded waddle/wing-hop clips; this pass adds no flight system.
+Each has Idle, Walk, Flee, Rest, Eat, Drink and Alert, exported from AnimalMotion.lua.
+Leg/knee/foot chains, fox tail, articulated owl wings and hare ears, and separate
+seal/walrus flippers provide species-specific movement. Markings use face colors,
+not floating decals. Tapered limb roots remain embedded through folded poses.
+
+Arctic-Pack.png: mesh lineup; Arctic-Inspection.png: front/left/rear/right/top/bottom.
+06-Arctic-Rigged/Arctic-Rig-Poses.png: weighted Walk/Rest/Eat/Drink evidence.
+Arctic-Animation-Viewer.html: offline player of the actual exported glTF tracks.
+The .bbmodel/OBJ files are static editable geometry; glTF contains weights/clips.
+Use --pack arctic for model/rig/render builders and art/rig tests, including the
+historically named build-ocean-viewer.mjs and OceanMotion.spec.mjs tools.
+Import later as Custom, Keep Zero Influence Bones ON, Ignore Vertex Colors OFF.
+No uploads, place builds, economy changes or additional playable species here.
+
+ARCTIC VERIFICATION
+Art checks: closed connected shells, consistent winding, palette UVs, target sizes,
+and OBJ parity pass. 429,996 skin/bone/clip assertions pass. All 2,688 sampled poses
+stay finite and above the floor. 224 deformed-shell unions find no detached joints
+at four phases per clip. Six-angle sheets and actual weighted pose sheets inspected.
+Browser playback visually checked for fox, reindeer, owl and walrus; native
+Blockbench inspection remains pending because its existing file dialog is stuck.
+Safari and Ocean art/rig suites and Ocean motion checks still pass. Existing pack
+assets were preserved. No Roblox import, gameplay or device performance is claimed.
+
+EMBER PACK / OCTOBER 4, 2026
+Eight original volcanic-themed models, 30,650 triangles total; each below 10,000.
+Stud targets: EmberRedPanda 3.5 tall, MagmaLion 5.4 tall, ObsidianElephant 12 tall,
+LavaRhino 8 tall, AshWolf 5 tall, CinderBoar 4.5 tall, Phoenix 6.5 tall including
+crest, BasaltTortoise 6 long. Y-up, -Z forward, grounded reference Y=0 for all eight.
+The first three IDs and their intended scale are preserved. New species are assets
+only; no spawns, economy, paid packs, save data or place snapshots changed.
+Ember seams are palette colors on welded surfaces, not lights or loose geometry.
+
+Each weighted glTF has Idle, Walk, Flee, Rest, Eat, Drink and Alert from the shared
+AnimalMotion.lua numeric source. Includes three-joint elephant trunk, flapping ears,
+quadruped leg/knee/foot chains, panda/lion tail chains, phoenix wing chains and
+tortoise legs. Phoenix has grounded wing-strut motion, not a flight system.
+Ember-Pack.png: model lineup. Ember-Inspection.png: six sides per animal.
+08-Ember-Rigged/Ember-Rig-Poses.png: actual weighted Walk/Rest/Eat/Drink poses.
+Ember-Animation-Viewer.html: self-contained offline player of exported glTF tracks.
+07-Ember holds editable .bbmodel geometry, palette, static OBJ/MTL and rig definitions.
+Use --pack ember with the model/rig/render builders and tests. The historical
+build-ocean-viewer.mjs and OceanMotion.spec.mjs tools also accept --pack ember.
+For later Studio import: Custom, Keep Zero Influence Bones ON, Ignore Vertex Colors
+OFF. Sync the latest installation metadata and follow tools/InstallAnimalRig.lua.
+
+EMBER VERIFICATION
+Closed/connected shells, winding, palette UVs, dimensions and OBJ parity pass.
+514,649 skin/bone/clip assertions pass. 2,688 animation samples are finite and
+above the floor; 224 deformed-shell unions retain connected joints. The elephant's
+trunk was corrected after initial resting/drinking poses crossed the ground plane.
+Six-angle geometry and weighted pose sheets were visually reviewed. Interactive
+glTF playback inspected separately; no Roblox performance/gameplay claim is made.
+Native Blockbench file-picker inspection remains unverified, as does Studio import.
+The existing Safari/Ocean/Arctic asset suites pass; prior pack files are preserved.
+
+REBUILD AND CHECK
+Install the pinned local mesh utility if absent:
+npm ci --prefix tools/animal-art-runtime --ignore-scripts --no-audit --no-fund
+node tools/build-animal-packs.mjs
+node tests/AnimalArt.spec.mjs
+node tools/build-animal-rigs.mjs
+node tests/AnimalRigs.spec.mjs
+node tools/render-animal-rigs.mjs
+Use --inspect with the build command to regenerate Safari-Inspection.svg.
+The build regenerates 01-Safari and the shared manifest/contact sheet. It preserves
+01-Safari-Foundations. Back up hand edits to 01-Safari before rebuilding.
+Design source: tools/animal-pack-designs.mjs.
+Exporter: tools/build-animal-packs.mjs.
+The exporter writes SVG; the PNG is a rasterized copy for convenient viewing.
+
+Reference (not an included asset):
+https://sketchfab.com/3d-models/low-poly-cartoon-african-animals-collection-c90ebcfca97f4f9a9fc634a84e2801ca
+Blockbench mesh-format reference:
+https://github.com/JannisX11/blockbench/blob/master/types/custom/mesh.d.ts

@@ -1,0 +1,130 @@
+[
+  {
+    "path": "02-Safari-Rigged/Elephant.gltf",
+    "sha256": "b50c88b550107cc55faffe5faefb04bffdf6590f6eb07918b0c98ac910f584d3"
+  },
+  {
+    "path": "02-Safari-Rigged/Giraffe.gltf",
+    "sha256": "8e3d55712f4dccb2781558abb076e79e12d41f608bfc8e9fa3af785695fadaee"
+  },
+  {
+    "path": "02-Safari-Rigged/Lion.gltf",
+    "sha256": "f3ee829183d8318bf2ec8ead31793d27163d9bb06ab9476bfa71acc0a7b66acf"
+  },
+  {
+    "path": "02-Safari-Rigged/Zebra.gltf",
+    "sha256": "91600a3756e25ccd43f0c518b8e010f1569dfc5d17101cf8b925c6fbbb7c7db3"
+  },
+  {
+    "path": "02-Safari-Rigged/Capybara.gltf",
+    "sha256": "f0c0e859dc2f7c61a11d96bc7d9f5868bc98ccb84e51fc4ceacc40a832845bc8"
+  },
+  {
+    "path": "02-Safari-Rigged/Meerkat.gltf",
+    "sha256": "7acfbe0ac40ad3ac715e693e3eecfc11c2f84d7ab569b77b53bf3ed4b2d10292"
+  },
+  {
+    "path": "02-Safari-Rigged/RedPanda.gltf",
+    "sha256": "abebe95f5fb3b10aa334673b20913bf4be71c5c665df9de9a813c871925deb5f"
+  },
+  {
+    "path": "02-Safari-Rigged/Penguin.gltf",
+    "sha256": "7070565c622441a5f583b4f0761a6f96346849e0551523c369e4945031802de8"
+  },
+  {
+    "path": "04-Ocean-Rigged/Crab.gltf",
+    "sha256": "90af213a08015afa24d240bbb4593988918cfafa2c72d18d2a82d0d6e6b194f5"
+  },
+  {
+    "path": "04-Ocean-Rigged/Seal.gltf",
+    "sha256": "956dfdedb480490e673ae3c826fd6a32c60e057c954a5dda0c8b318adb2d31f0"
+  },
+  {
+    "path": "04-Ocean-Rigged/SeaTurtle.gltf",
+    "sha256": "ee4e0c5846abb696874eeb3b214ad46ceb0f82f0e2f4287544b7209ec0a4d9dd"
+  },
+  {
+    "path": "04-Ocean-Rigged/SeaOtter.gltf",
+    "sha256": "cf0763bd5e2700fcddba676fbd6b10cefe87e1d3139806775c83ba586ff7dbd2"
+  },
+  {
+    "path": "04-Ocean-Rigged/Dolphin.gltf",
+    "sha256": "86bc1aaa8aa981f0d358aec1708f5e3b57045a0b6eda573f2cc7561de0a8ee62"
+  },
+  {
+    "path": "04-Ocean-Rigged/MantaRay.gltf",
+    "sha256": "1563b0f0019404261ea8ee3ca4460b4f4b4fa472e18ab7f8c8f9aeb0267bef6f"
+  },
+  {
+    "path": "04-Ocean-Rigged/Octopus.gltf",
+    "sha256": "ca6fa4874522f6514b1c76d821fe09248e023ef56091f04d4a346ae78ea73458"
+  },
+  {
+    "path": "04-Ocean-Rigged/ReefShark.gltf",
+    "sha256": "de964b479a7e287a6b2f66d2e53654c7b63b037c4caaa1b0c0111f35f4140546"
+  },
+  {
+    "path": "06-Arctic-Rigged/ArcticFox.gltf",
+    "sha256": "707a17b11ead1af46fb75e95e2bac7cc38e4f2b4bcc9b9a34b1a8df912e40078"
+  },
+  {
+    "path": "06-Arctic-Rigged/SnowyOwl.gltf",
+    "sha256": "bca9313d30d12e47d7ecf6f65e447e3950b7704b07aade2c78b490523dfd55d2"
+  },
+  {
+    "path": "06-Arctic-Rigged/PolarBear.gltf",
+    "sha256": "70123e240d59e40ddfe1980951525cc091720816fe905fe488922d51ec4c8713"
+  },
+  {
+    "path": "06-Arctic-Rigged/Walrus.gltf",
+    "sha256": "474dd1c558f4a02283d35ed609f5bacff4378610054f70c10e428c17331d574a"
+  },
+  {
+    "path": "06-Arctic-Rigged/ArcticHare.gltf",
+    "sha256": "0e1bf202dc9efdec8283912eb5ab0796e05783896dca5c22fcd84be62f365a8f"
+  },
+  {
+    "path": "06-Arctic-Rigged/MuskOx.gltf",
+    "sha256": "17d5b5926ff2887407917213e2e1bd42054883bc143719f554093f2635f48564"
+  },
+  {
+    "path": "06-Arctic-Rigged/Reindeer.gltf",
+    "sha256": "ec309da61779c82016034257bdf257b42022ed01fa4bb18a0312d0c0015e9bba"
+  },
+  {
+    "path": "06-Arctic-Rigged/HarpSeal.gltf",
+    "sha256": "8b52e1dc61db89b5b31e370cbad2c0c994e8de38fe214700b28bc4c46f67d1c8"
+  },
+  {
+    "path": "08-Ember-Rigged/EmberRedPanda.gltf",
+    "sha256": "d7182b2e82df3b6df5230516604837c43f7b5f389bfe9824a5f288aa2724ee5d"
+  },
+  {
+    "path": "08-Ember-Rigged/MagmaLion.gltf",
+    "sha256": "61f6219be2f35ac4bafa5222e934f79b9eada6c95e99bd7045c34343eb52cd89"
+  },
+  {
+    "path": "08-Ember-Rigged/ObsidianElephant.gltf",
+    "sha256": "ad879353435454c8664f186b474f8e2c0abdc32ae9c49e6654f147940b2acc28"
+  },
+  {
+    "path": "08-Ember-Rigged/LavaRhino.gltf",
+    "sha256": "f37caa4c3c91c6bc43db4cf28ba87ca715328c5e1a0794d1a20695aa912550c2"
+  },
+  {
+    "path": "08-Ember-Rigged/AshWolf.gltf",
+    "sha256": "cf1558104fd8f3a968bd6e39311e3ad88c787f1857553ff6e6eb47c4759a2a86"
+  },
+  {
+    "path": "08-Ember-Rigged/CinderBoar.gltf",
+    "sha256": "6cb128c771c825bc2d1e908c6c0ac38ed88aedf6e4da21c48799c638f00533a1"
+  },
+  {
+    "path": "08-Ember-Rigged/Phoenix.gltf",
+    "sha256": "41e86def9ea0e3d5a1ac1c8d116574333c891601147b0e2fa7c34884b097a0c0"
+  },
+  {
+    "path": "08-Ember-Rigged/BasaltTortoise.gltf",
+    "sha256": "96000fc95933ab56d8622f531204ac52346ce1fbce106efb65d63cdb59d743ef"
+  }
+]

@@ -1,0 +1,22 @@
+WIRED UP STUDIOS — ANIMAL ASSETS
+SPDX-License-Identifier: CC0-1.0
+
+To the extent possible under law, the creator has waived all copyright and
+related or neighboring rights in the creator-owned animal assets in the Safari,
+Ocean, Arctic, and Ember packs under CC0 1.0 Universal.
+
+You may copy, modify, distribute, and use these assets, including commercially,
+without asking permission. Credit appreciated, never required.
+
+CC0 1.0 Universal legal code (the governing terms):
+https://creativecommons.org/publicdomain/zero/1.0/legalcode
+Plain-text legal code:
+https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+
+Scope: the 32 creator-owned animal models, meshes, materials, palettes, rigs,
+animation data, and their asset metadata distributed in these four packs.
+This notice does not relicense the website, application or viewer code,
+dependencies, third-party works, trademarks, or reference material.
+Existing third-party rights and notices remain unaffected. The assets are
+provided as-is, without warranties; CC0 does not grant trademark or patent
+rights. Preserve the provenance and compatibility information in ART-NOTES.txt.
