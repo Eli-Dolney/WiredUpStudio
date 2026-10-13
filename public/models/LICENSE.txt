@@ -3,7 +3,7 @@ SPDX-License-Identifier: CC0-1.0
 
 To the extent possible under law, the creator has waived all copyright and
 related or neighboring rights in the creator-owned animal assets in the Safari,
-Ocean, Arctic, and Ember packs under CC0 1.0 Universal.
+Ocean, Arctic, Ember, Crystal Caverns, Stormreach Isles, and Verdant Canopy packs under CC0 1.0 Universal.
 
 You may copy, modify, distribute, and use these assets, including commercially,
 without asking permission. Credit appreciated, never required.
@@ -13,8 +13,8 @@ https://creativecommons.org/publicdomain/zero/1.0/legalcode
 Plain-text legal code:
 https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
 
-Scope: the 32 creator-owned animal models, meshes, materials, palettes, rigs,
-animation data, and their asset metadata distributed in these four packs.
+Scope: the 56 creator-owned animal models, meshes, materials, palettes, rigs,
+animation data, and their asset metadata distributed in these seven packs.
 This notice does not relicense the website, application or viewer code,
 dependencies, third-party works, trademarks, or reference material.
 Existing third-party rights and notices remain unaffected. The assets are
