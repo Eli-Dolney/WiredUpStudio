@@ -3,7 +3,7 @@ import sys,json,hashlib,shutil,zipfile,re
 from pathlib import Path
 source=Path(sys.argv[1]); site=Path(__file__).resolve().parents[1]; out=site/'public/models';out.mkdir(parents=True,exist_ok=True)
 records=[];proof=[]
-for number,(title,static,rigged,manifest) in enumerate([('Safari','01-Safari','02-Safari-Rigged','manifest.json'),('Ocean','03-Ocean','04-Ocean-Rigged','ocean-manifest.json'),('Arctic','05-Arctic','06-Arctic-Rigged','arctic-manifest.json'),('Ember','07-Ember','08-Ember-Rigged','ember-manifest.json'),('Crystal','11-Crystal','12-Crystal-Rigged','crystal-manifest.json'),('Sky','13-Sky','14-Sky-Rigged','sky-manifest.json'),('Jungle','09-Jungle','10-Jungle-Rigged','jungle-manifest.json')]):
+for number,(title,static,rigged,manifest) in enumerate([('Safari','01-Safari','02-Safari-Rigged','manifest.json'),('Ocean','03-Ocean','04-Ocean-Rigged','ocean-manifest.json'),('Arctic','05-Arctic','06-Arctic-Rigged','arctic-manifest.json'),('Ember','07-Ember','08-Ember-Rigged','ember-manifest.json')]):
  slug=title.lower(); folder=out/slug;folder.mkdir(exist_ok=True);meta=json.loads((source/manifest).read_text())['animals'];rigs=json.loads((source/rigged/'rig-manifest.json').read_text())['animals'];animals=[]
  for id,m in meta.items():
   f=source/rigged/(id+'.gltf');g=json.loads(f.read_text());assert g['skins'] and len(g['animations'])==7
@@ -19,6 +19,6 @@ for number,(title,static,rigged,manifest) in enumerate([('Safari','01-Safari','0
     if f.suffix in ['.bbmodel','.obj','.mtl','.png','.json','.gltf']:z.write(f,f'{title}/{dest}/{f.name}')
   z.write(source/'ART-NOTES.txt',title+'/ART-NOTES.txt');z.write(source/manifest,title+'/manifest.json');z.writestr(title+'/README.txt',readme);z.write(out/'LICENSE.txt',title+'/LICENSE.txt')
  shutil.copy2(source/(title+'-Pack.png'),out/(slug+'.png'))
- records.append({'id':slug,'title':{'Crystal':'Crystal Caverns','Sky':'Stormreach Isles','Jungle':'Verdant Canopy'}.get(title,title),'animals':animals,'bytes':(out/(slug+'-animal-pack.zip')).stat().st_size})
+ records.append({'id':slug,'title':title,'animals':animals,'bytes':(out/(slug+'-animal-pack.zip')).stat().st_size})
 (out/'catalog.json').write_text(json.dumps(records));(out/'provenance.json').write_text(json.dumps(proof,indent=2));shutil.copy2(source/'ART-NOTES.txt',out/'ART-NOTES.txt')
 print('Staged',sum(len(p['animals']) for p in records),'animals; ZIP bytes:',sum(p['bytes'] for p in records))

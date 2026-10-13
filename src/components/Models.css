@@ -34,5 +34,3 @@
 .site-interior .model-download { background: #29343f; color: #d2ff1f; border-color: #657180; }
 .site-interior .model-download:hover { background: #d2ff1f; color: #171c24; }
 @media(max-width:600px) { .site-interior .model-inspector-note { line-height: 1.7; } }
-
-.pack-crystal .model-pack-top{color:#c89bff}.pack-sky .model-pack-top{color:#99d9ff}.pack-jungle .model-pack-top{color:#a5df91}
