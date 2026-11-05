@@ -183,3 +183,141 @@ Reference (not an included asset):
 https://sketchfab.com/3d-models/low-poly-cartoon-african-animals-collection-c90ebcfca97f4f9a9fc634a84e2801ca
 Blockbench mesh-format reference:
 https://github.com/JannisX11/blockbench/blob/master/types/custom/mesh.d.ts
+
+CRYSTAL PACK / OCTOBER 12, 2026
+Eight original magical cavern models, 36,220 triangles total; each below 10,000.
+Stud targets: GemBeetle 3.6 long, GlowcapMole 3.4 long, QuartzFox 3.8 tall, AmethystBat 5.6 wingspan,
+PrismSalamander 5.6 long, GeodeTortoise 6 long, ShardbackBear 7.5 tall, CrystalStag 9 tall incl. antlers.
+Y-up, -Z forward, Y=0 ground. AmethystBat is medium "hover": its Root clip lifts it about 1.2 studs and
+it lands only for Rest. Crystals are welded prisms; facets choose light/base/deep palette colors by normal.
+Richer rigs: six-legged beetle with opening wing-cases, five-bone salamander spine, three-bone bat wings,
+hinged geode lid, bear spike crest and roaring jaw, stag neck/skull chain. Clips come from AnimalMotion.lua.
+Runtime magic (lights, sparkles, bursts, orbiting shards) is client-side config in AnimalEffects.lua.
+Use --pack crystal with the model/rig/render/viewer builders and the art, rig and motion tests.
+All three test suites pass: 597,778 skin/clip checks, 2,688 finite above-floor samples, 224 connected
+deformed-shell unions. Studio import and device performance remain unverified.
+
+SKY PACK / OCTOBER 13, 2026
+Eight original sky models, 47,126 triangles total; each below 10,000 (StormGriffin is the heaviest).
+Stud targets: GaleHare 3.6 tall, CloudSheep 4.2 tall, BreezeLemur 3.8 tall, ThunderHawk 5 tall,
+SkyPegasus 9 tall incl. wings, StormGriffin 8 tall incl. wings, WindSerpent 12 long, NimbusWhale 14 long.
+Y-up, -Z forward. WindSerpent and NimbusWhale are medium "hover": their Root clip lifts them 1.7 and 2.4
+studs and they settle lower (never to the ground) for Rest. Wings pivot inside the body so flared and
+flapping poses stay welded to the torso; raised wings (pegasus, griffin) roll about the shoulder.
+Clips come from AnimalMotion.lua. Runtime magic (lights, smoke puffs, lightning bolts, rain) is
+client-side config in AnimalEffects.lua. Use --pack sky with the model/rig/render/viewer builders and
+the art, rig and motion tests. Test change: both geometry suites now ignore zero-volume union slivers
+(under 0.001 cubic studs) that appear where shells graze; real detached parts still fail.
+Results: 769,367 skin/clip checks, 2,688 finite samples, 224 connected deformed-shell unions.
+Studio import and device performance remain unverified.
+
+JUNGLE PACK / OCTOBER 13, 2026
+Eight original rainforest models, 24,090 triangles total; each under 4,000 (the Gorilla is heaviest at about 3,600).
+Stud targets: PoisonFrog 1.8 tall, Chameleon 3.2 long, Toucan 3.2 tall, Sloth 3.6 tall, Tapir 4.6 tall,
+Jaguar 5.2 tall, Okapi 7.5 tall, SilverbackGorilla 7 tall. Y-up, -Z forward, Y=0 ground.
+Motion: a real hop cycle for the frog, slow tail and trunk gaits, knuckle-walk arms for the gorilla,
+and neck sway for the okapi. Clips come from AnimalMotion.lua; magic is client-side config in AnimalEffects.lua.
+Fixes made during the pass: the chameleon's eyes, the tapir and jaguar ears, the gorilla's eyes and fist,
+the jaguar's missing neck, the sloth's tail and the frog's arms all now weld to their bodies.
+Results: 425,511 skin/clip checks, 2,688 finite samples, 224 connected deformed-shell unions.
+Studio import and device performance remain unverified.
+
+SKY + JUNGLE FIX PASS / OCTOBER 13, 2026
+Eyes are now seated on the head surface: a sclera sunk into the skin, with iris, pupil and glint proud of it.
+Fixed missing or buried eyes on the Gorilla, Toucan, Sloth, Tapir, Okapi, Jaguar, Nimbus Whale, Wind Serpent
+(which had four stacked eyes), Cloud Sheep, Sky Pegasus and Storm Griffin.
+Fixed parts that looked detached:
+- gorilla and sloth arms now root in shoulder blobs, and the gorilla's legs in a hip blob
+- the sloth's claws now root in hand pads
+- the okapi has a chest, so its front legs and neck are embedded
+- the chameleon's pupils sit on the turret eyes
+- the serpent's whiskers are thicker and rooted
+- pegasus and griffin flight feathers are flat, overlapping blades that sweep back inside the wing plane,
+  with coverts and a wing root at the shoulder pivot
+- the pegasus cloud-lobe tail sits on the tail path
+The tapir saddle and gorilla silver back are painted surface colours, no longer separate lumps.
+New guard: the builder records how deeply every part and motion group is embedded (manifest "joints"), and
+tests/AnimalFaces.spec.mjs requires readable pupils from the front and side, at least 3% part embedding
+and at least 1% group embedding.
+
+OUTBACK PACK / OCTOBER 25, 2026
+Nine original models in 15-Outback (eight species plus the Opal Kangaroo mythic), 37,596 triangles total;
+each under 6,000 (the Opal Kangaroo is heaviest at about 5,800). Y-up, -Z forward, Y=0 ground.
+Stud targets: Quokka 2.2 tall, Echidna 3.5 long, Kookaburra 3.5 tall, Wombat 2.5 tall, Koala 3.5 tall,
+Platypus 5 long (water; floats with its back out, waterline through the body centre), Red Kangaroo 7 tall,
+Emu 7.5 tall, Opal Kangaroo 10.5 tall (the Red Kangaroo sculpt at 1.5x with an opal palette, chest stone
+and crystal crest; the mythic is built by this pack pipeline rather than the Blender hero pipeline).
+Motion: a bespoke biped family in AnimalMotion.lua. Kangaroos bound (airborne first half of the loop,
+crouch and push second half) with the long feet kept flat by cancelling the hip and knee, arms that tuck in
+flight and box on Alert, a counterbalancing three-bone tail; the emu strides with a backward-bending joint and
+a periscoping neck; the kookaburra throws its head back and opens its bill to laugh on Alert; the platypus
+paddles at the waterline with turtle-style webbed feet; the quokka hops like the Arctic Hare.
+Legs and tail hang off the Body bone, so torso lean is cancelled at the hip and tail root to keep them planted.
+Eyes: the kangaroos and emu use enlarged dark irises (the readability check renders every animal at the same
+pixel size, so tall species need bigger pupils); the Opal and Emu wear coloured eye rings instead of
+coloured irises. Spine tips on the echidna, the kookaburra's eye stripe, wing flash and tail bars, bellies,
+emu feather streaks and opal fire are all painted surface colours.
+Builder changes: designs may set a waterline; pack sheets, pose sheets and the inspection sheet size
+themselves to the roster, and the rig exporter finds Luau at /opt/homebrew/bin.
+Results: AnimalArt, AnimalFaces (388 checks) and AnimalRigs (622,319 checks) pass. Outback-Pack.png,
+Outback-Inspection.png, 16-Outback-Rigged/Outback-Rig-Poses.png and Outback-Animation-Viewer.html are
+rendered from the exported meshes. Studio import and device performance remain unverified; the glTFs are
+staged in assets/roblox-import/OutbackFlats and AllAnimals.
+
+FOSSIL PACK / OCTOBER 25, 2026
+Nine original models in 17-Fossil (eight species plus the Amberheart Rex mythic), 44,394 triangles total;
+each under 6,500 (the Ankylosaurus is heaviest at about 6,500). Y-up, -Z forward, Y=0 ground.
+Stud targets: Compsognathus 2 tall, Protoceratops 5 long, Velociraptor 4 tall, Pteranodon 10 wide (hover),
+Stegosaurus 9 long, Ankylosaurus 8 long, Triceratops 10 long, Tyrant Rex 13 tall (18.3 long), Amberheart Rex
+19.5 tall (25.2 long). The Rex is sculpted upright and chunky, with a drooping tail, so the 1.5x mythic still
+turns inside a starter pen; its turning footprint matches the elephant-sized habitat fixture.
+Motion: the `fossil` profile in AnimalMotion.lua. Theropods stride with feet kept flat by cancelling hip and
+knee, the knee lifting only on the forward swing; necks counter-bob, jaws drop wide to roar on Alert, tails
+counterbalance and lift for the roar. The raptor strikes with its arms and lashes its tail; the compy scurries.
+The Pteranodon soars at hover height with a warped wingbeat and swept-back recovery, and lands to rest with
+its wings folded up and back. Quadrupeds use the shared four-beat legs; the Ankylosaurus club and Stegosaurus
+thagomizer swing defensively on Alert and the Triceratops lowers its horns.
+Painted surfaces: bellies, back stripes, plate tips, frill rims, wing membranes and the Amberheart's fossil ribs.
+Results: AnimalArt, AnimalFaces (462 checks) and AnimalRigs (726,303 checks) pass. Fossil-Pack.png,
+Fossil-Inspection.png, 18-Fossil-Rigged/Fossil-Rig-Poses.png and Fossil-Animation-Viewer.html are rendered from
+the exported meshes. Studio import and device performance remain unverified; the glTFs are staged in
+assets/roblox-import/FossilValley and AllAnimals.
+
+DUNES PACK / OCTOBER 25, 2026
+Nine original models in 19-Dunes (eight species plus the Mirage Sphinx mythic), 36,050 triangles total;
+each under 7,000 (the Mirage Sphinx is heaviest at about 6,600). Y-up, -Z forward, Y=0 ground.
+Stud targets: Jerboa 2 tall, Fennec Fox 2.5 tall, Roadrunner 3 tall, Armadillo 5 long, Gila Monster 5 long,
+Sun Scorpion 6 long, Dromedary Camel 9 tall, Arabian Oryx 7 tall with horns, Mirage Sphinx 9 tall.
+Motion: the `dunes` profile in AnimalMotion.lua. The jerboa hops on Arctic Hare legs with tiny forearms held
+up; the fennec trots with swivelling ears; the roadrunner sprints with a darting head and a pumping tail;
+the camel paces (same-side legs together, rolling body) and kneels to rest; the armadillo tucks head and
+tail; the gila sprawls and swings its body; the scorpion walks on eight legs in alternating tetrapods,
+spreads its pincers and strikes with a five-bone tail on Alert; the oryx prances and lowers its horns; the
+sphinx rears to roar with its gold wings flaring wide.
+Builder changes: legs() takes per-pair ankles and a pace option, and paws scale with leg width so small
+forearms still seat. Painted surfaces: gila beads, armadillo bands, scorpion segments, the oryx mask and
+leg bands, and the sphinx's lapis-and-gold headdress.
+Results: AnimalArt, AnimalFaces (368 checks) and AnimalRigs (615,878 checks) pass. Dunes-Pack.png,
+Dunes-Inspection.png, 20-Dunes-Rigged/Dunes-Rig-Poses.png and Dunes-Animation-Viewer.html are rendered from
+the exported meshes. Studio import and device performance remain unverified; the glTFs are staged in
+assets/roblox-import/SunscorchDunes and AllAnimals.
+
+ABYSS PACK / OCTOBER 25, 2026
+Nine original models in 21-Abyss (eight species plus the Voidmaw Kraken mythic), 24,034 triangles total;
+each under 5,000 (the Kraken is heaviest at about 4,900). Y-up, -Z forward.
+Stud targets: Lanternfish 4 long, Giant Isopod 5 long (ground), Moon Jelly 5 tall, Nautilus 4 long, Anglerfish
+5 long, Hammerhead Shark 11 long, Giant Squid 14 long, Leafy Sea Dragon 6 long, Voidmaw Kraken 21 long (the
+Giant Squid sculpt at 1.5x with a void palette, rift-lit eye rings, mantle spines and a crown). Every species
+except the isopod is a water species and swims in the trench lagoon.
+Motion: the `abyss` profile in AnimalMotion.lua. Fish and sharks sweep their tails side to side; the moon jelly
+contracts four skirt flaps and lifts on each pulse; squid jet mantle-first with eight arms and two club tentacles
+trailing, flaring the upper arms on Alert (lower arms flare less, and the rear is a lift with no pitch, so a
+14-stud body never swings its arms into the floor); the nautilus jets shell-first with curling tentacles; the
+anglerfish's lure bobs and its jaw gapes; the isopod crawls on seven leg pairs with twitching antennae; the sea
+dragon's leaves flutter as its tail undulates.
+Painted surfaces: lanternfish photophores, isopod plates, jelly gonads, nautilus stripes, shark bellies, squid
+mottling and the Kraken's rift bands.
+Results: AnimalArt, AnimalFaces (295 checks) and AnimalRigs (434,796 checks) pass; every clip, Alert included,
+stays above the floor. Abyss-Pack.png, Abyss-Inspection.png, 22-Abyss-Rigged/Abyss-Rig-Poses.png and
+Abyss-Animation-Viewer.html are rendered from the exported meshes. Studio import and device performance remain
+unverified; the glTFs are staged in assets/roblox-import/AbyssalTrench and AllAnimals.

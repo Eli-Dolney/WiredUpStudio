@@ -1,130 +1,370 @@
 [
   {
     "path": "02-Safari-Rigged/Elephant.gltf",
-    "sha256": "b50c88b550107cc55faffe5faefb04bffdf6590f6eb07918b0c98ac910f584d3"
+    "sha256": "8955cac93e9fbfbabede3f0093157a3bd5bb02ddd83eb33a5be066c9cacb4158"
   },
   {
     "path": "02-Safari-Rigged/Giraffe.gltf",
-    "sha256": "8e3d55712f4dccb2781558abb076e79e12d41f608bfc8e9fa3af785695fadaee"
+    "sha256": "dc2359ad5cc18e80c88ecc5145f5c200839c0489c4c331fa36517e28248c377c"
   },
   {
     "path": "02-Safari-Rigged/Lion.gltf",
-    "sha256": "f3ee829183d8318bf2ec8ead31793d27163d9bb06ab9476bfa71acc0a7b66acf"
+    "sha256": "031f600f494f2570e7bcd6cdf5e618b8f54163f526195b1d01fc2160c9c1e0fd"
   },
   {
     "path": "02-Safari-Rigged/Zebra.gltf",
-    "sha256": "91600a3756e25ccd43f0c518b8e010f1569dfc5d17101cf8b925c6fbbb7c7db3"
+    "sha256": "dd8f0903d8de8ef36b1204b1d3ee1a17d7c5d54303076e04e1f2d6bc48a2736d"
   },
   {
     "path": "02-Safari-Rigged/Capybara.gltf",
-    "sha256": "f0c0e859dc2f7c61a11d96bc7d9f5868bc98ccb84e51fc4ceacc40a832845bc8"
+    "sha256": "e95eb61a03f611a754cb1e381e2ac5a062ca3b6a9d5842685dc6bd31107cf4f2"
   },
   {
     "path": "02-Safari-Rigged/Meerkat.gltf",
-    "sha256": "7acfbe0ac40ad3ac715e693e3eecfc11c2f84d7ab569b77b53bf3ed4b2d10292"
+    "sha256": "d8c7e2a489f13fa767a82868101765076e9ca18a15b01a3681eb6d21bf1ffd05"
   },
   {
     "path": "02-Safari-Rigged/RedPanda.gltf",
-    "sha256": "abebe95f5fb3b10aa334673b20913bf4be71c5c665df9de9a813c871925deb5f"
+    "sha256": "71cd35f2f8beda0e933cd4e9656aa12d4ba625fa507c530a5dba3fe459656f13"
   },
   {
     "path": "02-Safari-Rigged/Penguin.gltf",
-    "sha256": "7070565c622441a5f583b4f0761a6f96346849e0551523c369e4945031802de8"
+    "sha256": "0dd6f1d36bdea6f73a2d1e4a1fa5073671276608919fd25a30f99776cbe99def"
   },
   {
     "path": "04-Ocean-Rigged/Crab.gltf",
-    "sha256": "90af213a08015afa24d240bbb4593988918cfafa2c72d18d2a82d0d6e6b194f5"
+    "sha256": "31bd08f8a5e16de3f9c827445c786b28ed1946a6a5a3a65defdff33742f3a01b"
   },
   {
     "path": "04-Ocean-Rigged/Seal.gltf",
-    "sha256": "956dfdedb480490e673ae3c826fd6a32c60e057c954a5dda0c8b318adb2d31f0"
+    "sha256": "ddad040af449536ef4d586929e274dfd3b3cf2578a6615a9cacf2a176819cf39"
   },
   {
     "path": "04-Ocean-Rigged/SeaTurtle.gltf",
-    "sha256": "ee4e0c5846abb696874eeb3b214ad46ceb0f82f0e2f4287544b7209ec0a4d9dd"
+    "sha256": "4ec033db0dc2a6441858a1a735b7c788c7b5da893dca6985de8774874a959b98"
   },
   {
     "path": "04-Ocean-Rigged/SeaOtter.gltf",
-    "sha256": "cf0763bd5e2700fcddba676fbd6b10cefe87e1d3139806775c83ba586ff7dbd2"
+    "sha256": "17d6758bc9bb620ee42ccc534876cb59a6507aa5387010bdd2992a82a467c498"
   },
   {
     "path": "04-Ocean-Rigged/Dolphin.gltf",
-    "sha256": "86bc1aaa8aa981f0d358aec1708f5e3b57045a0b6eda573f2cc7561de0a8ee62"
+    "sha256": "3e640513922520494b6ff1487fd9c0669ae291a7086ce5a99574d6cfcb30c696"
   },
   {
     "path": "04-Ocean-Rigged/MantaRay.gltf",
-    "sha256": "1563b0f0019404261ea8ee3ca4460b4f4b4fa472e18ab7f8c8f9aeb0267bef6f"
+    "sha256": "0c2ec32270e3338fb421dc17d43857439e0a0366f3a2644628dd60c5bb9d134a"
   },
   {
     "path": "04-Ocean-Rigged/Octopus.gltf",
-    "sha256": "ca6fa4874522f6514b1c76d821fe09248e023ef56091f04d4a346ae78ea73458"
+    "sha256": "6eb532d3fcb6dca0c056a50da6d0415d5aee46f4f60ef39280e888819594aa83"
   },
   {
     "path": "04-Ocean-Rigged/ReefShark.gltf",
-    "sha256": "de964b479a7e287a6b2f66d2e53654c7b63b037c4caaa1b0c0111f35f4140546"
+    "sha256": "027821ae7e14622b9a1e3a460e7eebb13efe93586f4353a20ab16025bb01ef12"
   },
   {
     "path": "06-Arctic-Rigged/ArcticFox.gltf",
-    "sha256": "707a17b11ead1af46fb75e95e2bac7cc38e4f2b4bcc9b9a34b1a8df912e40078"
+    "sha256": "3fb1c323548fc72310a75686d5447e8f55b3182cdb5f500ce31406e7e9593afa"
   },
   {
     "path": "06-Arctic-Rigged/SnowyOwl.gltf",
-    "sha256": "bca9313d30d12e47d7ecf6f65e447e3950b7704b07aade2c78b490523dfd55d2"
+    "sha256": "8cdffa2ea9f4e4a0c49e879ef59a335e0c02e314f841acaa42dbfb04ef97dca2"
   },
   {
     "path": "06-Arctic-Rigged/PolarBear.gltf",
-    "sha256": "70123e240d59e40ddfe1980951525cc091720816fe905fe488922d51ec4c8713"
+    "sha256": "d3b6a2a97d82ec0a8a6ecf22016792e43f8d92ac84c9f5de32ac449c8986bbb8"
   },
   {
     "path": "06-Arctic-Rigged/Walrus.gltf",
-    "sha256": "474dd1c558f4a02283d35ed609f5bacff4378610054f70c10e428c17331d574a"
+    "sha256": "758587717ca3a2785244188380d81bc456c42f69b2078e229489f26e14ef859d"
   },
   {
     "path": "06-Arctic-Rigged/ArcticHare.gltf",
-    "sha256": "0e1bf202dc9efdec8283912eb5ab0796e05783896dca5c22fcd84be62f365a8f"
+    "sha256": "a828719e3118ae144a17964915bd6dd98938cf507c4d80b64108dcbe08b0a128"
   },
   {
     "path": "06-Arctic-Rigged/MuskOx.gltf",
-    "sha256": "17d5b5926ff2887407917213e2e1bd42054883bc143719f554093f2635f48564"
+    "sha256": "dbb2b7ae31ec0be4eded8fc86e6eded2ff361bc3c44ddfa04190848eaecf8cb2"
   },
   {
     "path": "06-Arctic-Rigged/Reindeer.gltf",
-    "sha256": "ec309da61779c82016034257bdf257b42022ed01fa4bb18a0312d0c0015e9bba"
+    "sha256": "5400019bd27fcfc7516a53f44515d714612c1627ffa285cd9f3695df09f80124"
   },
   {
     "path": "06-Arctic-Rigged/HarpSeal.gltf",
-    "sha256": "8b52e1dc61db89b5b31e370cbad2c0c994e8de38fe214700b28bc4c46f67d1c8"
+    "sha256": "3bdae898c54014d2ca589a864abc8889eac97882dbbdb8769d2aeb4adafd0b3d"
   },
   {
     "path": "08-Ember-Rigged/EmberRedPanda.gltf",
-    "sha256": "d7182b2e82df3b6df5230516604837c43f7b5f389bfe9824a5f288aa2724ee5d"
+    "sha256": "c22a2aa599417685af448d27cc815645ad5a8074465abc676a357ae3a7a29e22"
   },
   {
     "path": "08-Ember-Rigged/MagmaLion.gltf",
-    "sha256": "61f6219be2f35ac4bafa5222e934f79b9eada6c95e99bd7045c34343eb52cd89"
+    "sha256": "82d5ca37f1b2753d938ae49cdf68e0ee598eddcb36548a36486f87d722f985f6"
   },
   {
     "path": "08-Ember-Rigged/ObsidianElephant.gltf",
-    "sha256": "ad879353435454c8664f186b474f8e2c0abdc32ae9c49e6654f147940b2acc28"
+    "sha256": "6977c545f1b5bf0417343335b036c539811a563873f5a477ac3c45f8e588605e"
   },
   {
     "path": "08-Ember-Rigged/LavaRhino.gltf",
-    "sha256": "f37caa4c3c91c6bc43db4cf28ba87ca715328c5e1a0794d1a20695aa912550c2"
+    "sha256": "8b58a0debf56c1b1efd2b71249afdac6bc42b5cafa60d81e4c493f24b302d5b1"
   },
   {
     "path": "08-Ember-Rigged/AshWolf.gltf",
-    "sha256": "cf1558104fd8f3a968bd6e39311e3ad88c787f1857553ff6e6eb47c4759a2a86"
+    "sha256": "430f2b17b01bcab0d16d73b9e90a6d33e6dc720467a471e36ae6111e82399dfb"
   },
   {
     "path": "08-Ember-Rigged/CinderBoar.gltf",
-    "sha256": "6cb128c771c825bc2d1e908c6c0ac38ed88aedf6e4da21c48799c638f00533a1"
+    "sha256": "f48d7a19897f0df0615bd0ba64b6b47447f0669580e4ff1920be67eb5b0c774f"
   },
   {
     "path": "08-Ember-Rigged/Phoenix.gltf",
-    "sha256": "41e86def9ea0e3d5a1ac1c8d116574333c891601147b0e2fa7c34884b097a0c0"
+    "sha256": "ed8af9771a51a7015381a0e77c716f0a401bad778e74d8244478f1a1191e82c4"
   },
   {
     "path": "08-Ember-Rigged/BasaltTortoise.gltf",
-    "sha256": "96000fc95933ab56d8622f531204ac52346ce1fbce106efb65d63cdb59d743ef"
+    "sha256": "8400417f42b58d97a27cf57b40bb102c1fcfdb68b45538e00fcf491d8595ccf1"
+  },
+  {
+    "path": "12-Crystal-Rigged/GemBeetle.gltf",
+    "sha256": "5354c1cc05bd25f0adf2b1a1cd2a2f6901a58474137fd93d1465d166d10f442b"
+  },
+  {
+    "path": "12-Crystal-Rigged/GlowcapMole.gltf",
+    "sha256": "6ca789255e34c7d0827c3c45a092f19ce95eebf9ee06f57b1a5b9981cc108535"
+  },
+  {
+    "path": "12-Crystal-Rigged/QuartzFox.gltf",
+    "sha256": "57558ff4d79d84aee19f6324d272b20eabed03ab9aadf7fedd9d790e95e34fd3"
+  },
+  {
+    "path": "12-Crystal-Rigged/AmethystBat.gltf",
+    "sha256": "b0588e17df71b96ea8043d964dfd02617672185354d8d3d8ee2e10e371742b4c"
+  },
+  {
+    "path": "12-Crystal-Rigged/PrismSalamander.gltf",
+    "sha256": "dc03071578455e8fdcaee10fc5ceba7189ee37e4aa788edafc7085ecd3b18576"
+  },
+  {
+    "path": "12-Crystal-Rigged/GeodeTortoise.gltf",
+    "sha256": "9dcf6e802c6c28d4a52490bcd81b3a7fc2b1e40ae9c30a50dd9dd28fec2fc66b"
+  },
+  {
+    "path": "12-Crystal-Rigged/ShardbackBear.gltf",
+    "sha256": "0d02e2d9c58283e40dc3ae6d5d15ba399e935520d30ed461a629e8192a5033c2"
+  },
+  {
+    "path": "12-Crystal-Rigged/CrystalStag.gltf",
+    "sha256": "c4c6a5aa88cd174bb05145f224e1c17b280ccd2227fb9914c9035982d601382e"
+  },
+  {
+    "path": "14-Sky-Rigged/GaleHare.gltf",
+    "sha256": "d67260951bb6b0682c7e4b4770c5491dca065d1a57df4b10e43ba75be925ce77"
+  },
+  {
+    "path": "14-Sky-Rigged/CloudSheep.gltf",
+    "sha256": "9fdffe6b322db52b7d724bc1aaf1913521f7a2564106c42eb9caef137e6c8f85"
+  },
+  {
+    "path": "14-Sky-Rigged/BreezeLemur.gltf",
+    "sha256": "95dcecd07d5cf6ec1804c361b4acd7e3dbe5e621147928d69b82ade299e567a5"
+  },
+  {
+    "path": "14-Sky-Rigged/ThunderHawk.gltf",
+    "sha256": "12ada74f3ac4ae0281a824e7182838d594c1d5f687866406128d6801d33029d3"
+  },
+  {
+    "path": "14-Sky-Rigged/SkyPegasus.gltf",
+    "sha256": "7de50d08bc8ad176fa2b25972edb247f4daf8056501fc23d22cfd1b83c4aeb81"
+  },
+  {
+    "path": "14-Sky-Rigged/StormGriffin.gltf",
+    "sha256": "bc8ba3e4a35f3fda99c97fc5339bf354d3f6a5302b0e3657adaa8ca15bcd343e"
+  },
+  {
+    "path": "14-Sky-Rigged/WindSerpent.gltf",
+    "sha256": "9e0a0ae5cb066cbf589738851b17e8dd9a029f370f62ef4fd5e9d8d8fc4a5940"
+  },
+  {
+    "path": "14-Sky-Rigged/NimbusWhale.gltf",
+    "sha256": "a1ec3a1546a4faf2e9696e68598a9d661e0f3b86974aa29feaeafd0414470002"
+  },
+  {
+    "path": "10-Jungle-Rigged/PoisonFrog.gltf",
+    "sha256": "85f71e12362bf84c789d86cbadef51c2403c5b3340e2619b76f08aee23777ce8"
+  },
+  {
+    "path": "10-Jungle-Rigged/Chameleon.gltf",
+    "sha256": "bc56557fa5a3c48925c6a84c9331dbb33847d13e7ba9571f84f7498d8e9dfe53"
+  },
+  {
+    "path": "10-Jungle-Rigged/Toucan.gltf",
+    "sha256": "74b030f89e41621d2378a7891956e6e17499e5c53215c4acb7148da0ece8c04d"
+  },
+  {
+    "path": "10-Jungle-Rigged/Sloth.gltf",
+    "sha256": "de0f85b6b8aa3c9e53f07217a630e4d73d6546f6a84cce50fd1ec3a261c7d452"
+  },
+  {
+    "path": "10-Jungle-Rigged/Tapir.gltf",
+    "sha256": "c3cb8c7b18f496703f80c0ee383a2f21e5adb8421fd413b50e6c4c5eb51904ac"
+  },
+  {
+    "path": "10-Jungle-Rigged/Jaguar.gltf",
+    "sha256": "51cb5b0d7ec9176d42beafe581fbac89073b567718b4cdab0db5969bed05ab27"
+  },
+  {
+    "path": "10-Jungle-Rigged/Okapi.gltf",
+    "sha256": "ccfd8afe650a719c94242a5ffb665cb5c28784572a7ef01f9ea8942cb6c345da"
+  },
+  {
+    "path": "10-Jungle-Rigged/SilverbackGorilla.gltf",
+    "sha256": "3ba06bffb5b782c4276a605784020270f974bacee78291c24cd80cc8f4bc1659"
+  },
+  {
+    "path": "16-Outback-Rigged/Quokka.gltf",
+    "sha256": "02cde551b23b2dce683f02c9ce05d2fbbbe569f903d1ae3fb8f7e691a43edb49"
+  },
+  {
+    "path": "16-Outback-Rigged/Echidna.gltf",
+    "sha256": "c9141035bc995f4642fe2bb1b4fb3c868f60a9de6b1b591bb2eb5594bb9a05f3"
+  },
+  {
+    "path": "16-Outback-Rigged/Kookaburra.gltf",
+    "sha256": "3565ba0c300caeeb075f1c9c0a4293cf26f30993fe4fe52c0ef38bae303e028c"
+  },
+  {
+    "path": "16-Outback-Rigged/Wombat.gltf",
+    "sha256": "75215bd803e050fcbd90d9365719b415ea6ab8d83005dd902e315343eeda7baa"
+  },
+  {
+    "path": "16-Outback-Rigged/Koala.gltf",
+    "sha256": "fc5977f760276d1de2ab07812a3859ffaa987b8d0da0bdfd0f04ad84d1c23cf0"
+  },
+  {
+    "path": "16-Outback-Rigged/Platypus.gltf",
+    "sha256": "42bcfbdb2d400479d5d0befb926ce6487270fe7ad6ec415060cfb33e8c812348"
+  },
+  {
+    "path": "16-Outback-Rigged/RedKangaroo.gltf",
+    "sha256": "743d0d9d41d31f313126f91c6d49ddad9eba5adf01af449aa425f772777151c0"
+  },
+  {
+    "path": "16-Outback-Rigged/Emu.gltf",
+    "sha256": "c3f7233479ddd5062e1e1bbe300155b10976d566487f5d2d2ca64659f346aa62"
+  },
+  {
+    "path": "16-Outback-Rigged/OpalKangaroo.gltf",
+    "sha256": "7da1dd6ae16540e0b86f3a45b892e6258ba2c7023e3dff4beb52cf3b29653c36"
+  },
+  {
+    "path": "18-Fossil-Rigged/Compy.gltf",
+    "sha256": "a3001d5169417c4f9a83c91570550484476e4aea74989275c1cd899755ab655b"
+  },
+  {
+    "path": "18-Fossil-Rigged/Protoceratops.gltf",
+    "sha256": "745cf935ce4e4417ab40151de0c95770f80f5afde153382ef4d9e0014ebd3e79"
+  },
+  {
+    "path": "18-Fossil-Rigged/Velociraptor.gltf",
+    "sha256": "28b90389dd31f7e6417f17d5abae34f24bc12ceefb4a8c1f2897690ea788b1e2"
+  },
+  {
+    "path": "18-Fossil-Rigged/Pteranodon.gltf",
+    "sha256": "2ce8d66286d02b5f41e5873bf6e8353ddf085680bf5ae9e100d4b92a116613a0"
+  },
+  {
+    "path": "18-Fossil-Rigged/Stegosaurus.gltf",
+    "sha256": "9162768ca676927e588d898c2ae06cd444ac59620789476aee7d9a133ed1e5db"
+  },
+  {
+    "path": "18-Fossil-Rigged/Ankylosaurus.gltf",
+    "sha256": "495a4fcab013806876d3cdf2d971c6d19cde4f163998b6317aae1e759a16411e"
+  },
+  {
+    "path": "18-Fossil-Rigged/Triceratops.gltf",
+    "sha256": "6609a21143460c0e692a18e43237ca397c1b26e0224c07ada642a137dac733b7"
+  },
+  {
+    "path": "18-Fossil-Rigged/TyrantRex.gltf",
+    "sha256": "1db0c4c69e49a30080dd413c1be706f2ab3ee1a14fd40e4758c66ede0e6d049f"
+  },
+  {
+    "path": "18-Fossil-Rigged/AmberheartRex.gltf",
+    "sha256": "ab847fd86639b0f54afd7d194e0213c9921f7e12cc74bd5a8cf9eb1ee0fea184"
+  },
+  {
+    "path": "20-Dunes-Rigged/Jerboa.gltf",
+    "sha256": "034d8c0e5d4e6c9a064a251399c9cb7e697648cb840f85042b672ae73805150b"
+  },
+  {
+    "path": "20-Dunes-Rigged/FennecFox.gltf",
+    "sha256": "1e74beaca8b436341c6a7b887aaf02e2b5863537e7b82a9226da0a66b4a17cca"
+  },
+  {
+    "path": "20-Dunes-Rigged/Roadrunner.gltf",
+    "sha256": "1b0f303d6e86ce5ac0fe22098d185f1866fac1bdf6454ce12cfbcd2d04ff1495"
+  },
+  {
+    "path": "20-Dunes-Rigged/Armadillo.gltf",
+    "sha256": "500fdfaccb30bdb0dda0da90cf0e02089c062d48faaabcbceb43098ed81482bd"
+  },
+  {
+    "path": "20-Dunes-Rigged/GilaMonster.gltf",
+    "sha256": "b7354b7bbf192c7deef4a9cdc5ee480283046a557ae515745f59b7f150ea144c"
+  },
+  {
+    "path": "20-Dunes-Rigged/SunScorpion.gltf",
+    "sha256": "2aab2e315276b8f8eec89afdd14170c0ed7c8f737f23f06fb178bed0ab8a7469"
+  },
+  {
+    "path": "20-Dunes-Rigged/Camel.gltf",
+    "sha256": "931a750a441e10d039b05a2dc02c252cdb6e75b482089520331706fca5a10518"
+  },
+  {
+    "path": "20-Dunes-Rigged/Oryx.gltf",
+    "sha256": "f94495f50294b5cadeaf624bb00419fefd888a4f83d4e4111205708c7ae7e58b"
+  },
+  {
+    "path": "20-Dunes-Rigged/MirageSphinx.gltf",
+    "sha256": "e1ebc77f42a9a0f2778f1a038b201cf808b8ca1cb98cf3e24610636f56980094"
+  },
+  {
+    "path": "22-Abyss-Rigged/Lanternfish.gltf",
+    "sha256": "b76028599dfb46547fb4560510c3d520b9b2a1b5e240fea89c59cc543857661d"
+  },
+  {
+    "path": "22-Abyss-Rigged/GiantIsopod.gltf",
+    "sha256": "f67c3c28c30af8aeecd73c657fb082bc568500df8578667426f978d5815a3899"
+  },
+  {
+    "path": "22-Abyss-Rigged/MoonJelly.gltf",
+    "sha256": "67a20b4d0fcb5cad19d96cb75ae2785011f2c0dd98a2f5061ce0ff3decaae8c4"
+  },
+  {
+    "path": "22-Abyss-Rigged/Nautilus.gltf",
+    "sha256": "5cb680c5f6059477aefd91de242859ec71f86f4556cba0309692eeddc3da1624"
+  },
+  {
+    "path": "22-Abyss-Rigged/Anglerfish.gltf",
+    "sha256": "0a7654378e46c96ba27f23d377f10e2719aa1787d2d94d9c1a9b03dbd3301727"
+  },
+  {
+    "path": "22-Abyss-Rigged/Hammerhead.gltf",
+    "sha256": "98e8aa9442be8f3e80736e9a6f07b9daedaefc587d6fc3f28f8aab59395098a4"
+  },
+  {
+    "path": "22-Abyss-Rigged/GiantSquid.gltf",
+    "sha256": "d345b64e256029d2cf6f4d87cf74e0ff9d5ac238c936ffdbcd3966600c6b9435"
+  },
+  {
+    "path": "22-Abyss-Rigged/SeaDragon.gltf",
+    "sha256": "4365ed3219c9496284fb0e9d208ca2a268ed6b051628b901e85ece964cfb8c38"
+  },
+  {
+    "path": "22-Abyss-Rigged/VoidmawKraken.gltf",
+    "sha256": "9042b3ae00e38787f4d693a00349dfa21fb19d336bc3fe0b9de35c5472a751bc"
   }
 ]
