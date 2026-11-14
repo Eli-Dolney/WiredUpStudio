@@ -5,6 +5,21 @@ Ten theme cards, real district posters, a theme filter, hole inventories,
 Simple/Standard/Showcase descriptions, static 3D district previews and download links.
 The existing animal catalog, viewer and license are preserved.
 
+INDIVIDUAL PROP BROWSER
+Every theme card offers a searchable prop browser with Simple, Standard, and
+Showcase switches. All 175 families / 525 variants use exact visual GLBs from
+the public model ZIPs. Visitors can orbit, zoom, inspect six sides, compare
+triangle counts and dimensions, and download the selected GLB directly.
+Switching tiers preserves camera position and scale; selecting a new family
+frames that family. Only the selected model loads. Rendering is demand-driven.
+The dialog supports keyboard navigation, Escape, and narrow mobile layouts.
+
+python scripts/stage-prop-previews.py
+python scripts/verify-prop-previews.py
+The stager also runs automatically with the main pack stager's --cc0 option.
+Verification checks every preview against its ZIP, hashes, triangle counts,
+vertex colors, embedded buffers and images, dimensions, and complete tier sets.
+
 The environment viewer is lazy-loaded on demand. It hides named collision guides,
 frames only visible meshes, supports orbit/pan/zoom and reset, and disposes GPU
 resources on close or change. Water is static in GLB; desktop posters may use the

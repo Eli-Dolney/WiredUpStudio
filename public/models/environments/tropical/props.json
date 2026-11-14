@@ -1,0 +1,397 @@
+{
+  "schemaVersion": 1,
+  "pack": "tropical",
+  "title": "Tropical",
+  "families": [
+    {
+      "id": "BeachBungalow",
+      "name": "Beach Bungalow",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/tropical/props/Tropical_BeachBungalow_Simple.glb",
+          "bytes": 26704,
+          "sha256": "1ff74e028262d667307c88206ff0349d75deb6aa12575092c0a4f38d1d970361",
+          "triangles": 362,
+          "dimensions": [
+            4.85,
+            5.345,
+            3.55
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/tropical/props/Tropical_BeachBungalow_Standard.glb",
+          "bytes": 73800,
+          "sha256": "b0de68acb3aa9d4f2ea49a754539700f77d8a382e06ba7c8d01291afe830bfeb",
+          "triangles": 1010,
+          "dimensions": [
+            4.85,
+            5.345,
+            3.55
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/tropical/props/Tropical_BeachBungalow_Showcase.glb",
+          "bytes": 164860,
+          "sha256": "a332ffeba6411f36dc0c2a152565a43deb759c2336d6bc64eeb42ebcae3ee40f",
+          "triangles": 2026,
+          "dimensions": [
+            4.85,
+            5.345,
+            3.55
+          ]
+        }
+      }
+    },
+    {
+      "id": "StiltHut",
+      "name": "Stilt Hut",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/tropical/props/Tropical_StiltHut_Simple.glb",
+          "bytes": 29812,
+          "sha256": "235bbf270c377f4a0c6c6c4340b054768c2add2fdc8a82f26048e8ee5922cdf4",
+          "triangles": 412,
+          "dimensions": [
+            3.8,
+            5.25,
+            4.42
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/tropical/props/Tropical_StiltHut_Standard.glb",
+          "bytes": 88144,
+          "sha256": "f32eddadc5d917aa66b7b9f4540d3c85170307bef67555027df5a4e78ae4581c",
+          "triangles": 1204,
+          "dimensions": [
+            3.8,
+            5.25,
+            4.48767
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/tropical/props/Tropical_StiltHut_Showcase.glb",
+          "bytes": 162668,
+          "sha256": "161fe0a9e93531c6d82e2b568c6e5303282277a204e63fb8d7c00096f1270c19",
+          "triangles": 2248,
+          "dimensions": [
+            3.8,
+            5.25,
+            4.48767
+          ]
+        }
+      }
+    },
+    {
+      "id": "LagoonPavilion",
+      "name": "Lagoon Pavilion",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/tropical/props/Tropical_LagoonPavilion_Simple.glb",
+          "bytes": 20600,
+          "sha256": "25d6df59b4c710acf8922f5cd99b1d66520f5c0294c7fbbb2bce8e217b49cfcd",
+          "triangles": 256,
+          "dimensions": [
+            5.36,
+            5.46,
+            3.4
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/tropical/props/Tropical_LagoonPavilion_Standard.glb",
+          "bytes": 24348,
+          "sha256": "3a121f08de93f63027904e6b6aebe1feac61e417483f4e28e02b6534f4ffc364",
+          "triangles": 304,
+          "dimensions": [
+            5.36,
+            5.46,
+            3.4
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/tropical/props/Tropical_LagoonPavilion_Showcase.glb",
+          "bytes": 30684,
+          "sha256": "0f7a5c3e408c50d04f5d59b6ca8c0c2381ec4c5bf72c39153feffe58897e077a",
+          "triangles": 400,
+          "dimensions": [
+            5.36,
+            5.46,
+            3.4
+          ]
+        }
+      }
+    },
+    {
+      "id": "PavilionRoof",
+      "name": "Pavilion Roof",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/tropical/props/Tropical_PavilionRoof_Simple.glb",
+          "bytes": 3428,
+          "sha256": "9cbfe2855e307045d53c469381cd2e44b18af4061107d97e3c21b79aee5e56e1",
+          "triangles": 34,
+          "dimensions": [
+            6.2,
+            6.4,
+            1.7
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/tropical/props/Tropical_PavilionRoof_Standard.glb",
+          "bytes": 7856,
+          "sha256": "57cd68682b3d155b24fe76d10a66cbaf2d6cdabc9c3ce0f10b309929fa1965fb",
+          "triangles": 98,
+          "dimensions": [
+            6.2,
+            6.4,
+            1.87
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/tropical/props/Tropical_PavilionRoof_Showcase.glb",
+          "bytes": 23124,
+          "sha256": "758e4bd37e59bf4297aad4a04ab908e42eaf5dc77fe15be5136d9b3495222c2c",
+          "triangles": 338,
+          "dimensions": [
+            6.2,
+            6.4,
+            1.87
+          ]
+        }
+      }
+    },
+    {
+      "id": "TikiGate",
+      "name": "Tiki Gate",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/tropical/props/Tropical_TikiGate_Simple.glb",
+          "bytes": 20584,
+          "sha256": "686796a9ed1138b6ef02d4f8b91f5eed8a1e66001a42953b147f130f9b9fc4df",
+          "triangles": 256,
+          "dimensions": [
+            5.4,
+            1.3,
+            3.43
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/tropical/props/Tropical_TikiGate_Standard.glb",
+          "bytes": 25752,
+          "sha256": "d7ec8b47308ea7eb5f9d9dc62367ae18547a21f31080b62d28213fc339994fb3",
+          "triangles": 324,
+          "dimensions": [
+            5.4,
+            1.3,
+            3.71
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/tropical/props/Tropical_TikiGate_Showcase.glb",
+          "bytes": 27624,
+          "sha256": "9dd89621a394bee11bda5a85088b15911df6842a9c5d7994f7da6c15b8e1dbf4",
+          "triangles": 348,
+          "dimensions": [
+            5.4,
+            1.3,
+            3.71
+          ]
+        }
+      }
+    },
+    {
+      "id": "LagoonBridge",
+      "name": "Lagoon Bridge",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/tropical/props/Tropical_LagoonBridge_Simple.glb",
+          "bytes": 19432,
+          "sha256": "64233de651407d4b6cca4df3321f65c65274b96f5647bcb534231564418ccd58",
+          "triangles": 260,
+          "dimensions": [
+            1.94,
+            8.0,
+            1.1
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/tropical/props/Tropical_LagoonBridge_Standard.glb",
+          "bytes": 30816,
+          "sha256": "3ad25d2d6f3525fdf428df699b254bb5ff9e7e10c640cd3eb390c06800390270",
+          "triangles": 428,
+          "dimensions": [
+            2.02,
+            8.0,
+            1.16
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/tropical/props/Tropical_LagoonBridge_Showcase.glb",
+          "bytes": 38452,
+          "sha256": "a7e511f213534f1b02af1b5fe5d50a158c82933a77a022ad131225c059d53698",
+          "triangles": 548,
+          "dimensions": [
+            2.02,
+            8.0,
+            1.16
+          ]
+        }
+      }
+    },
+    {
+      "id": "LagoonGrotto",
+      "name": "Lagoon Grotto",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/tropical/props/Tropical_LagoonGrotto_Simple.glb",
+          "bytes": 13672,
+          "sha256": "942275857bccccdf4562103d46e5b640dfa7f9ba4f325543851e946299b59938",
+          "triangles": 132,
+          "dimensions": [
+            8.18885,
+            7.07141,
+            5.45
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/tropical/props/Tropical_LagoonGrotto_Standard.glb",
+          "bytes": 78296,
+          "sha256": "c58f4759bd18134abc80f9655ef15987a0ae3a419e063336ab1798ee4bb9dda0",
+          "triangles": 916,
+          "dimensions": [
+            8.18885,
+            7.07141,
+            5.45
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/tropical/props/Tropical_LagoonGrotto_Showcase.glb",
+          "bytes": 82856,
+          "sha256": "9c6a39fec59d076c3b1d62a259b537201bf4147bc794749b15f90217949df6d5",
+          "triangles": 956,
+          "dimensions": [
+            8.18885,
+            7.07141,
+            5.45
+          ]
+        }
+      }
+    },
+    {
+      "id": "WaterfallCascade",
+      "name": "Waterfall Cascade",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/tropical/props/Tropical_WaterfallCascade_Simple.glb",
+          "bytes": 17476,
+          "sha256": "eb6e90b6e9da71ca4b0024be9a92a5fb806100c81524f3f14e66756bdf729e3a",
+          "triangles": 188,
+          "dimensions": [
+            4.76275,
+            4.15292,
+            5.425
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/tropical/props/Tropical_WaterfallCascade_Standard.glb",
+          "bytes": 29960,
+          "sha256": "45621cc14a34de2a5fe576cef50705101e5d274cc2263c2f51ec1ee49bfbe852",
+          "triangles": 324,
+          "dimensions": [
+            4.76275,
+            4.15292,
+            5.425
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/tropical/props/Tropical_WaterfallCascade_Showcase.glb",
+          "bytes": 30920,
+          "sha256": "b445b79ddfb511b52bbeb1e85e1265aa84b16c564e3ffaedcc9fc74ef80207d2",
+          "triangles": 340,
+          "dimensions": [
+            4.76275,
+            4.15292,
+            5.425
+          ]
+        }
+      }
+    },
+    {
+      "id": "IslandBackdrop",
+      "name": "Island Backdrop",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/tropical/props/Tropical_IslandBackdrop_Simple.glb",
+          "bytes": 95684,
+          "sha256": "8825a3b21c962e99c23aa5898e06ae817bcba420ff6b4f20ec94172358b505ac",
+          "triangles": 1068,
+          "dimensions": [
+            18.0,
+            18.0,
+            8.1
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/tropical/props/Tropical_IslandBackdrop_Standard.glb",
+          "bytes": 262876,
+          "sha256": "5772945d9562de1ccb819eee6b7638fca54bdc8dc91daca8d7ca2cfae25189be",
+          "triangles": 3060,
+          "dimensions": [
+            18.0,
+            18.0,
+            8.1
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/tropical/props/Tropical_IslandBackdrop_Showcase.glb",
+          "bytes": 283396,
+          "sha256": "d75810038bc72af248fd322cc77f57bc9a3651452dfb480f04b1049b6e5d4a8b",
+          "triangles": 3240,
+          "dimensions": [
+            18.0,
+            18.0,
+            8.1
+          ]
+        }
+      }
+    },
+    {
+      "id": "PalmGrove",
+      "name": "Palm Grove",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/tropical/props/Tropical_PalmGrove_Simple.glb",
+          "bytes": 88876,
+          "sha256": "d2eea88195fbfdaf006b539961ed309a2e2069a1106b35e29af35d33e8733789",
+          "triangles": 1008,
+          "dimensions": [
+            9.02995,
+            9.0,
+            5.96573
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/tropical/props/Tropical_PalmGrove_Standard.glb",
+          "bytes": 313836,
+          "sha256": "31789300749caed79edabd984f91aa73b72fc9d8356c461743d3ef324e90e0cd",
+          "triangles": 3724,
+          "dimensions": [
+            9.35178,
+            9.0,
+            6.0285
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/tropical/props/Tropical_PalmGrove_Showcase.glb",
+          "bytes": 384688,
+          "sha256": "18fecd7ef58846ddffd79c506db2f4c08e610e24291156c21b717c902d03254d",
+          "triangles": 4636,
+          "dimensions": [
+            9.35178,
+            9.0,
+            6.0285
+          ]
+        }
+      }
+    }
+  ]
+}

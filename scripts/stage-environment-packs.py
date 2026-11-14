@@ -1,6 +1,6 @@
 """Stage public, portable asset downloads from the accepted library. No upload occurs."""
 from pathlib import Path
-import argparse,hashlib,json,re,zipfile,shutil
+import argparse,hashlib,json,re,zipfile,shutil,subprocess,sys
 from PIL import Image,ImageOps
 p=argparse.ArgumentParser();p.add_argument('--library',type=Path,required=True);p.add_argument('--releases',type=Path,required=True);p.add_argument('--cc0',action='store_true');a=p.parse_args()
 ROOT=Path(__file__).resolve().parents[1];WEB=ROOT/'public/models/environments';WEB.mkdir(parents=True,exist_ok=True);a.releases.mkdir(parents=True,exist_ok=True)
@@ -135,3 +135,4 @@ catalog=dict(schemaVersion=1,license=dict(label='CC0 1.0 Universal',url='/models
 (WEB/'catalog.json').write_text(json.dumps(catalog,indent=2),encoding='utf-8')
 (a.releases/'release-manifest.json').write_text(json.dumps(dict(tag=TAG,license_approved=a.cc0,files=release_files),indent=2),encoding='utf-8')
 print('STAGING_COMPLETE',sum(x['bytes'] for x in release_files),'download bytes')
+if a.cc0:subprocess.run([sys.executable,str(ROOT/'scripts/stage-prop-previews.py')],check=True)

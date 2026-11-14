@@ -1,0 +1,475 @@
+{
+  "schemaVersion": 1,
+  "pack": "desert",
+  "title": "Desert",
+  "families": [
+    {
+      "id": "Saloon",
+      "name": "Saloon",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/desert/props/Desert_Saloon_Simple.glb",
+          "bytes": 24152,
+          "sha256": "d9d1002b16c03528dbaea628cf51f5f16a9bb0d5806f6c98cfa258e06ded9c22",
+          "triangles": 324,
+          "dimensions": [
+            4.2,
+            3.7,
+            3.55
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/desert/props/Desert_Saloon_Standard.glb",
+          "bytes": 51716,
+          "sha256": "3b14f12d219754945829abcbac4e423276a13f8ddec95dbed958912c4388f2b7",
+          "triangles": 692,
+          "dimensions": [
+            4.2,
+            3.7,
+            3.55
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/desert/props/Desert_Saloon_Showcase.glb",
+          "bytes": 114068,
+          "sha256": "a08a04d5876dacd1de82d95a66faae7eb3f560a0c8e62f6114377e976963e366",
+          "triangles": 1436,
+          "dimensions": [
+            4.2,
+            3.7,
+            3.55
+          ]
+        }
+      }
+    },
+    {
+      "id": "AdobeHouse",
+      "name": "Adobe House",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/desert/props/Desert_AdobeHouse_Simple.glb",
+          "bytes": 23200,
+          "sha256": "826f347ef02bb7ce0edd6d0d48def2c938bd75015a749aa99ef2f7de3c63abb6",
+          "triangles": 308,
+          "dimensions": [
+            4.2,
+            3.7,
+            3.02
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/desert/props/Desert_AdobeHouse_Standard.glb",
+          "bytes": 51412,
+          "sha256": "6cee74860045ffbfb9fab84a7437e5f4308cdccac1ffa78fd21d6c40888c6fc7",
+          "triangles": 688,
+          "dimensions": [
+            4.2,
+            3.7,
+            3.02
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/desert/props/Desert_AdobeHouse_Showcase.glb",
+          "bytes": 118328,
+          "sha256": "2e29a54fbb2b22215078bace88599e27784fe1f0b7094ea6a8f5df63b1cbbf24",
+          "triangles": 1472,
+          "dimensions": [
+            4.2,
+            3.7,
+            3.27
+          ]
+        }
+      }
+    },
+    {
+      "id": "MinePassage",
+      "name": "Mine Passage",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/desert/props/Desert_MinePassage_Simple.glb",
+          "bytes": 14372,
+          "sha256": "744fa2dd520e42377bde051a2d201ca95af386fde5f687f56513f5aedb667830",
+          "triangles": 180,
+          "dimensions": [
+            5.32,
+            6.2,
+            3.24
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/desert/props/Desert_MinePassage_Standard.glb",
+          "bytes": 32856,
+          "sha256": "0b0e3974c01df4a2a6d98d51c8721225c68cf54518135d81f3f21684ace9f9c8",
+          "triangles": 380,
+          "dimensions": [
+            6.09442,
+            6.435,
+            3.24
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/desert/props/Desert_MinePassage_Showcase.glb",
+          "bytes": 40352,
+          "sha256": "aa57601fdcd767d08bb580cbfb76cbdf2b9779e9ce8f437ed02d1e2ac3885a2f",
+          "triangles": 476,
+          "dimensions": [
+            6.09442,
+            6.435,
+            3.24
+          ]
+        }
+      }
+    },
+    {
+      "id": "MineRoof",
+      "name": "Mine Roof",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/desert/props/Desert_MineRoof_Simple.glb",
+          "bytes": 35060,
+          "sha256": "191c144657bed31762e93b7f263bd58c4b349ca99f3224cbd470e42b5d63c30b",
+          "triangles": 508,
+          "dimensions": [
+            5.76407,
+            6.3,
+            2.38
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/desert/props/Desert_MineRoof_Standard.glb",
+          "bytes": 45120,
+          "sha256": "27a121ec1ec42f81983bb3df3498d9379125e26e1277ccecbee4191345270acf",
+          "triangles": 672,
+          "dimensions": [
+            5.76407,
+            6.3,
+            2.38
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/desert/props/Desert_MineRoof_Showcase.glb",
+          "bytes": 56880,
+          "sha256": "30c5b75c9e8378c4bec61ea95be582cc3fe8bc21e7fde0fee745d47e5db96efd",
+          "triangles": 832,
+          "dimensions": [
+            5.76407,
+            6.3,
+            2.38
+          ]
+        }
+      }
+    },
+    {
+      "id": "RockArch",
+      "name": "Rock Arch",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/desert/props/Desert_RockArch_Simple.glb",
+          "bytes": 6804,
+          "sha256": "f77af77be4bd05ea3fd32ead6440f8a0a400acf125e959bb4eec919bce89e34b",
+          "triangles": 72,
+          "dimensions": [
+            4.3,
+            1.2,
+            3.65
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/desert/props/Desert_RockArch_Standard.glb",
+          "bytes": 8652,
+          "sha256": "09e6725cbe6a01ea48374be90b055fa023fc05b287ad07427ec7d6254b3772e9",
+          "triangles": 96,
+          "dimensions": [
+            4.3,
+            1.5,
+            3.65
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/desert/props/Desert_RockArch_Showcase.glb",
+          "bytes": 17800,
+          "sha256": "217c6d79d5e376d6e9036d1659b6402a5788bbbb3904100014aa6dc71ae4e464",
+          "triangles": 176,
+          "dimensions": [
+            4.40498,
+            2.03545,
+            3.65
+          ]
+        }
+      }
+    },
+    {
+      "id": "OreCartTunnel",
+      "name": "Ore Cart Tunnel",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/desert/props/Desert_OreCartTunnel_Simple.glb",
+          "bytes": 29996,
+          "sha256": "6b827a80db0ac76b1267bfa6659815393223a0db9e87ab36c1c0bccd44beda49",
+          "triangles": 380,
+          "dimensions": [
+            3.2,
+            3.08,
+            2.71
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/desert/props/Desert_OreCartTunnel_Standard.glb",
+          "bytes": 37592,
+          "sha256": "778086f2c3773eaea6c1422771b601eef097a783f7671c64c4c2163abc7e54d8",
+          "triangles": 492,
+          "dimensions": [
+            3.26,
+            3.08,
+            2.71
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/desert/props/Desert_OreCartTunnel_Showcase.glb",
+          "bytes": 49016,
+          "sha256": "67d5f836028e9d519d4787b0f46a00ef4ed70c82361bdd13880a7c2e4fddefeb",
+          "triangles": 668,
+          "dimensions": [
+            3.26,
+            3.08,
+            2.71
+          ]
+        }
+      }
+    },
+    {
+      "id": "WaterTowerGate",
+      "name": "Water Tower Gate",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/desert/props/Desert_WaterTowerGate_Simple.glb",
+          "bytes": 17644,
+          "sha256": "9941c7e660ca6e82809f764a9d95675f779e0594fa616c2be9e1eed83499d5de",
+          "triangles": 244,
+          "dimensions": [
+            4.93285,
+            4.4,
+            7.01337
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/desert/props/Desert_WaterTowerGate_Standard.glb",
+          "bytes": 25232,
+          "sha256": "1802c128407a79b869b95a130a333599b3255cfaa5d895fc85c015705193f838",
+          "triangles": 356,
+          "dimensions": [
+            4.93285,
+            4.4,
+            7.01337
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/desert/props/Desert_WaterTowerGate_Showcase.glb",
+          "bytes": 76456,
+          "sha256": "58e6effae8d5a6fe8828a8fa6a19792ff935b59fbca8ff9c45f6ef3bad4ed5a1",
+          "triangles": 1044,
+          "dimensions": [
+            5.05985,
+            4.4,
+            7.01337
+          ]
+        }
+      }
+    },
+    {
+      "id": "CanyonWall",
+      "name": "Canyon Wall",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/desert/props/Desert_CanyonWall_Simple.glb",
+          "bytes": 4896,
+          "sha256": "1f8278ef76d3526fab73a752d013e457696df11a0541ecceeb35efadfbdb4ef7",
+          "triangles": 48,
+          "dimensions": [
+            8.0,
+            2.4,
+            3.64
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/desert/props/Desert_CanyonWall_Standard.glb",
+          "bytes": 8648,
+          "sha256": "35fd954e6ba543c832dda705e6440b7434f9c9f97382c5545ac127146fc1b8ae",
+          "triangles": 96,
+          "dimensions": [
+            8.0,
+            2.65,
+            3.64
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/desert/props/Desert_CanyonWall_Showcase.glb",
+          "bytes": 13212,
+          "sha256": "4c11402865c87daed2a68186c1fbc34e80a4ca2900e8e59af79e8ebdfe47f224",
+          "triangles": 136,
+          "dimensions": [
+            8.0,
+            2.65,
+            3.9
+          ]
+        }
+      }
+    },
+    {
+      "id": "RailFence",
+      "name": "Rail Fence",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/desert/props/Desert_RailFence_Simple.glb",
+          "bytes": 5556,
+          "sha256": "6c29e5eb5908939a0beeab5bb20c30e7549c6a862b7292b5956c3e67c6e64441",
+          "triangles": 64,
+          "dimensions": [
+            4.0,
+            0.2,
+            1.5
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/desert/props/Desert_RailFence_Standard.glb",
+          "bytes": 6976,
+          "sha256": "48221c4e0e7904ce7558a1c40224dd2e785691e3fe0481b8576bd14f8bfd1ccc",
+          "triangles": 84,
+          "dimensions": [
+            4.0,
+            0.2,
+            1.5
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/desert/props/Desert_RailFence_Showcase.glb",
+          "bytes": 8900,
+          "sha256": "68498b12ce787e250f888fd7b7e9f58b95c7903b738a6d3061bd0ede49380e68",
+          "triangles": 108,
+          "dimensions": [
+            4.08,
+            0.28,
+            1.6
+          ]
+        }
+      }
+    },
+    {
+      "id": "MesaBackdrop",
+      "name": "Mesa Backdrop",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/desert/props/Desert_MesaBackdrop_Simple.glb",
+          "bytes": 29620,
+          "sha256": "c25b6ea29503af4491a756550b98cf9ace83d63c33d80e6e973209794ceee09d",
+          "triangles": 420,
+          "dimensions": [
+            20.63038,
+            8.81466,
+            9.0
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/desert/props/Desert_MesaBackdrop_Standard.glb",
+          "bytes": 65272,
+          "sha256": "dfb9f989fbf9d3e5a000ab21e373c17d320c9b13e4de9caff0acf88a5ae1a220",
+          "triangles": 960,
+          "dimensions": [
+            20.63038,
+            11.78219,
+            9.0
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/desert/props/Desert_MesaBackdrop_Showcase.glb",
+          "bytes": 138284,
+          "sha256": "bdf6a968e98c7c8f96f1e5fd3be03b135b2a3c6c1d2ef185e5821d460f4177e3",
+          "triangles": 1968,
+          "dimensions": [
+            20.63038,
+            11.79105,
+            9.0
+          ]
+        }
+      }
+    },
+    {
+      "id": "CactusGarden",
+      "name": "Cactus Garden",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/desert/props/Desert_CactusGarden_Simple.glb",
+          "bytes": 44844,
+          "sha256": "d494f26abc480fd4e335144cb43f00f2937551bc995e618c1f8dafb85818818c",
+          "triangles": 508,
+          "dimensions": [
+            4.78822,
+            2.25064,
+            3.0
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/desert/props/Desert_CactusGarden_Standard.glb",
+          "bytes": 74080,
+          "sha256": "e3c209ff6bde8c8674280a7fbd46bca78a2fbffb442c914581dac6d5f52c9fcb",
+          "triangles": 916,
+          "dimensions": [
+            4.78822,
+            2.25064,
+            3.0
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/desert/props/Desert_CactusGarden_Showcase.glb",
+          "bytes": 91496,
+          "sha256": "2c1ed33b943012c900a239ef9f9f70f0b99203623d8904c3fa54ed27a76cb4e7",
+          "triangles": 1152,
+          "dimensions": [
+            4.78822,
+            2.25064,
+            3.16
+          ]
+        }
+      }
+    },
+    {
+      "id": "DryBrushCluster",
+      "name": "Dry Brush Cluster",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/desert/props/Desert_DryBrushCluster_Simple.glb",
+          "bytes": 8024,
+          "sha256": "27697d831ab0ce5e4403508d40744b9e4a1e00e9b214acc47dbf80960797df00",
+          "triangles": 60,
+          "dimensions": [
+            2.45219,
+            1.59747,
+            0.75
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/desert/props/Desert_DryBrushCluster_Standard.glb",
+          "bytes": 16456,
+          "sha256": "5ddc55e6ff19239b3864210a77ec90f8a3b91eb86f74fbef4abe22787a2b5edc",
+          "triangles": 168,
+          "dimensions": [
+            2.45219,
+            1.59747,
+            0.75
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/desert/props/Desert_DryBrushCluster_Showcase.glb",
+          "bytes": 23312,
+          "sha256": "fa2777003d90d2dbbf292ca397f5be2e038214ad7622dafba73060e1dc1b7c1b",
+          "triangles": 228,
+          "dimensions": [
+            2.45219,
+            1.59747,
+            0.7875
+          ]
+        }
+      }
+    }
+  ]
+}

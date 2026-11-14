@@ -1,0 +1,397 @@
+{
+  "schemaVersion": 1,
+  "pack": "haunted-woods",
+  "title": "Haunted Woods",
+  "families": [
+    {
+      "id": "CrookedCottage",
+      "name": "Crooked Cottage",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/haunted-woods/props/HauntedWoods_CrookedCottage_Simple.glb",
+          "bytes": 22768,
+          "sha256": "3273f39996d04f8667fc532fab0c53d05a49af380035d3dbf9c7112257fd5aea",
+          "triangles": 292,
+          "dimensions": [
+            4.6,
+            4.4,
+            4.3
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/haunted-woods/props/HauntedWoods_CrookedCottage_Standard.glb",
+          "bytes": 58612,
+          "sha256": "c130c70fa15da5459a4fad3cc52abc8dc1bb88e01fc9def998199d03e5406df8",
+          "triangles": 744,
+          "dimensions": [
+            4.6,
+            4.4,
+            4.3
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/haunted-woods/props/HauntedWoods_CrookedCottage_Showcase.glb",
+          "bytes": 106564,
+          "sha256": "5407683cb4466537ad03f2c4ace5c0e30636113067d16193b638f899a5e7d7e4",
+          "triangles": 1344,
+          "dimensions": [
+            4.6,
+            4.42532,
+            4.3
+          ]
+        }
+      }
+    },
+    {
+      "id": "Mausoleum",
+      "name": "Mausoleum",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/haunted-woods/props/HauntedWoods_Mausoleum_Simple.glb",
+          "bytes": 13156,
+          "sha256": "12d5416e4ee1ef9822896b03c43b0b6edbbff3cf038759a5fa13fe99c799faa3",
+          "triangles": 168,
+          "dimensions": [
+            4.6,
+            4.4,
+            3.42
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/haunted-woods/props/HauntedWoods_Mausoleum_Standard.glb",
+          "bytes": 24152,
+          "sha256": "38321be23a15e8503cca3f4c8a6823ef98e78ac96c0e1047e659053a28c891ba",
+          "triangles": 320,
+          "dimensions": [
+            4.6,
+            4.4,
+            4.05
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/haunted-woods/props/HauntedWoods_Mausoleum_Showcase.glb",
+          "bytes": 48856,
+          "sha256": "ac44dd49ec66d312a27f007836594dbb7ecb657b98818bbfb12853605bd0438f",
+          "triangles": 644,
+          "dimensions": [
+            4.6,
+            4.4,
+            4.05
+          ]
+        }
+      }
+    },
+    {
+      "id": "ManorGatehouse",
+      "name": "Manor Gatehouse",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/haunted-woods/props/HauntedWoods_ManorGatehouse_Simple.glb",
+          "bytes": 53692,
+          "sha256": "7c96103457782b267eeab878d0141936f2ab4c7513327533d41d032aaa35703e",
+          "triangles": 704,
+          "dimensions": [
+            6.82,
+            5.95,
+            5.2
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/haunted-woods/props/HauntedWoods_ManorGatehouse_Standard.glb",
+          "bytes": 91136,
+          "sha256": "c88a5f1784612cc62841bf0b8b56fd588d2a4a6d48e391a0a2df3f5d5dd71b60",
+          "triangles": 1184,
+          "dimensions": [
+            6.88112,
+            6.15002,
+            5.2
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/haunted-woods/props/HauntedWoods_ManorGatehouse_Showcase.glb",
+          "bytes": 94880,
+          "sha256": "829bd9d4d65202f1f83207c4dd75b02e867a304568b9a726202121e8e84ee3c4",
+          "triangles": 1232,
+          "dimensions": [
+            6.92,
+            6.15002,
+            5.2
+          ]
+        }
+      }
+    },
+    {
+      "id": "ManorRoof",
+      "name": "Manor Roof",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/haunted-woods/props/HauntedWoods_ManorRoof_Simple.glb",
+          "bytes": 10472,
+          "sha256": "624c09a56a8223940de2ce5dfb1cc38777471d71c5e1e68cf9231c04cfa3f3a8",
+          "triangles": 128,
+          "dimensions": [
+            7.4532,
+            6.476,
+            1.76475
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/haunted-woods/props/HauntedWoods_ManorRoof_Standard.glb",
+          "bytes": 24640,
+          "sha256": "c4de06a5e7ea94a0d7cb9434623f1e000cf0493ccf2c71b817de2c49c4114ff9",
+          "triangles": 328,
+          "dimensions": [
+            7.4532,
+            6.476,
+            1.76475
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/haunted-woods/props/HauntedWoods_ManorRoof_Showcase.glb",
+          "bytes": 27184,
+          "sha256": "95a84e60a150e929e419ac31ec6b42e1bf4e47e45e57de89106cf533d89d076c",
+          "triangles": 368,
+          "dimensions": [
+            7.4532,
+            6.476,
+            2.56
+          ]
+        }
+      }
+    },
+    {
+      "id": "HollowOakPassage",
+      "name": "Hollow Oak Passage",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/haunted-woods/props/HauntedWoods_HollowOakPassage_Simple.glb",
+          "bytes": 36076,
+          "sha256": "a533c8979e22c4124497d71c8ac3596ac0f1a5cd3680417afc3626b54f31a64e",
+          "triangles": 408,
+          "dimensions": [
+            8.14104,
+            4.0992,
+            7.4
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/haunted-woods/props/HauntedWoods_HollowOakPassage_Standard.glb",
+          "bytes": 51876,
+          "sha256": "ae907a1802ef0b7ee30999d25851dffc7132831a9a54ba2db7385a211391f3b9",
+          "triangles": 592,
+          "dimensions": [
+            8.14104,
+            4.2977,
+            7.4
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/haunted-woods/props/HauntedWoods_HollowOakPassage_Showcase.glb",
+          "bytes": 63292,
+          "sha256": "e70c30d4154cbc7a837abd224d6117482315db6a3c5a9ca2476e455291f566b5",
+          "triangles": 692,
+          "dimensions": [
+            8.14662,
+            4.2977,
+            7.67
+          ]
+        }
+      }
+    },
+    {
+      "id": "RootBridge",
+      "name": "Root Bridge",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/haunted-woods/props/HauntedWoods_RootBridge_Simple.glb",
+          "bytes": 25236,
+          "sha256": "4ab83456052f9e8b04dfce46f0f386a702854bc126447a8da2bd2ad30ff4a6f6",
+          "triangles": 356,
+          "dimensions": [
+            3.53995,
+            4.1558,
+            1.27856
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/haunted-woods/props/HauntedWoods_RootBridge_Standard.glb",
+          "bytes": 32872,
+          "sha256": "411ab9f74d0a8c1af73cd185a15d138893aa289061ebd6977785d7e6e201fa24",
+          "triangles": 476,
+          "dimensions": [
+            3.53995,
+            4.1558,
+            1.27856
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/haunted-woods/props/HauntedWoods_RootBridge_Showcase.glb",
+          "bytes": 41996,
+          "sha256": "ef3e6f4e74713bb700b99f5e7d4b50d43b10d01cf5f416173f0574f11357a113",
+          "triangles": 556,
+          "dimensions": [
+            3.59355,
+            4.1558,
+            1.27856
+          ]
+        }
+      }
+    },
+    {
+      "id": "GraveyardBumpers",
+      "name": "Graveyard Bumpers",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/haunted-woods/props/HauntedWoods_GraveyardBumpers_Simple.glb",
+          "bytes": 31692,
+          "sha256": "2da61c0006860ef50584e16fd54d997b22e43bd17d2bd0e43711af4c162d8be6",
+          "triangles": 400,
+          "dimensions": [
+            3.8,
+            5.85,
+            1.12
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/haunted-woods/props/HauntedWoods_GraveyardBumpers_Standard.glb",
+          "bytes": 43116,
+          "sha256": "61e1f2fbfc8dffcea880dacbb62b82cd33b6f1725f6fcff3202d4787a0c0a510",
+          "triangles": 500,
+          "dimensions": [
+            3.88805,
+            5.99526,
+            1.12
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/haunted-woods/props/HauntedWoods_GraveyardBumpers_Showcase.glb",
+          "bytes": 80556,
+          "sha256": "e628490cc9f16372dbde3e1921cf056b3fc6d29b51ae6e935f0263f3b72dc5d5",
+          "triangles": 980,
+          "dimensions": [
+            3.88805,
+            5.99526,
+            1.12
+          ]
+        }
+      }
+    },
+    {
+      "id": "ManorBackdrop",
+      "name": "Manor Backdrop",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/haunted-woods/props/HauntedWoods_ManorBackdrop_Simple.glb",
+          "bytes": 47320,
+          "sha256": "b516aef0d6f20d8dd158665dca2246be6832909238d394d8c07d0fec85ba8312",
+          "triangles": 620,
+          "dimensions": [
+            16.0,
+            6.2,
+            8.12
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/haunted-woods/props/HauntedWoods_ManorBackdrop_Standard.glb",
+          "bytes": 105356,
+          "sha256": "4f244675816693ec3812fb97021f6d8650ef00d1af9a671fc2a4d15802d94501",
+          "triangles": 1364,
+          "dimensions": [
+            16.0,
+            6.2,
+            8.12
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/haunted-woods/props/HauntedWoods_ManorBackdrop_Showcase.glb",
+          "bytes": 139056,
+          "sha256": "5efccea97f6429365e069295b5ac20176397c52ee21843e86626f0d34b5658a6",
+          "triangles": 1796,
+          "dimensions": [
+            16.0,
+            6.2,
+            8.12
+          ]
+        }
+      }
+    },
+    {
+      "id": "ForestBackdrop",
+      "name": "Forest Backdrop",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/haunted-woods/props/HauntedWoods_ForestBackdrop_Simple.glb",
+          "bytes": 84764,
+          "sha256": "833df9dc19c9d0afd6ee8c6ec395cfdc1ba9966c04180be4b07cbeeb37be30a8",
+          "triangles": 960,
+          "dimensions": [
+            15.49961,
+            6.03203,
+            11.79
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/haunted-woods/props/HauntedWoods_ForestBackdrop_Standard.glb",
+          "bytes": 218452,
+          "sha256": "79b55324858bdb099de12da59f98971bff9dc3001179176d1ead7835838d8ef3",
+          "triangles": 2240,
+          "dimensions": [
+            15.57692,
+            6.26205,
+            11.79
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/haunted-woods/props/HauntedWoods_ForestBackdrop_Showcase.glb",
+          "bytes": 273796,
+          "sha256": "38edf6bd0391d0f641c230c2dddb7ccae26b0243e8465555a6f4a39327e52252",
+          "triangles": 2848,
+          "dimensions": [
+            15.82879,
+            6.26205,
+            11.79
+          ]
+        }
+      }
+    },
+    {
+      "id": "LanternCluster",
+      "name": "Lantern Cluster",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/haunted-woods/props/HauntedWoods_LanternCluster_Simple.glb",
+          "bytes": 23824,
+          "sha256": "3ecad2d80f2b1d75015bd15c3ffec108f0e0511f6b345cfa6f733ed6cc1ab9a3",
+          "triangles": 312,
+          "dimensions": [
+            2.15,
+            1.2,
+            2.5775
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/haunted-woods/props/HauntedWoods_LanternCluster_Standard.glb",
+          "bytes": 40756,
+          "sha256": "d05b8652817c285d652f296b43e289967a7115ca6d1997f3ec3a0a7aad834014",
+          "triangles": 540,
+          "dimensions": [
+            2.15,
+            1.2,
+            2.5775
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/haunted-woods/props/HauntedWoods_LanternCluster_Showcase.glb",
+          "bytes": 45316,
+          "sha256": "82748d5490c6e61b0209b46ad7db858dde387290006f1d423baeca119e41f1b7",
+          "triangles": 580,
+          "dimensions": [
+            2.41554,
+            1.39026,
+            2.5775
+          ]
+        }
+      }
+    }
+  ]
+}

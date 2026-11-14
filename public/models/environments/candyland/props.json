@@ -1,0 +1,397 @@
+{
+  "schemaVersion": 1,
+  "pack": "candyland",
+  "title": "Candyland",
+  "families": [
+    {
+      "id": "GingerbreadHouse",
+      "name": "Gingerbread House",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/candyland/props/Candyland_GingerbreadHouse_Simple.glb",
+          "bytes": 27828,
+          "sha256": "6ece422ef0e030e3d48588228dc3db78cbdf2699b602ba08a8e0d5383ea502dc",
+          "triangles": 368,
+          "dimensions": [
+            4.6,
+            4.4,
+            3.79295
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/candyland/props/Candyland_GingerbreadHouse_Standard.glb",
+          "bytes": 90648,
+          "sha256": "3a1dad38b057342c4cb704c3ee7ed63a17bd591e54fdb93a243481fdedc798c9",
+          "triangles": 1044,
+          "dimensions": [
+            4.6,
+            4.4,
+            3.79295
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/candyland/props/Candyland_GingerbreadHouse_Showcase.glb",
+          "bytes": 156196,
+          "sha256": "017197135cebc820c268582bde52c212cfd62989f88551485ec16f597ca84dab",
+          "triangles": 1792,
+          "dimensions": [
+            4.6,
+            4.4,
+            3.79295
+          ]
+        }
+      }
+    },
+    {
+      "id": "SweetShop",
+      "name": "Sweet Shop",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/candyland/props/Candyland_SweetShop_Simple.glb",
+          "bytes": 34108,
+          "sha256": "48439c813dd16cffeda8f2008a00f6fd85c1cf40898aa7d53f382bf704769b73",
+          "triangles": 456,
+          "dimensions": [
+            4.6,
+            4.4,
+            3.79295
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/candyland/props/Candyland_SweetShop_Standard.glb",
+          "bytes": 96920,
+          "sha256": "2b1bbe65fe8746a7d7da3f134b8c0e02e3a1cbb9a997788543827e06bea27974",
+          "triangles": 1132,
+          "dimensions": [
+            4.6,
+            4.4,
+            3.79295
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/candyland/props/Candyland_SweetShop_Showcase.glb",
+          "bytes": 162468,
+          "sha256": "95f353271282fb84b2d82b4a48be7e2675d469ae2da81d1cd4fd5bf2ca2c3a3e",
+          "triangles": 1880,
+          "dimensions": [
+            4.6,
+            4.4,
+            3.79295
+          ]
+        }
+      }
+    },
+    {
+      "id": "SweetShopShell",
+      "name": "Sweet Shop Shell",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/candyland/props/Candyland_SweetShopShell_Simple.glb",
+          "bytes": 57536,
+          "sha256": "4069052d4b79d58d04ad409fdd85a82c7a580c12f05402a311516dcc9585c146",
+          "triangles": 744,
+          "dimensions": [
+            7.41,
+            8.52,
+            3.3
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/candyland/props/Candyland_SweetShopShell_Standard.glb",
+          "bytes": 74028,
+          "sha256": "8481ceb11c7453125d709af09c94309bfdadb7b0b8369a8bddefa8a7f07c44bf",
+          "triangles": 948,
+          "dimensions": [
+            7.41,
+            8.52,
+            3.3
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/candyland/props/Candyland_SweetShopShell_Showcase.glb",
+          "bytes": 98700,
+          "sha256": "f6c23f463d1130b18ed5550f3e76c828c78b3020425216a211727275ed721406",
+          "triangles": 1172,
+          "dimensions": [
+            7.41,
+            8.67818,
+            3.3
+          ]
+        }
+      }
+    },
+    {
+      "id": "SweetShopRoof",
+      "name": "Sweet Shop Roof",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/candyland/props/Candyland_SweetShopRoof_Simple.glb",
+          "bytes": 10468,
+          "sha256": "c70646b32e1f3953e2390ac1ca65cdacbae44ad1ca9812dbf572f9a2e2822909",
+          "triangles": 128,
+          "dimensions": [
+            7.75119,
+            8.9,
+            1.5758
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/candyland/props/Candyland_SweetShopRoof_Standard.glb",
+          "bytes": 33300,
+          "sha256": "9ec7c2642458298a683c79bf6ac7c5ebc7e1cb3451a32ad6cd8482e589c86cbf",
+          "triangles": 328,
+          "dimensions": [
+            7.82932,
+            8.9,
+            1.7558
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/candyland/props/Candyland_SweetShopRoof_Showcase.glb",
+          "bytes": 43384,
+          "sha256": "aabe2f941615ad9d6369707c65008a926584598ddae48a5f0bcdacae15231f81",
+          "triangles": 424,
+          "dimensions": [
+            7.82932,
+            8.9,
+            2.07
+          ]
+        }
+      }
+    },
+    {
+      "id": "WaferTunnel",
+      "name": "Wafer Tunnel",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/candyland/props/Candyland_WaferTunnel_Simple.glb",
+          "bytes": 11900,
+          "sha256": "2c5c221c6f1996e0a9d4ef16ec992c89ee80cbe77480be32469b7f4977e45491",
+          "triangles": 152,
+          "dimensions": [
+            3.95,
+            4.02,
+            2.68
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/candyland/props/Candyland_WaferTunnel_Standard.glb",
+          "bytes": 81760,
+          "sha256": "0528f3c4d3f8bef05c2354e0c52bbe4762d6f8c2fb15fc49ef192b34eb6fd8e3",
+          "triangles": 1040,
+          "dimensions": [
+            3.95,
+            4.085,
+            3.07
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/candyland/props/Candyland_WaferTunnel_Showcase.glb",
+          "bytes": 106720,
+          "sha256": "f03b801630cd78c0820d600b2ebab53856f99cf7a5dcb392cb00fd83ff261cd4",
+          "triangles": 1264,
+          "dimensions": [
+            3.95,
+            4.085,
+            3.07
+          ]
+        }
+      }
+    },
+    {
+      "id": "PeppermintBumpers",
+      "name": "Peppermint Bumpers",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/candyland/props/Candyland_PeppermintBumpers_Simple.glb",
+          "bytes": 18352,
+          "sha256": "71b911306428a5ca7fbebd116b4a955b97682a4563d8197260a676e0a4361194",
+          "triangles": 264,
+          "dimensions": [
+            2.58,
+            2.88,
+            0.64
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/candyland/props/Candyland_PeppermintBumpers_Standard.glb",
+          "bytes": 29588,
+          "sha256": "b085a097601eb497f8548890599d1914eb392993ffac8e1624947b30ee933161",
+          "triangles": 408,
+          "dimensions": [
+            2.58,
+            2.88,
+            0.665
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/candyland/props/Candyland_PeppermintBumpers_Showcase.glb",
+          "bytes": 38160,
+          "sha256": "81406bf4d27f1733eda39bf253582cffddaeb00e221bd200e98f68d019a5239a",
+          "triangles": 540,
+          "dimensions": [
+            2.58,
+            2.88,
+            0.71
+          ]
+        }
+      }
+    },
+    {
+      "id": "CookieBridge",
+      "name": "Cookie Bridge",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/candyland/props/Candyland_CookieBridge_Simple.glb",
+          "bytes": 15136,
+          "sha256": "c7e09da2cf9f7f905276e5a62f6b8db19368fe531e5ba42d58cf21a58031a76f",
+          "triangles": 208,
+          "dimensions": [
+            2.3,
+            4.15,
+            1.3
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/candyland/props/Candyland_CookieBridge_Standard.glb",
+          "bytes": 21500,
+          "sha256": "82e280df9d29ba91cc60100dde32ed0b24e6711354d76008635e47e5a7cdffb9",
+          "triangles": 308,
+          "dimensions": [
+            2.3,
+            4.15,
+            1.3
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/candyland/props/Candyland_CookieBridge_Showcase.glb",
+          "bytes": 35184,
+          "sha256": "21fb7f7ed03b75bfe86ddec65b4fd0d75884ab0158b1d2eab6990a149b2d130a",
+          "triangles": 428,
+          "dimensions": [
+            2.3,
+            4.15,
+            1.3
+          ]
+        }
+      }
+    },
+    {
+      "id": "FrostingGate",
+      "name": "Frosting Gate",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/candyland/props/Candyland_FrostingGate_Simple.glb",
+          "bytes": 41680,
+          "sha256": "ad5ba3a4d55ff0f23cbe4acc10f179bd0b7ac9125d26a6dc55c052ac7b725445",
+          "triangles": 408,
+          "dimensions": [
+            4.2,
+            0.80708,
+            3.1
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/candyland/props/Candyland_FrostingGate_Standard.glb",
+          "bytes": 45428,
+          "sha256": "d6bb14e812cb3143f1881d2d95764f34c65a3cf6d79b97ce360ba0b652d07e63",
+          "triangles": 456,
+          "dimensions": [
+            4.2,
+            0.80708,
+            3.1
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/candyland/props/Candyland_FrostingGate_Showcase.glb",
+          "bytes": 49984,
+          "sha256": "11af2c0a28eb15ba9d1be230b53c153ae848ad460edf8adb91db856c37599306",
+          "triangles": 496,
+          "dimensions": [
+            5.1261,
+            0.82233,
+            3.1
+          ]
+        }
+      }
+    },
+    {
+      "id": "CandyCliffBackdrop",
+      "name": "Candy Cliff Backdrop",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/candyland/props/Candyland_CandyCliffBackdrop_Simple.glb",
+          "bytes": 6780,
+          "sha256": "9cb1af1bddca3d51e3affac8e6c74ffe73d05f46f2ee02307e2e8328b2e60449",
+          "triangles": 72,
+          "dimensions": [
+            14.25,
+            5.25,
+            5.32
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/candyland/props/Candyland_CandyCliffBackdrop_Standard.glb",
+          "bytes": 34152,
+          "sha256": "d3d1c8e0c03da5c42dce379591763b9a57fccf1abdb745b91eeb88c3da56bdad",
+          "triangles": 312,
+          "dimensions": [
+            14.25,
+            5.38019,
+            6.25
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/candyland/props/Candyland_CandyCliffBackdrop_Showcase.glb",
+          "bytes": 97228,
+          "sha256": "198913ac841fe67bc361d0edcf261440ab3bd3b0e4a7f4076862e60ca9c9e419",
+          "triangles": 1272,
+          "dimensions": [
+            14.25,
+            5.38019,
+            6.25
+          ]
+        }
+      }
+    },
+    {
+      "id": "SugarWindmillLandmark",
+      "name": "Sugar Windmill Landmark",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/candyland/props/Candyland_SugarWindmillLandmark_Simple.glb",
+          "bytes": 18948,
+          "sha256": "23068377f5114e7d4f0d39d3dd4b823afdd1673f0100689df0126e0c28cfe00f",
+          "triangles": 264,
+          "dimensions": [
+            7.2,
+            7.2,
+            7.6
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/candyland/props/Candyland_SugarWindmillLandmark_Standard.glb",
+          "bytes": 37676,
+          "sha256": "bd2fd508ffc4e72148ac9a4212f39eda48168c8c35ed94baaddbe1425fccac76",
+          "triangles": 504,
+          "dimensions": [
+            7.2,
+            7.2,
+            7.6
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/candyland/props/Candyland_SugarWindmillLandmark_Showcase.glb",
+          "bytes": 58080,
+          "sha256": "68d136b990f6bb6f6eda0e1875911c2220642a1efb1793f2e67d5509ef0c039f",
+          "triangles": 688,
+          "dimensions": [
+            7.2,
+            7.2,
+            7.6
+          ]
+        }
+      }
+    }
+  ]
+}

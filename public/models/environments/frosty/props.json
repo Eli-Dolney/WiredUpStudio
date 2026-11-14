@@ -1,0 +1,514 @@
+{
+  "schemaVersion": 1,
+  "pack": "frosty",
+  "title": "Frosty",
+  "families": [
+    {
+      "id": "Cabin",
+      "name": "Cabin",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/frosty/props/Frosty_Cabin_Simple.glb",
+          "bytes": 20408,
+          "sha256": "c1d8394a62049e3861fcb2b4b5d1380b79e6a449a54355e04c650679e2950216",
+          "triangles": 264,
+          "dimensions": [
+            4.2,
+            3.7,
+            3.9
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/frosty/props/Frosty_Cabin_Standard.glb",
+          "bytes": 53588,
+          "sha256": "e9ad8132ee8276ebe362058f89db3de11d175ef3ad6b5fa2019e7fd48444aa20",
+          "triangles": 704,
+          "dimensions": [
+            4.2,
+            3.71,
+            4.24
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/frosty/props/Frosty_Cabin_Showcase.glb",
+          "bytes": 130436,
+          "sha256": "0242a1e77b724c3b5e6c89b683ae6234439089164234f44a7dd34db6d627939d",
+          "triangles": 1584,
+          "dimensions": [
+            4.2,
+            3.71,
+            4.24
+          ]
+        }
+      }
+    },
+    {
+      "id": "Igloo",
+      "name": "Igloo",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/frosty/props/Frosty_Igloo_Simple.glb",
+          "bytes": 35168,
+          "sha256": "5761f96cf7e22c11c5bc68399a5f8f38cc5cee1c07aafde6d5f14e1ec59ab4bd",
+          "triangles": 492,
+          "dimensions": [
+            2.3,
+            2.425,
+            1.1
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/frosty/props/Frosty_Igloo_Standard.glb",
+          "bytes": 45496,
+          "sha256": "268d76ff6378f026b7e4b5b38f9ad2993f68704d577bb6a32a54fcd199f430a4",
+          "triangles": 628,
+          "dimensions": [
+            2.3,
+            2.425,
+            1.1
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/frosty/props/Frosty_Igloo_Showcase.glb",
+          "bytes": 56872,
+          "sha256": "6accfcd568d8c10ce728e2a41f733fba60ff16b9eb22803699a6036fabad7a85",
+          "triangles": 796,
+          "dimensions": [
+            2.3,
+            2.615,
+            1.1
+          ]
+        }
+      }
+    },
+    {
+      "id": "IglooPassage",
+      "name": "Igloo Passage",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/frosty/props/Frosty_IglooPassage_Simple.glb",
+          "bytes": 34896,
+          "sha256": "562f252c37b0f42562a94761aa28d35f84b335b690d75085c92f43667670f87e",
+          "triangles": 432,
+          "dimensions": [
+            6.8,
+            6.28238,
+            1.8
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/frosty/props/Frosty_IglooPassage_Standard.glb",
+          "bytes": 79832,
+          "sha256": "82580abd90a95887d8a2910bc5947780daca943245cefcbac539716af88a9822",
+          "triangles": 1008,
+          "dimensions": [
+            6.8,
+            7.02,
+            1.8
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/frosty/props/Frosty_IglooPassage_Showcase.glb",
+          "bytes": 118092,
+          "sha256": "96822b4d9333fa728087ad029056c29a1692ce5c32c89d460c85b39c8aad39f1",
+          "triangles": 1480,
+          "dimensions": [
+            6.8,
+            7.02,
+            1.8
+          ]
+        }
+      }
+    },
+    {
+      "id": "IglooCrown",
+      "name": "Igloo Crown",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/frosty/props/Frosty_IglooCrown_Simple.glb",
+          "bytes": 53756,
+          "sha256": "13e36ce37af263ed143827c6fa5f6125f5367acf5b9c98f251caf1f406a7a30b",
+          "triangles": 696,
+          "dimensions": [
+            5.62222,
+            5.62222,
+            1.4
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/frosty/props/Frosty_IglooCrown_Standard.glb",
+          "bytes": 106372,
+          "sha256": "92530b7008e8b563335bc0106f846acae4963be119dc71bdd79a01f7c63c477d",
+          "triangles": 1400,
+          "dimensions": [
+            5.62222,
+            5.62222,
+            1.4
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/frosty/props/Frosty_IglooCrown_Showcase.glb",
+          "bytes": 158980,
+          "sha256": "68935ca24fd112e967a791bb724680f1ba28b1de6584cca9e4a3991d6b190341",
+          "triangles": 2104,
+          "dimensions": [
+            5.62222,
+            5.62222,
+            1.4
+          ]
+        }
+      }
+    },
+    {
+      "id": "LodgeGatehouse",
+      "name": "Lodge Gatehouse",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/frosty/props/Frosty_LodgeGatehouse_Simple.glb",
+          "bytes": 23120,
+          "sha256": "dfb7efc7defb01e5b1e81b37f4a53613e638fe8c837ca5ea6dc16fa7a8906ac7",
+          "triangles": 296,
+          "dimensions": [
+            6.82,
+            6.18,
+            3.0
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/frosty/props/Frosty_LodgeGatehouse_Standard.glb",
+          "bytes": 45596,
+          "sha256": "5f0afa6ed8d20c162579a152f48dde3209035d81309656cbe205048d621ce1c4",
+          "triangles": 584,
+          "dimensions": [
+            6.82,
+            6.18,
+            3.0
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/frosty/props/Frosty_LodgeGatehouse_Showcase.glb",
+          "bytes": 53084,
+          "sha256": "f0905c120c11eef791b818e1d4383ee56cac3c171f0f33e9991f00713c459931",
+          "triangles": 680,
+          "dimensions": [
+            6.82,
+            6.67,
+            3.0
+          ]
+        }
+      }
+    },
+    {
+      "id": "LodgeRoof",
+      "name": "Lodge Roof",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/frosty/props/Frosty_LodgeRoof_Simple.glb",
+          "bytes": 6192,
+          "sha256": "55bec51e8771055edb1eefbc261afc9e8b2aa64652c5e8bdcb40c473e673be50",
+          "triangles": 68,
+          "dimensions": [
+            7.0,
+            6.6,
+            2.0
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/frosty/props/Frosty_LodgeRoof_Standard.glb",
+          "bytes": 14408,
+          "sha256": "0b3e2e953426378881d220007c94d1047a7a247e608de8cb35cb6962b8ca1e31",
+          "triangles": 188,
+          "dimensions": [
+            7.0,
+            6.6,
+            2.0
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/frosty/props/Frosty_LodgeRoof_Showcase.glb",
+          "bytes": 16952,
+          "sha256": "2278100a3d04beb26994d37b46f8bee37729bec95b09e982f8fec4f4c324317a",
+          "triangles": 228,
+          "dimensions": [
+            7.0,
+            6.6,
+            2.68
+          ]
+        }
+      }
+    },
+    {
+      "id": "IceArch",
+      "name": "Ice Arch",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/frosty/props/Frosty_IceArch_Simple.glb",
+          "bytes": 6804,
+          "sha256": "35a84a2b775e2d62d40291021cff818bc94bc0166de664cdb65300d9539a8613",
+          "triangles": 72,
+          "dimensions": [
+            3.9,
+            0.85,
+            3.35
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/frosty/props/Frosty_IceArch_Standard.glb",
+          "bytes": 8676,
+          "sha256": "371438b20b65392938965bf426e312ab4534a62b47cda54dc09947b0f65e4a30",
+          "triangles": 96,
+          "dimensions": [
+            3.9,
+            1.05,
+            3.35
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/frosty/props/Frosty_IceArch_Showcase.glb",
+          "bytes": 11220,
+          "sha256": "3323b81a79e3dc85f2b60034cc7fa130cdd311f1bde82e1c3d440c98354549de",
+          "triangles": 136,
+          "dimensions": [
+            3.9,
+            1.05,
+            3.35
+          ]
+        }
+      }
+    },
+    {
+      "id": "TimberBridge",
+      "name": "Timber Bridge",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/frosty/props/Frosty_TimberBridge_Simple.glb",
+          "bytes": 23028,
+          "sha256": "95d640148672e8c950911c8e28b94e9eb36615eaab71e3e571163c4b8138c277",
+          "triangles": 284,
+          "dimensions": [
+            2.39,
+            8.0,
+            1.72
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/frosty/props/Frosty_TimberBridge_Standard.glb",
+          "bytes": 24904,
+          "sha256": "b7a78893dffe9191c6925e751d104bf4b3208d12bf37b2d74d020e91ae3c5eab",
+          "triangles": 308,
+          "dimensions": [
+            2.39,
+            8.0,
+            1.72
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/frosty/props/Frosty_TimberBridge_Showcase.glb",
+          "bytes": 36140,
+          "sha256": "3ecc9702788d0270f56bf22731e953daf16dd4cfe1115ea557cf5f0e324e9bdd",
+          "triangles": 452,
+          "dimensions": [
+            2.39,
+            8.0,
+            1.72
+          ]
+        }
+      }
+    },
+    {
+      "id": "IcebergCluster",
+      "name": "Iceberg Cluster",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/frosty/props/Frosty_IcebergCluster_Simple.glb",
+          "bytes": 9692,
+          "sha256": "705369c206dd71fe2b0e1c47163d3e0e962b5a046f4d7eb66755712aa853d25f",
+          "triangles": 120,
+          "dimensions": [
+            3.60595,
+            2.07654,
+            1.8
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/frosty/props/Frosty_IcebergCluster_Standard.glb",
+          "bytes": 17140,
+          "sha256": "4f3496defaa0d9724aa4314ed79d06e2f9df2f868046c4a447410a892f356717",
+          "triangles": 208,
+          "dimensions": [
+            3.60595,
+            2.20246,
+            1.8
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/frosty/props/Frosty_IcebergCluster_Showcase.glb",
+          "bytes": 22300,
+          "sha256": "e41d0e63387c2817e285eb2febe2fbf93afc24cdc5774b8111a8c7ebe721cf8e",
+          "triangles": 276,
+          "dimensions": [
+            3.60595,
+            2.1755,
+            1.96
+          ]
+        }
+      }
+    },
+    {
+      "id": "SnowbankStraight",
+      "name": "Snowbank Straight",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/frosty/props/Frosty_SnowbankStraight_Simple.glb",
+          "bytes": 3064,
+          "sha256": "ec8081f8ef3c956068cc1cd35e0096c999e8dc7995184d1aacacc6741be5b271",
+          "triangles": 32,
+          "dimensions": [
+            4.0,
+            1.4,
+            0.75
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/frosty/props/Frosty_SnowbankStraight_Standard.glb",
+          "bytes": 7648,
+          "sha256": "84cb339275e2d24672af462cb3a5630772f748b7711ca48fef10631882285eb9",
+          "triangles": 72,
+          "dimensions": [
+            4.0,
+            1.4,
+            0.95
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/frosty/props/Frosty_SnowbankStraight_Showcase.glb",
+          "bytes": 12212,
+          "sha256": "741bcb206ec0e5e540ef8cd5630825c2d982ae4a0c1d43123e7e9d6fddc19420",
+          "triangles": 112,
+          "dimensions": [
+            4.0,
+            1.43519,
+            0.95
+          ]
+        }
+      }
+    },
+    {
+      "id": "BigSnowman",
+      "name": "Big Snowman",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/frosty/props/Frosty_BigSnowman_Simple.glb",
+          "bytes": 17308,
+          "sha256": "804012818fd52db59e6621493ca93027d7a7a64493a8478c330acf9cd42ff71c",
+          "triangles": 168,
+          "dimensions": [
+            0.98387,
+            1.02094,
+            2.5
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/frosty/props/Frosty_BigSnowman_Standard.glb",
+          "bytes": 55144,
+          "sha256": "cc08381431b3b86d59f90861f0eb69b9db5f31094782a439c88f5853590adc5a",
+          "triangles": 568,
+          "dimensions": [
+            1.7246,
+            1.10309,
+            2.5
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/frosty/props/Frosty_BigSnowman_Showcase.glb",
+          "bytes": 78280,
+          "sha256": "9a54cc0601444628db6e42d7ad473df559d2af292c66a850d003df4ed314ffd6",
+          "triangles": 824,
+          "dimensions": [
+            1.73952,
+            1.10309,
+            2.5
+          ]
+        }
+      }
+    },
+    {
+      "id": "SnowyPineGrove",
+      "name": "Snowy Pine Grove",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/frosty/props/Frosty_SnowyPineGrove_Simple.glb",
+          "bytes": 39436,
+          "sha256": "0d71b1863ac58f9b5d687a4c97088c5b2bc8b2f182a3cf0131054baae9508bc5",
+          "triangles": 540,
+          "dimensions": [
+            7.15,
+            3.12176,
+            4.3875
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/frosty/props/Frosty_SnowyPineGrove_Standard.glb",
+          "bytes": 62576,
+          "sha256": "5a79097f226eb9eac170b330090d2aacb189c495c99e461d07d7c33bedfa9f8c",
+          "triangles": 868,
+          "dimensions": [
+            7.15,
+            3.83279,
+            4.3875
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/frosty/props/Frosty_SnowyPineGrove_Showcase.glb",
+          "bytes": 202788,
+          "sha256": "86c34c56a074ccc6fd5ac82850b31efc240967a0989bdb13313f24378aa31314",
+          "triangles": 2276,
+          "dimensions": [
+            7.15,
+            3.76671,
+            4.3875
+          ]
+        }
+      }
+    },
+    {
+      "id": "MountainBackdrop",
+      "name": "Mountain Backdrop",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/frosty/props/Frosty_MountainBackdrop_Simple.glb",
+          "bytes": 9680,
+          "sha256": "dfc4661a1e099c566aed740f1e907fabdc7cfe544d54fa155985af8acc90c50b",
+          "triangles": 120,
+          "dimensions": [
+            19.95685,
+            8.80544,
+            10.0
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/frosty/props/Frosty_MountainBackdrop_Standard.glb",
+          "bytes": 21064,
+          "sha256": "75ef1aae23d104d31bf1cb47466c80c0f7d5549645ae76fce0f94f77e4a1d414",
+          "triangles": 288,
+          "dimensions": [
+            19.95685,
+            10.66097,
+            10.0
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/frosty/props/Frosty_MountainBackdrop_Showcase.glb",
+          "bytes": 49440,
+          "sha256": "c0039d7da805884966af0334d4554c4c8cedf0efa97b0c35da79637454fb88ec",
+          "triangles": 696,
+          "dimensions": [
+            19.95685,
+            10.61458,
+            10.0
+          ]
+        }
+      }
+    }
+  ]
+}

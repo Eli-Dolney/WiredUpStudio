@@ -45,7 +45,12 @@
           "sha256": "2a68f6346777dc0aa6221011ec9f3f7575df9650fb28909d4eeb7538799e1ab8",
           "label": "Unity import pack"
         }
-      ]
+      ],
+      "props": {
+        "url": "/models/environments/pirate-cove/props.json",
+        "families": 76,
+        "variants": 228
+      }
     },
     {
       "id": "candyland",
@@ -78,7 +83,12 @@
           "sha256": "173d929ab5760bce5c4788b6422ef1187f7513b5ccd4a2e65e57e1590cd7fc9a",
           "label": "Unity import pack"
         }
-      ]
+      ],
+      "props": {
+        "url": "/models/environments/candyland/props.json",
+        "families": 10,
+        "variants": 30
+      }
     },
     {
       "id": "space-station",
@@ -111,7 +121,12 @@
           "sha256": "0b1862c3d868aa2a2902343766f93de68e8ce8b3c0737f041bb4ca7c328cdad8",
           "label": "Unity import pack"
         }
-      ]
+      ],
+      "props": {
+        "url": "/models/environments/space-station/props.json",
+        "families": 10,
+        "variants": 30
+      }
     },
     {
       "id": "haunted-woods",
@@ -144,7 +159,12 @@
           "sha256": "5dcaded373454c96925648925534a9517c0f51ad190df37db3534dc71fcb6a14",
           "label": "Unity import pack"
         }
-      ]
+      ],
+      "props": {
+        "url": "/models/environments/haunted-woods/props.json",
+        "families": 10,
+        "variants": 30
+      }
     },
     {
       "id": "tropical",
@@ -177,7 +197,12 @@
           "sha256": "2fa890eaf824a432a1741a95b488a33bc723caa1de4e307628b42af68d72f536",
           "label": "Unity import pack"
         }
-      ]
+      ],
+      "props": {
+        "url": "/models/environments/tropical/props.json",
+        "families": 10,
+        "variants": 30
+      }
     },
     {
       "id": "blockland",
@@ -210,7 +235,12 @@
           "sha256": "3357a9b87b8e879f5fee836e820309d9c8e3e62776bbe7dbf77aa15ae85717c6",
           "label": "Unity import pack"
         }
-      ]
+      ],
+      "props": {
+        "url": "/models/environments/blockland/props.json",
+        "families": 10,
+        "variants": 30
+      }
     },
     {
       "id": "backyard",
@@ -243,7 +273,12 @@
           "sha256": "26855425cc952740c081db9d6e5b2b69930d556da838bae768cab42584d17ad6",
           "label": "Unity import pack"
         }
-      ]
+      ],
+      "props": {
+        "url": "/models/environments/backyard/props.json",
+        "families": 12,
+        "variants": 36
+      }
     },
     {
       "id": "desert",
@@ -276,7 +311,12 @@
           "sha256": "4cb6917b5d67e73c6fd8006e2d596600745c141a46a08c2f00c562301e022197",
           "label": "Unity import pack"
         }
-      ]
+      ],
+      "props": {
+        "url": "/models/environments/desert/props.json",
+        "families": 12,
+        "variants": 36
+      }
     },
     {
       "id": "frosty",
@@ -309,7 +349,12 @@
           "sha256": "4981ed848dff22804e100162fbb95b010c34ec83181f04de3c1fc19ba1390b2a",
           "label": "Unity import pack"
         }
-      ]
+      ],
+      "props": {
+        "url": "/models/environments/frosty/props.json",
+        "families": 13,
+        "variants": 39
+      }
     },
     {
       "id": "neon-city",
@@ -342,7 +387,12 @@
           "sha256": "96e1f00226fc64fce7366bdefe0bb04682e4eee00a12c7d12ca7bc14c6515d56",
           "label": "Unity import pack"
         }
-      ]
+      ],
+      "props": {
+        "url": "/models/environments/neon-city/props.json",
+        "families": 12,
+        "variants": 36
+      }
     }
   ]
 }

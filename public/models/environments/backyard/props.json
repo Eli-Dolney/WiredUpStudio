@@ -1,0 +1,475 @@
+{
+  "schemaVersion": 1,
+  "pack": "backyard",
+  "title": "Backyard",
+  "families": [
+    {
+      "id": "Shed",
+      "name": "Shed",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/backyard/props/Backyard_Shed_Simple.glb",
+          "bytes": 18992,
+          "sha256": "9c807bcccaab73369a81811d4590ade3b30405d94c3dbeac9d7cfc9c342efc4c",
+          "triangles": 244,
+          "dimensions": [
+            4.2,
+            3.7,
+            3.82
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/backyard/props/Backyard_Shed_Standard.glb",
+          "bytes": 72284,
+          "sha256": "9f177e6ef45fc0143c4a86903ac62be1e9839892b76d985d921ebedcbc757078",
+          "triangles": 964,
+          "dimensions": [
+            4.2,
+            3.7,
+            4.24
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/backyard/props/Backyard_Shed_Showcase.glb",
+          "bytes": 152616,
+          "sha256": "e26c7916493c02604fcfaca0e515518ee420f1149b7d9cb40443ce0db1807d6b",
+          "triangles": 1896,
+          "dimensions": [
+            4.2,
+            3.7,
+            4.24
+          ]
+        }
+      }
+    },
+    {
+      "id": "Greenhouse",
+      "name": "Greenhouse",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/backyard/props/Backyard_Greenhouse_Simple.glb",
+          "bytes": 22272,
+          "sha256": "82abaed220eb28be4c0dc63d549ae0dc9e2962e5d442f05bf93831d7ec1e7536",
+          "triangles": 308,
+          "dimensions": [
+            4.2,
+            3.7,
+            3.25791
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/backyard/props/Backyard_Greenhouse_Standard.glb",
+          "bytes": 40136,
+          "sha256": "937209ae227e3b4c0b73ef1bf9a203033266786083369181d2b741a86c7be281",
+          "triangles": 548,
+          "dimensions": [
+            4.2,
+            3.7,
+            3.26961
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/backyard/props/Backyard_Greenhouse_Showcase.glb",
+          "bytes": 89936,
+          "sha256": "94a9b93f015193bb698fab9d79b095468b5b2e8f600334d9f7d44a3c436f4b1b",
+          "triangles": 1024,
+          "dimensions": [
+            4.2,
+            3.7,
+            3.3
+          ]
+        }
+      }
+    },
+    {
+      "id": "GreenhousePassage",
+      "name": "Greenhouse Passage",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/backyard/props/Backyard_GreenhousePassage_Simple.glb",
+          "bytes": 53024,
+          "sha256": "cce18aa6f83347791aa6b6e4ce6a1b39c7dcbd940f33337b709e71e65bf4df1d",
+          "triangles": 616,
+          "dimensions": [
+            4.85,
+            6.04,
+            2.7
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/backyard/props/Backyard_GreenhousePassage_Standard.glb",
+          "bytes": 96372,
+          "sha256": "5933b69b7ad8cf3a4e84d44aa4e12edb1faa183c6b785bfd1fb26c3e3a00a50b",
+          "triangles": 1072,
+          "dimensions": [
+            4.85,
+            6.04,
+            2.7
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/backyard/props/Backyard_GreenhousePassage_Showcase.glb",
+          "bytes": 124024,
+          "sha256": "81400e1fac9ca63de887de8d40dd6a2c2314c70ae3fa1597276fa4dfe0909369",
+          "triangles": 1360,
+          "dimensions": [
+            5.32,
+            6.04,
+            2.7
+          ]
+        }
+      }
+    },
+    {
+      "id": "GreenhouseRoof",
+      "name": "Greenhouse Roof",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/backyard/props/Backyard_GreenhouseRoof_Simple.glb",
+          "bytes": 9572,
+          "sha256": "df9dc401ca77779a869690b25e2f906c3c65431e2023f2c322595d0d5a3eeb0a",
+          "triangles": 120,
+          "dimensions": [
+            4.94771,
+            6.4,
+            1.53
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/backyard/props/Backyard_GreenhouseRoof_Standard.glb",
+          "bytes": 18076,
+          "sha256": "d40ac335115c54d40c7bacb8c6bdd99ae45e3b8b3968433de8fd5b1cc1e68db3",
+          "triangles": 240,
+          "dimensions": [
+            4.94771,
+            6.4,
+            1.53
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/backyard/props/Backyard_GreenhouseRoof_Showcase.glb",
+          "bytes": 19948,
+          "sha256": "e5f0c4ef55881f766c5306568972b6a7e9c5b90d527b88c4e4dfff1a6150e361",
+          "triangles": 264,
+          "dimensions": [
+            4.94771,
+            6.4,
+            1.53
+          ]
+        }
+      }
+    },
+    {
+      "id": "WheelbarrowChute",
+      "name": "Wheelbarrow Chute",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/backyard/props/Backyard_WheelbarrowChute_Simple.glb",
+          "bytes": 24016,
+          "sha256": "f61fd379d9d903aba31712d476d18a9a4f1838af6ee2f75d1defdb85e4d425f2",
+          "triangles": 344,
+          "dimensions": [
+            3.1,
+            7.60137,
+            2.02
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/backyard/props/Backyard_WheelbarrowChute_Standard.glb",
+          "bytes": 32804,
+          "sha256": "a6fd520f1e03c0bd77ac134c892cf7a25087927c4bab60fb2adbfa846d53d1c2",
+          "triangles": 464,
+          "dimensions": [
+            3.115,
+            7.60137,
+            2.02
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/backyard/props/Backyard_WheelbarrowChute_Showcase.glb",
+          "bytes": 43228,
+          "sha256": "0c7ed3bfae3a50a35fbbc0d0aa0d45f971bc6b55fc5345e2cfb84be47263e4bf",
+          "triangles": 568,
+          "dimensions": [
+            3.2205,
+            7.60137,
+            2.02
+          ]
+        }
+      }
+    },
+    {
+      "id": "StreamBridge",
+      "name": "Stream Bridge",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/backyard/props/Backyard_StreamBridge_Simple.glb",
+          "bytes": 187024,
+          "sha256": "761277390d0d5c7a18300f6210f8a8099a100ea61eccef4c14c104866c0156a3",
+          "triangles": 2624,
+          "dimensions": [
+            2.56,
+            8.00103,
+            1.87
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/backyard/props/Backyard_StreamBridge_Standard.glb",
+          "bytes": 202004,
+          "sha256": "fda79406a900487577bfe337be589c016d22b6cfbbfe51b6957fe8bb20360b5b",
+          "triangles": 2816,
+          "dimensions": [
+            2.56,
+            8.00103,
+            1.87
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/backyard/props/Backyard_StreamBridge_Showcase.glb",
+          "bytes": 211124,
+          "sha256": "30038ab3428aab2957a6943d662dc37fff5b3ec46a6c17d702d4b998d65ba7c3",
+          "triangles": 2896,
+          "dimensions": [
+            2.56,
+            8.00103,
+            1.87
+          ]
+        }
+      }
+    },
+    {
+      "id": "PottingBenchTunnel",
+      "name": "Potting Bench Tunnel",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/backyard/props/Backyard_PottingBenchTunnel_Simple.glb",
+          "bytes": 19808,
+          "sha256": "b6a0ad076f61b697a8137cf82f74a78392b55f076df25ad8806059ea8b30fba7",
+          "triangles": 224,
+          "dimensions": [
+            3.2,
+            1.5,
+            2.36
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/backyard/props/Backyard_PottingBenchTunnel_Standard.glb",
+          "bytes": 22972,
+          "sha256": "9a3d51a1a7095d7620d46b0ee058b7742230cf81698d8b876d6d03b32ff44b91",
+          "triangles": 268,
+          "dimensions": [
+            3.2,
+            1.525,
+            2.6
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/backyard/props/Backyard_PottingBenchTunnel_Showcase.glb",
+          "bytes": 43404,
+          "sha256": "6a37725291641e3da35fd69eea73b6dfd6a6fe09c6261bedb535d033135c87c7",
+          "triangles": 480,
+          "dimensions": [
+            3.2,
+            1.525,
+            2.6
+          ]
+        }
+      }
+    },
+    {
+      "id": "HedgeStraight",
+      "name": "Hedge Straight",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/backyard/props/Backyard_HedgeStraight_Simple.glb",
+          "bytes": 3704,
+          "sha256": "aa3015db65a5594702053e110a3bba12cd5555af66ebc07f3b6548397a756c90",
+          "triangles": 40,
+          "dimensions": [
+            4.0,
+            1.1,
+            1.6
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/backyard/props/Backyard_HedgeStraight_Standard.glb",
+          "bytes": 12836,
+          "sha256": "fa38b3b5a51aef10690d0d3e5ca3a61fcd16ec879818479f9542225b1978f176",
+          "triangles": 120,
+          "dimensions": [
+            4.0,
+            1.1,
+            1.85
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/backyard/props/Backyard_HedgeStraight_Showcase.glb",
+          "bytes": 33268,
+          "sha256": "4806c913ef7116c0eabaa5f1f5193c6f61d21334a2e306361318b996874ab97f",
+          "triangles": 332,
+          "dimensions": [
+            4.0,
+            1.1,
+            1.85
+          ]
+        }
+      }
+    },
+    {
+      "id": "HedgeCorner",
+      "name": "Hedge Corner",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/backyard/props/Backyard_HedgeCorner_Simple.glb",
+          "bytes": 4904,
+          "sha256": "1b4126e913557b5027fc44216ca7050d2e4f7963e20da6e91a843825a0371c5a",
+          "triangles": 48,
+          "dimensions": [
+            4.0,
+            3.1,
+            1.6
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/backyard/props/Backyard_HedgeCorner_Standard.glb",
+          "bytes": 18596,
+          "sha256": "bfa3e75a15ae5edb354db420ced82e142582b857158644603b64f8e0a7434a20",
+          "triangles": 168,
+          "dimensions": [
+            4.0,
+            3.1,
+            1.85
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/backyard/props/Backyard_HedgeCorner_Showcase.glb",
+          "bytes": 36528,
+          "sha256": "21dd0b8747506a4959a6700b6fdb016b0db0caf605c2996c621ff29364a9cf7c",
+          "triangles": 348,
+          "dimensions": [
+            4.0,
+            3.1,
+            1.85
+          ]
+        }
+      }
+    },
+    {
+      "id": "FlowerBed",
+      "name": "Flower Bed",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/backyard/props/Backyard_FlowerBed_Simple.glb",
+          "bytes": 28388,
+          "sha256": "ff9d15b7cfefd4a1c2b5e67e7ddccf9793012fc238410c2b9419775752c60e30",
+          "triangles": 284,
+          "dimensions": [
+            3.6,
+            1.4,
+            1.04
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/backyard/props/Backyard_FlowerBed_Standard.glb",
+          "bytes": 59604,
+          "sha256": "61d653a20bc7343ae3211ba0934648b8d2b919c590ca02976373dd4f5de8b34f",
+          "triangles": 588,
+          "dimensions": [
+            3.6,
+            1.46,
+            1.04
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/backyard/props/Backyard_FlowerBed_Showcase.glb",
+          "bytes": 70740,
+          "sha256": "e6da533e04dc49c5d2c954a66307c6a1462addebf76d59e87a961b199c463e5d",
+          "triangles": 716,
+          "dimensions": [
+            3.6,
+            1.46,
+            1.27
+          ]
+        }
+      }
+    },
+    {
+      "id": "NeighborhoodBackdrop",
+      "name": "Neighborhood Backdrop",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/backyard/props/Backyard_NeighborhoodBackdrop_Simple.glb",
+          "bytes": 60992,
+          "sha256": "8722852f82bb37fc63d60435be6bab8c355a7914088045e837ceb9a97113e8e3",
+          "triangles": 792,
+          "dimensions": [
+            20.0,
+            8.0,
+            6.03
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/backyard/props/Backyard_NeighborhoodBackdrop_Standard.glb",
+          "bytes": 197560,
+          "sha256": "6359e2139e6e1113c79637cab89afe1d6824f7c3f6fdfd726cd3f0d4d5a0787f",
+          "triangles": 2576,
+          "dimensions": [
+            20.0,
+            8.0,
+            6.66
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/backyard/props/Backyard_NeighborhoodBackdrop_Showcase.glb",
+          "bytes": 311612,
+          "sha256": "08db4f143e24dea7a28403ffaab67e135019ca012f2f8f1bb56e48ff4a019462",
+          "triangles": 3728,
+          "dimensions": [
+            20.0,
+            8.0,
+            6.66
+          ]
+        }
+      }
+    },
+    {
+      "id": "GardenGrove",
+      "name": "Garden Grove",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/backyard/props/Backyard_GardenGrove_Simple.glb",
+          "bytes": 95324,
+          "sha256": "565112bd7b8ba85693f40be05a77392f336b55ebfdb3852631c7ef44cf098667",
+          "triangles": 936,
+          "dimensions": [
+            9.0,
+            5.0,
+            4.133
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/backyard/props/Backyard_GardenGrove_Standard.glb",
+          "bytes": 262012,
+          "sha256": "d4975594386dcd90f5b408dcb77dc99681b7d6fec0087f15faa31ea8f76dcac1",
+          "triangles": 2508,
+          "dimensions": [
+            9.0,
+            5.0,
+            4.225
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/backyard/props/Backyard_GardenGrove_Showcase.glb",
+          "bytes": 423708,
+          "sha256": "7f20d961315a607f9bcaa768c7ff153aa3a993b1aedc8b8e7ede4af5a936fb8c",
+          "triangles": 3968,
+          "dimensions": [
+            9.0,
+            5.0,
+            4.225
+          ]
+        }
+      }
+    }
+  ]
+}

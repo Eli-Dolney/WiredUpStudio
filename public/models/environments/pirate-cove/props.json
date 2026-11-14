@@ -1,0 +1,2971 @@
+{
+  "schemaVersion": 1,
+  "pack": "pirate-cove",
+  "title": "Pirate Cove",
+  "families": [
+    {
+      "id": "HarborTavern",
+      "name": "Harbor Tavern",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_HarborTavern_Simple.glb",
+          "bytes": 39396,
+          "sha256": "04de9a17b66e3f9e3bc520c8fa038a9e034b36788103ddd186aa3bb487b21288",
+          "triangles": 520,
+          "dimensions": [
+            4.6,
+            4.4,
+            3.67
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_HarborTavern_Standard.glb",
+          "bytes": 79484,
+          "sha256": "d2d3ed0923c1cd0c227c467a4f64bb10815f74bd5e278cf40398d189aa5d94d9",
+          "triangles": 1056,
+          "dimensions": [
+            4.6,
+            4.4,
+            3.73839
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_HarborTavern_Showcase.glb",
+          "bytes": 125684,
+          "sha256": "bb8cd52adee8417244ee581956bcb1a902f9436f72008ec4bf2bc659650b7102",
+          "triangles": 1652,
+          "dimensions": [
+            4.6,
+            4.4,
+            3.73839
+          ]
+        }
+      }
+    },
+    {
+      "id": "Watchtower",
+      "name": "Watchtower",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_Watchtower_Simple.glb",
+          "bytes": 16580,
+          "sha256": "53ed057c0e0fe335bbdd2b7aa408a3a65f66fad2a5d3d14c45711b569cc4d78f",
+          "triangles": 214,
+          "dimensions": [
+            4.6,
+            4.4,
+            5.0
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_Watchtower_Standard.glb",
+          "bytes": 48464,
+          "sha256": "ccf43ac43848a1f5e91d9e4d7ab76b7ecd8877c8285338a4802f2a6f39800090",
+          "triangles": 678,
+          "dimensions": [
+            4.6,
+            4.4,
+            5.0
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_Watchtower_Showcase.glb",
+          "bytes": 81048,
+          "sha256": "b1c38271212e34223ba7930d86bbb7701085f2e38f627be521efbe2837627dad",
+          "triangles": 1114,
+          "dimensions": [
+            4.6,
+            4.4,
+            5.6
+          ]
+        }
+      }
+    },
+    {
+      "id": "WindPalm",
+      "name": "Wind Palm",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_WindPalm_Simple.glb",
+          "bytes": 20908,
+          "sha256": "6573e7aeb48f798dd774575e3480bb6b4672569a9b64020ef56f57fbead7f943",
+          "triangles": 236,
+          "dimensions": [
+            3.10868,
+            3.19776,
+            3.7225
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_WindPalm_Standard.glb",
+          "bytes": 66040,
+          "sha256": "950c1213e80081c62285060230ad1f058c0709c62379ede9f735d3b72ca5d792",
+          "triangles": 796,
+          "dimensions": [
+            3.28,
+            3.29066,
+            3.73909
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_WindPalm_Showcase.glb",
+          "bytes": 124600,
+          "sha256": "ad657293957af949c2048ce2d4822c3a1e6695fa69066ccbe0bac35004cf506c",
+          "triangles": 1484,
+          "dimensions": [
+            3.22973,
+            3.33496,
+            3.75173
+          ]
+        }
+      }
+    },
+    {
+      "id": "Mangrove",
+      "name": "Mangrove",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_Mangrove_Simple.glb",
+          "bytes": 20164,
+          "sha256": "9f2b289c57f1c452c09a316589f325d426e077c1ac95c2beafd233e99479727e",
+          "triangles": 208,
+          "dimensions": [
+            2.46102,
+            2.23236,
+            3.46718
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_Mangrove_Standard.glb",
+          "bytes": 49256,
+          "sha256": "adddc3ca70daddd5e45fc21116a984e8ad2c0c5aac9ecdf37fea321c46a197a1",
+          "triangles": 472,
+          "dimensions": [
+            2.59609,
+            2.39448,
+            3.46718
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_Mangrove_Showcase.glb",
+          "bytes": 60108,
+          "sha256": "84a09356f901a81852a16b41129525db17505adce3fd07157cf0e39628e78208",
+          "triangles": 576,
+          "dimensions": [
+            2.59609,
+            2.39448,
+            3.54718
+          ]
+        }
+      }
+    },
+    {
+      "id": "SeaGrape",
+      "name": "Sea Grape",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_SeaGrape_Simple.glb",
+          "bytes": 16416,
+          "sha256": "473a28566bae2eda457f8403564b27613fd3c994bd866d49065b0599aae989ce",
+          "triangles": 160,
+          "dimensions": [
+            2.36102,
+            2.08236,
+            3.18
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_SeaGrape_Standard.glb",
+          "bytes": 54640,
+          "sha256": "41bba04fd7b31b7e3590dfca28e92349da54075b6e229432b3c3270da28555e9",
+          "triangles": 504,
+          "dimensions": [
+            2.49609,
+            2.24448,
+            3.53
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_SeaGrape_Showcase.glb",
+          "bytes": 66832,
+          "sha256": "cc322706d25f97e7479446d7ac7f68ff840d9f42dfe4e038fef97bf7d7a464c6",
+          "triangles": 616,
+          "dimensions": [
+            2.49609,
+            2.24448,
+            3.61
+          ]
+        }
+      }
+    },
+    {
+      "id": "DriftwoodTree",
+      "name": "Driftwood Tree",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_DriftwoodTree_Simple.glb",
+          "bytes": 19836,
+          "sha256": "8d5f303561570c554856a2b4ffb797b831477577e29f47e196268fa979d8884a",
+          "triangles": 224,
+          "dimensions": [
+            1.461,
+            0.52,
+            2.69
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_DriftwoodTree_Standard.glb",
+          "bytes": 26104,
+          "sha256": "28e0185859c4d0e29b1b51d3e7e1b2a5ba93f2cb0666b3cd7c98ecf285282975",
+          "triangles": 308,
+          "dimensions": [
+            1.461,
+            0.68051,
+            2.71
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_DriftwoodTree_Showcase.glb",
+          "bytes": 48336,
+          "sha256": "5f7f84f4487e2cfac8e24a670e4be2af25a7b206e625aa4d49cbba1864c78110",
+          "triangles": 532,
+          "dimensions": [
+            1.461,
+            0.68051,
+            2.71
+          ]
+        }
+      }
+    },
+    {
+      "id": "Boulder",
+      "name": "Boulder",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_Boulder_Simple.glb",
+          "bytes": 3452,
+          "sha256": "b293fa23b1d5e3f30fa03697a423e5c574eb5b28269e37a73f7c92157776d005",
+          "triangles": 20,
+          "dimensions": [
+            1.75319,
+            1.44371,
+            1.5
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_Boulder_Standard.glb",
+          "bytes": 10304,
+          "sha256": "fa80af929007ea0ab03279974f48df43c8a3f131ef56dc4c7cb856e8f72780cc",
+          "triangles": 80,
+          "dimensions": [
+            1.96243,
+            1.56811,
+            1.5
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_Boulder_Showcase.glb",
+          "bytes": 12588,
+          "sha256": "f8a5b4d38c6237e634f6c064de0439c384208ebe589963291ec3e9cf83a46838",
+          "triangles": 100,
+          "dimensions": [
+            1.96243,
+            1.56811,
+            1.5
+          ]
+        }
+      }
+    },
+    {
+      "id": "RockCluster",
+      "name": "Rock Cluster",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_RockCluster_Simple.glb",
+          "bytes": 10324,
+          "sha256": "d047bcdb5896ee8bcce9d50286c8ca411f296d6b144b4f67228ca7876a8731a5",
+          "triangles": 80,
+          "dimensions": [
+            2.15765,
+            1.93122,
+            1.4175
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_RockCluster_Standard.glb",
+          "bytes": 37696,
+          "sha256": "d9e4c3f0c403b53a1e6a1e193336565ecb2e160cb2911e00370f6817f5dbe500",
+          "triangles": 320,
+          "dimensions": [
+            2.229,
+            2.05225,
+            1.4175
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_RockCluster_Showcase.glb",
+          "bytes": 46820,
+          "sha256": "d3bf6383a986d1ac09090016015983e107b6f88ad443b9f803309ee2779cb261",
+          "triangles": 400,
+          "dimensions": [
+            2.229,
+            2.05225,
+            1.4175
+          ]
+        }
+      }
+    },
+    {
+      "id": "Bush",
+      "name": "Bush",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_Bush_Simple.glb",
+          "bytes": 8032,
+          "sha256": "b2525d8bc306092b003cecbcd246c04b22fd25e7d4ad981a28e54a405e790e4f",
+          "triangles": 60,
+          "dimensions": [
+            1.44066,
+            1.31313,
+            0.88
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_Bush_Standard.glb",
+          "bytes": 46804,
+          "sha256": "a276ab6b1fc98bd03c876e7f3732189cce9e0676227ee628e1c3725d5ca334ca",
+          "triangles": 400,
+          "dimensions": [
+            1.63017,
+            1.48918,
+            0.88
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_Bush_Showcase.glb",
+          "bytes": 81008,
+          "sha256": "06af2bba31bd79673d74905363c2b08334b3d45e41eebd6acffa9e59759037a6",
+          "triangles": 700,
+          "dimensions": [
+            1.65844,
+            1.52824,
+            0.88
+          ]
+        }
+      }
+    },
+    {
+      "id": "FlowerBush",
+      "name": "Flower Bush",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_FlowerBush_Simple.glb",
+          "bytes": 14884,
+          "sha256": "672acbfee21399c588f272b499cbb63ea2172db285ac54789d336152fed76164",
+          "triangles": 120,
+          "dimensions": [
+            1.44066,
+            1.31313,
+            0.9
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_FlowerBush_Standard.glb",
+          "bytes": 69616,
+          "sha256": "a5e7587adfa6a03b137e96298f0b0317a1b402281ae3c22d540a685ceb31aad9",
+          "triangles": 600,
+          "dimensions": [
+            1.63017,
+            1.48918,
+            0.9
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_FlowerBush_Showcase.glb",
+          "bytes": 160820,
+          "sha256": "dd3f1993bc79944623b0d02a919fa9f6133101c40e73cf8fe6c913cbed51a9f4",
+          "triangles": 1400,
+          "dimensions": [
+            1.65844,
+            1.52824,
+            0.92
+          ]
+        }
+      }
+    },
+    {
+      "id": "FenceStraight",
+      "name": "Fence Straight",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_FenceStraight_Simple.glb",
+          "bytes": 30304,
+          "sha256": "9c7a6bd0ed3aafb35318a9e8d3a7640d4631cd98022cd49fd491a1c22dfa2e85",
+          "triangles": 432,
+          "dimensions": [
+            2.27,
+            0.27,
+            1.2
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_FenceStraight_Standard.glb",
+          "bytes": 48028,
+          "sha256": "9ffd7b49685483407f08e16798862e388bb03208f6bfc59f8407d4f5fc255994",
+          "triangles": 696,
+          "dimensions": [
+            2.272,
+            0.27,
+            1.27
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_FenceStraight_Showcase.glb",
+          "bytes": 68932,
+          "sha256": "7d7b00212156cb7be2886107861064072a77f2f597bf37b55e64eca0e8607ab1",
+          "triangles": 940,
+          "dimensions": [
+            2.272,
+            0.27,
+            1.27
+          ]
+        }
+      }
+    },
+    {
+      "id": "FenceCorner",
+      "name": "Fence Corner",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_FenceCorner_Simple.glb",
+          "bytes": 45784,
+          "sha256": "a90de332c51bf6c9d79a3fd0e5bcfb8d06c4b5cc0d6760bbd9d490fd071fcb36",
+          "triangles": 660,
+          "dimensions": [
+            2.27,
+            2.27,
+            1.2
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_FenceCorner_Standard.glb",
+          "bytes": 72356,
+          "sha256": "12e8584fe4af21aff0fcba54b104e2e474e8c72c9b3112ffd198468fdb1d005b",
+          "triangles": 1056,
+          "dimensions": [
+            2.272,
+            2.27,
+            1.27
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_FenceCorner_Showcase.glb",
+          "bytes": 108668,
+          "sha256": "2e1ec39133513a8bfbc1b4c066326bd9109ce93ae2ff7ca1e68b906503fce4e3",
+          "triangles": 1492,
+          "dimensions": [
+            2.272,
+            2.27,
+            1.27
+          ]
+        }
+      }
+    },
+    {
+      "id": "Footbridge",
+      "name": "Footbridge",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_Footbridge_Simple.glb",
+          "bytes": 47076,
+          "sha256": "85e1b64431eb579cd4f7f269c09fbd7f4f1c22dac3f8bb55c3a4d6107f0ca8be",
+          "triangles": 636,
+          "dimensions": [
+            2.16,
+            5.12,
+            1.295
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_Footbridge_Standard.glb",
+          "bytes": 116348,
+          "sha256": "d9c6491fd401f3510c020c50300838c301b253527030846923072fbacf2ec1b4",
+          "triangles": 1524,
+          "dimensions": [
+            2.22,
+            5.18,
+            1.34
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_Footbridge_Showcase.glb",
+          "bytes": 148172,
+          "sha256": "b54e883b94ed83a719e14d8d52cabcbc7516d413bde35546dafb9d386d7c3abe",
+          "triangles": 1932,
+          "dimensions": [
+            2.22,
+            5.18,
+            1.34
+          ]
+        }
+      }
+    },
+    {
+      "id": "ArchedBridge",
+      "name": "Arched Bridge",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_ArchedBridge_Simple.glb",
+          "bytes": 48664,
+          "sha256": "d404643c0a7a018f4772886c5381acf6e899ef0575028f258955076a889483b6",
+          "triangles": 636,
+          "dimensions": [
+            2.16,
+            5.12,
+            1.66497
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_ArchedBridge_Standard.glb",
+          "bytes": 117936,
+          "sha256": "96875f2895081524c2d31f3c53685f796b35614fae1b3a02a1b5ff03d2720a7c",
+          "triangles": 1524,
+          "dimensions": [
+            2.22,
+            5.18,
+            1.71
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_ArchedBridge_Showcase.glb",
+          "bytes": 149760,
+          "sha256": "bc3746d0b2017387757640b889979160e267da0218f3729f73b2a37a25638e7a",
+          "triangles": 1932,
+          "dimensions": [
+            2.22,
+            5.18,
+            1.71
+          ]
+        }
+      }
+    },
+    {
+      "id": "ArchGate",
+      "name": "Arch Gate",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_ArchGate_Simple.glb",
+          "bytes": 14308,
+          "sha256": "aaa2d558c28e4c579269422a9bb4837bfdf3123526d1b1f08307ca5e59143c0f",
+          "triangles": 168,
+          "dimensions": [
+            2.16,
+            0.48,
+            1.98
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_ArchGate_Standard.glb",
+          "bytes": 21800,
+          "sha256": "89c40facdc6f348f111d6a5a353bd5436ec94f6447ff9162bce178f70c386eeb",
+          "triangles": 264,
+          "dimensions": [
+            2.22,
+            0.68,
+            2.035
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_ArchGate_Showcase.glb",
+          "bytes": 27416,
+          "sha256": "4c4713bdd6ed1f326d93e1966546cbe83048efc2ee412b4a6c1cdc4210d6fc6a",
+          "triangles": 336,
+          "dimensions": [
+            2.61,
+            0.68,
+            2.035
+          ]
+        }
+      }
+    },
+    {
+      "id": "BankRamp",
+      "name": "Bank Ramp",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_BankRamp_Simple.glb",
+          "bytes": 15768,
+          "sha256": "c93ff49e7116a54b1a0ff5423422a523bde47715311b6a1a5302b522932cfec9",
+          "triangles": 196,
+          "dimensions": [
+            2.04,
+            3.6,
+            0.75675
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_BankRamp_Standard.glb",
+          "bytes": 25136,
+          "sha256": "0e70580ab1ec6b8b4e8dc0cc4e7fafc824de9c74a5bdc3edcebb2aaab92c5fd3",
+          "triangles": 316,
+          "dimensions": [
+            2.13,
+            3.6,
+            0.75675
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_BankRamp_Showcase.glb",
+          "bytes": 34500,
+          "sha256": "0ddda3707b17bc5a65539a0d9fcbdbdd965e01416c665a7e7aa85ece4592ba0e",
+          "triangles": 436,
+          "dimensions": [
+            2.18,
+            3.6,
+            0.78
+          ]
+        }
+      }
+    },
+    {
+      "id": "SlalomBumpers",
+      "name": "Slalom Bumpers",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_SlalomBumpers_Simple.glb",
+          "bytes": 9776,
+          "sha256": "52f443d1594cc5990e88c464d537930c60d1a7e212b681780bd0c886ee4ffc13",
+          "triangles": 132,
+          "dimensions": [
+            1.3,
+            1.9,
+            0.48
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_SlalomBumpers_Standard.glb",
+          "bytes": 18352,
+          "sha256": "d86ab1d57a2edffd3c18a544393e5909a8ea913caf3c9edc631399db0e345412",
+          "triangles": 264,
+          "dimensions": [
+            1.36,
+            1.96,
+            0.51
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_SlalomBumpers_Showcase.glb",
+          "bytes": 33760,
+          "sha256": "6563bbee410751704794d71fc65f5cff0190bf73351ad8477ef936f8582aa6c6",
+          "triangles": 456,
+          "dimensions": [
+            1.36,
+            1.96,
+            0.69
+          ]
+        }
+      }
+    },
+    {
+      "id": "WindmillGate",
+      "name": "Windmill Gate",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_WindmillGate_Simple.glb",
+          "bytes": 25020,
+          "sha256": "79725507bd30804bb4bc7bf8db013238a95ea0475075bfb5080790f8b15d0550",
+          "triangles": 296,
+          "dimensions": [
+            2.16,
+            0.89708,
+            3.43752
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_WindmillGate_Standard.glb",
+          "bytes": 43100,
+          "sha256": "e2b59c8d740b12fe7f8f989a37d1ef49a28c236e6023a8860ee382b58cac4bd6",
+          "triangles": 500,
+          "dimensions": [
+            2.22,
+            0.93,
+            3.43752
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_WindmillGate_Showcase.glb",
+          "bytes": 54332,
+          "sha256": "127e0350850690d314e1f121cc3b960dfc7fac809fa9b7aeb20df729f9e3cde3",
+          "triangles": 644,
+          "dimensions": [
+            2.61,
+            0.9625,
+            3.43752
+          ]
+        }
+      }
+    },
+    {
+      "id": "TreasureChest",
+      "name": "Treasure Chest",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_TreasureChest_Simple.glb",
+          "bytes": 21072,
+          "sha256": "0f8df9b189e8b5d015d684f3cf099324a22ee86177018a3090df0e3a69c9aa7b",
+          "triangles": 286,
+          "dimensions": [
+            1.5,
+            1.05004,
+            1.17675
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_TreasureChest_Standard.glb",
+          "bytes": 49596,
+          "sha256": "e395c87915a6eda68a469c1334dee156a2f73be8d398374d1e8f8d744e55d058",
+          "triangles": 718,
+          "dimensions": [
+            1.896,
+            1.06667,
+            1.178
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_TreasureChest_Showcase.glb",
+          "bytes": 76020,
+          "sha256": "f70260f385492dfc97f3ea8a04e7facce84bf656edbe765df74402625ec1b9b0",
+          "triangles": 994,
+          "dimensions": [
+            1.896,
+            1.07651,
+            1.17842
+          ]
+        }
+      }
+    },
+    {
+      "id": "Cannon",
+      "name": "Cannon",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_Cannon_Simple.glb",
+          "bytes": 9712,
+          "sha256": "b6eb274feef8f69247045193a88bab482d6409d672e25bb38bf44110c1671c2e",
+          "triangles": 124,
+          "dimensions": [
+            1.46,
+            1.63568,
+            1.36657
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_Cannon_Standard.glb",
+          "bytes": 47936,
+          "sha256": "67cd17d6f1377e6c5e8c636e928c83cb2ff2196afd5dd2c3c3e1f80f48a463f2",
+          "triangles": 708,
+          "dimensions": [
+            1.54503,
+            1.74885,
+            1.42026
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_Cannon_Showcase.glb",
+          "bytes": 67040,
+          "sha256": "081a300ca61b1b74cd53abc67f1ce02f2c21f1fa1939e07e598ab1e030d952b5",
+          "triangles": 988,
+          "dimensions": [
+            1.555,
+            1.74885,
+            1.42026
+          ]
+        }
+      }
+    },
+    {
+      "id": "Anchor",
+      "name": "Anchor",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_Anchor_Simple.glb",
+          "bytes": 15476,
+          "sha256": "0e3e6a9bad9c8ff769c979d3f4ec2eb09bb39506601bed27b59d03b519988afd",
+          "triangles": 196,
+          "dimensions": [
+            1.98,
+            0.8,
+            2.53
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_Anchor_Standard.glb",
+          "bytes": 19588,
+          "sha256": "c49fec8e7dae8549c89217b54a054fd98cef0bb14233f3204d2aba35354d10c7",
+          "triangles": 256,
+          "dimensions": [
+            1.98,
+            0.8,
+            2.53
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_Anchor_Showcase.glb",
+          "bytes": 51276,
+          "sha256": "0c43e3fe3329e8f389362ff99ff0d4085cd6252fde4ba554c7b0beb90b0dc03e",
+          "triangles": 736,
+          "dimensions": [
+            1.98,
+            0.8,
+            2.53
+          ]
+        }
+      }
+    },
+    {
+      "id": "ShipBow",
+      "name": "Ship Bow",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_ShipBow_Simple.glb",
+          "bytes": 45200,
+          "sha256": "50cf94b058ad4ef1353ac98914044b4765e0ba9140ff48574470b1e02bfebf5d",
+          "triangles": 612,
+          "dimensions": [
+            3.48543,
+            1.79358,
+            3.384
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_ShipBow_Standard.glb",
+          "bytes": 172384,
+          "sha256": "7b7b86b10c8d2e291d1c3bf211fc6704d346014f48c452d0872c969012c3430c",
+          "triangles": 2512,
+          "dimensions": [
+            3.48543,
+            1.79358,
+            3.384
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_ShipBow_Showcase.glb",
+          "bytes": 281488,
+          "sha256": "fabe618fb9d3c86cc59336387abd7c651b1c5624a78e076ee72b8ca36710bb80",
+          "triangles": 4088,
+          "dimensions": [
+            3.48543,
+            1.79358,
+            3.384
+          ]
+        }
+      }
+    },
+    {
+      "id": "HubPlaza",
+      "name": "Hub Plaza",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_HubPlaza_Simple.glb",
+          "bytes": 10568,
+          "sha256": "30b2ed79f974dc8c8e888bbf878032b7fb64db35cf0c9f94b46d49cad1b83fd0",
+          "triangles": 132,
+          "dimensions": [
+            36.0,
+            32.0,
+            1.3
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_HubPlaza_Standard.glb",
+          "bytes": 24348,
+          "sha256": "6044518a14392be7b79a5987a38527642ea385a4c0d23b68c4707f70b5c012d2",
+          "triangles": 316,
+          "dimensions": [
+            36.0,
+            32.0,
+            1.525
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_HubPlaza_Showcase.glb",
+          "bytes": 70196,
+          "sha256": "8619f9a08fdf811b6ccd936695876fe4cb34e02231befa722431548c49104193",
+          "triangles": 756,
+          "dimensions": [
+            36.0,
+            32.0,
+            2.05
+          ]
+        }
+      }
+    },
+    {
+      "id": "Landmark",
+      "name": "Landmark",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_Landmark_Simple.glb",
+          "bytes": 45200,
+          "sha256": "828c8e10c57c8b840affff07bd8993e21368d56efc05f1a93addf6c7ee90edce",
+          "triangles": 612,
+          "dimensions": [
+            12.90899,
+            4.71995,
+            9.4
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_Landmark_Standard.glb",
+          "bytes": 173680,
+          "sha256": "819c4bf96a1f6160b4cf858aab96c6f996511a27a3757d7b8f61f7b192af6fa3",
+          "triangles": 2512,
+          "dimensions": [
+            12.90899,
+            4.71995,
+            9.4
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_Landmark_Showcase.glb",
+          "bytes": 282784,
+          "sha256": "42a896195438fb239a1688dd26bec9664a6ee9b8af4e663da091ba8aaf124682",
+          "triangles": 4088,
+          "dimensions": [
+            12.90899,
+            4.71995,
+            9.4
+          ]
+        }
+      }
+    },
+    {
+      "id": "BackdropRow",
+      "name": "Backdrop Row",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_BackdropRow_Simple.glb",
+          "bytes": 115764,
+          "sha256": "329c304c8f85e45c8b4d327f9bc6485a5c4e88b9e182b673548a1746f61e91c8",
+          "triangles": 1560,
+          "dimensions": [
+            18.98,
+            5.28,
+            8.074
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_BackdropRow_Standard.glb",
+          "bytes": 236012,
+          "sha256": "0549bc3fcf62035e77032928d92d49df1564811766b3e9933567d8b01d2da503",
+          "triangles": 3168,
+          "dimensions": [
+            18.98,
+            5.28,
+            8.22445
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_BackdropRow_Showcase.glb",
+          "bytes": 374616,
+          "sha256": "f883b9672cc0c4a903dcf626a0ef09fd02167f2ee79097158c905738f4027b25",
+          "triangles": 4956,
+          "dimensions": [
+            18.98,
+            5.28,
+            8.22445
+          ]
+        }
+      }
+    },
+    {
+      "id": "BoundaryWall",
+      "name": "Boundary Wall",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_BoundaryWall_Simple.glb",
+          "bytes": 14312,
+          "sha256": "0bf28dc7823b71b21144d572906e5a743d92aeac6c6e06d1804ba80d63e7be1a",
+          "triangles": 168,
+          "dimensions": [
+            8.55,
+            0.9,
+            3.1
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_BoundaryWall_Standard.glb",
+          "bytes": 22744,
+          "sha256": "3270b504c39adbe1908cbc3d8f0dabdd941fbb056998164d7140260da559fcb1",
+          "triangles": 276,
+          "dimensions": [
+            8.55,
+            0.9,
+            3.1
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_BoundaryWall_Showcase.glb",
+          "bytes": 40536,
+          "sha256": "c87535d485b40fd8385afcacc7fb619a510f428bd942b9dcad62e15d0e4065f8",
+          "triangles": 504,
+          "dimensions": [
+            8.7,
+            0.9,
+            3.75575
+          ]
+        }
+      }
+    },
+    {
+      "id": "BoundaryCorner",
+      "name": "Boundary Corner",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_BoundaryCorner_Simple.glb",
+          "bytes": 26484,
+          "sha256": "a102768673aea9e9b1ce5b4aca7789dceecb0a0f8b4ccfb2e025d1aa22ccffaa",
+          "triangles": 324,
+          "dimensions": [
+            8.725,
+            8.725,
+            3.1
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_BoundaryCorner_Standard.glb",
+          "bytes": 39596,
+          "sha256": "6cf738e3762fc7c267180909fbeee990d86c34bd179715e64c76f1f6acb6eaa5",
+          "triangles": 492,
+          "dimensions": [
+            8.725,
+            8.725,
+            3.1
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_BoundaryCorner_Showcase.glb",
+          "bytes": 61128,
+          "sha256": "dc63f3a4e1aef88a5bc33a10c79a9c0f0ab027e56cfef771d6f6f64f722d41b4",
+          "triangles": 768,
+          "dimensions": [
+            8.8,
+            8.8,
+            3.75575
+          ]
+        }
+      }
+    },
+    {
+      "id": "TerrainBackdrop",
+      "name": "Terrain Backdrop",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_TerrainBackdrop_Simple.glb",
+          "bytes": 9040,
+          "sha256": "ddd4b68dd96b641709ba1e8a2edb9cdfa272b358fc20ff1f803c6b58a88a62b2",
+          "triangles": 120,
+          "dimensions": [
+            17.6,
+            5.3,
+            7.4
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_TerrainBackdrop_Standard.glb",
+          "bytes": 17472,
+          "sha256": "e99515f269ecb6ace7301df8ac966c79a631932cdb48822d4e454ac1ddc3bbfa",
+          "triangles": 228,
+          "dimensions": [
+            17.6,
+            5.39,
+            7.4
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_TerrainBackdrop_Showcase.glb",
+          "bytes": 44856,
+          "sha256": "059345bc26b04d7b2748b957b8430337d145c9d9834067079b89460d9fc2b5fc",
+          "triangles": 468,
+          "dimensions": [
+            17.6,
+            6.07596,
+            7.7
+          ]
+        }
+      }
+    },
+    {
+      "id": "DockStraight",
+      "name": "Dock Straight",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_DockStraight_Simple.glb",
+          "bytes": 11488,
+          "sha256": "01d176f060f07c7f2466d3276eef584bda979e7905312a1abdf64ecb9dce6cdc",
+          "triangles": 140,
+          "dimensions": [
+            3.0,
+            4.0,
+            1.04
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_DockStraight_Standard.glb",
+          "bytes": 41576,
+          "sha256": "a9c894920c85f2c00f3057cd808c7386c09b1a5aa8e6678658083cff2dfd53f0",
+          "triangles": 592,
+          "dimensions": [
+            3.0,
+            4.0,
+            1.04
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_DockStraight_Showcase.glb",
+          "bytes": 53884,
+          "sha256": "456022e07bf9a815891e9fffb05a5255eb6a237335a9638c6ef97c5e1f89c40c",
+          "triangles": 772,
+          "dimensions": [
+            3.0,
+            4.0,
+            1.16
+          ]
+        }
+      }
+    },
+    {
+      "id": "DockCorner",
+      "name": "Dock Corner",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_DockCorner_Simple.glb",
+          "bytes": 21832,
+          "sha256": "102b8fac91054b92453611ac710452507b301b5275c7bab8f82a39cf091d346b",
+          "triangles": 280,
+          "dimensions": [
+            5.0,
+            6.0,
+            1.04
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_DockCorner_Standard.glb",
+          "bytes": 81988,
+          "sha256": "85bcfa949ce87d6f9609cfbc22039102d97aad292b94362e5ba4edd491ebc9ee",
+          "triangles": 1184,
+          "dimensions": [
+            5.0,
+            6.0,
+            1.04
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_DockCorner_Showcase.glb",
+          "bytes": 106612,
+          "sha256": "107b8fa34a10c86e485f494f5401c24320a654f70ac18d1006041240f7babe99",
+          "triangles": 1544,
+          "dimensions": [
+            5.0,
+            6.0,
+            1.16
+          ]
+        }
+      }
+    },
+    {
+      "id": "DockT",
+      "name": "Dock T",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_DockT_Simple.glb",
+          "bytes": 21820,
+          "sha256": "214d061c3f70e95fe70ba56f44643019abbfab719915b82bcf0d257cf7d8259d",
+          "triangles": 280,
+          "dimensions": [
+            7.0,
+            6.0,
+            1.04
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_DockT_Standard.glb",
+          "bytes": 81976,
+          "sha256": "615d1fe1603b3a55e3c3b90f90c9d3d7f670dcc1dc1224470080911032e51697",
+          "triangles": 1184,
+          "dimensions": [
+            7.0,
+            6.0,
+            1.04
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_DockT_Showcase.glb",
+          "bytes": 106600,
+          "sha256": "e0387e8d77a51dcf5b417f8fabbc9e9964d08736c11c1f449363b7b08b1343e0",
+          "triangles": 1544,
+          "dimensions": [
+            7.0,
+            6.0,
+            1.16
+          ]
+        }
+      }
+    },
+    {
+      "id": "DockEnd",
+      "name": "Dock End",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_DockEnd_Simple.glb",
+          "bytes": 14272,
+          "sha256": "b391c3913eb5fe74da0e53f086d8596b3fde610f36653dba6ce540203b77d2d0",
+          "triangles": 176,
+          "dimensions": [
+            3.0,
+            4.0,
+            1.75
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_DockEnd_Standard.glb",
+          "bytes": 51440,
+          "sha256": "9216a3006f086552274d48407fa35659fcdc5a063c1a55cefdc79ecf56ea2daf",
+          "triangles": 728,
+          "dimensions": [
+            3.0,
+            4.0,
+            1.75
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_DockEnd_Showcase.glb",
+          "bytes": 81068,
+          "sha256": "32a541f4c0d3c7f9b5430992122da738c9abfe3cd9bacbdecef98d2987dba530",
+          "triangles": 1152,
+          "dimensions": [
+            3.0,
+            4.0,
+            2.37674
+          ]
+        }
+      }
+    },
+    {
+      "id": "BarrelStack",
+      "name": "Barrel Stack",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_BarrelStack_Simple.glb",
+          "bytes": 56156,
+          "sha256": "9dbf6c645a20c1cc531a83609f68e70b8f718fa3e9900d4d7988bf3aa7370f30",
+          "triangles": 804,
+          "dimensions": [
+            1.802,
+            0.902,
+            2.22
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_BarrelStack_Standard.glb",
+          "bytes": 97844,
+          "sha256": "ef38c569e0c449e74ca44b548c2c42242a1cb467df791c5df9ef21289cb1716f",
+          "triangles": 1416,
+          "dimensions": [
+            1.802,
+            0.902,
+            2.251
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_BarrelStack_Showcase.glb",
+          "bytes": 171936,
+          "sha256": "5e5dd7360f5d51550c0210917234378886d04b8aaceebabfa26bec24399238f1",
+          "triangles": 2532,
+          "dimensions": [
+            1.846,
+            0.946,
+            2.264
+          ]
+        }
+      }
+    },
+    {
+      "id": "SupplyCrate",
+      "name": "Supply Crate",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_SupplyCrate_Simple.glb",
+          "bytes": 5884,
+          "sha256": "bde393c873d8d5129ce78958d6ae877b80ea539f00ab9787d8a2b31717c5afd7",
+          "triangles": 60,
+          "dimensions": [
+            1.2,
+            1.16,
+            1.2
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_SupplyCrate_Standard.glb",
+          "bytes": 9632,
+          "sha256": "8c4f98e3ed3423ee37d00ae9911fef9ae11242be747d3a4e685933ed92622293",
+          "triangles": 108,
+          "dimensions": [
+            1.2,
+            1.27,
+            1.2
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_SupplyCrate_Showcase.glb",
+          "bytes": 33496,
+          "sha256": "283b65a8d24102932edad7586a7820d693fcf41b4d6990a8863a44c7fe65b858",
+          "triangles": 340,
+          "dimensions": [
+            1.2,
+            1.27,
+            1.2
+          ]
+        }
+      }
+    },
+    {
+      "id": "RopeCoil",
+      "name": "Rope Coil",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_RopeCoil_Simple.glb",
+          "bytes": 33940,
+          "sha256": "a9cd94e442d3a70386ad0b516de03bf3c6de714bd7f469ba2a283be94ef5fc09",
+          "triangles": 492,
+          "dimensions": [
+            1.19171,
+            0.86678,
+            0.14794
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_RopeCoil_Standard.glb",
+          "bytes": 56152,
+          "sha256": "6119402e5b675b04c978a6953014e3001ed7d9bf3168603a07cc6e8f1fedbf3b",
+          "triangles": 828,
+          "dimensions": [
+            1.28171,
+            0.95678,
+            0.14794
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_RopeCoil_Showcase.glb",
+          "bytes": 84664,
+          "sha256": "e10b386cc36b9115314bf8d08b432a988faba0d16bbc342f1228d639a477d454",
+          "triangles": 1260,
+          "dimensions": [
+            1.37171,
+            1.11,
+            0.14794
+          ]
+        }
+      }
+    },
+    {
+      "id": "MooringBollard",
+      "name": "Mooring Bollard",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_MooringBollard_Simple.glb",
+          "bytes": 4976,
+          "sha256": "6ce64a80b1a43be663a62dfe9def0c0abe0e41db0827982ad2df684160e19d41",
+          "triangles": 52,
+          "dimensions": [
+            0.9,
+            0.7,
+            0.825
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_MooringBollard_Standard.glb",
+          "bytes": 24956,
+          "sha256": "2f2cbaf6f95213daab2c96bf35e802dfe77cb6cf58acfe6a848762c1c40679ff",
+          "triangles": 356,
+          "dimensions": [
+            0.9,
+            0.7,
+            0.825
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_MooringBollard_Showcase.glb",
+          "bytes": 31580,
+          "sha256": "5177b503f8160fb42f12b2253fab21a74f26947165ac4e8a4419c170b348fc1f",
+          "triangles": 452,
+          "dimensions": [
+            0.9,
+            0.7,
+            0.825
+          ]
+        }
+      }
+    },
+    {
+      "id": "HarborLantern",
+      "name": "Harbor Lantern",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_HarborLantern_Simple.glb",
+          "bytes": 7764,
+          "sha256": "4699b899d8bc78b85f1e1fe405d166c0359875957f5a4cc900477facd6bcc233",
+          "triangles": 84,
+          "dimensions": [
+            0.48083,
+            0.48083,
+            0.855
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_HarborLantern_Standard.glb",
+          "bytes": 15692,
+          "sha256": "7336386259bc7064aa5e6a4296705664ce55d314024a0409ace1e58a9b3b9f20",
+          "triangles": 204,
+          "dimensions": [
+            0.48083,
+            0.48083,
+            1.0779
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_HarborLantern_Showcase.glb",
+          "bytes": 17564,
+          "sha256": "105d4ae3a943c4096a52539a737208289f7c533aa0896924068a2283ad0fdeae",
+          "triangles": 228,
+          "dimensions": [
+            0.48083,
+            0.48083,
+            1.0779
+          ]
+        }
+      }
+    },
+    {
+      "id": "ShipWheel",
+      "name": "Ship Wheel",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_ShipWheel_Simple.glb",
+          "bytes": 20096,
+          "sha256": "a34cefcce13a6a5b60d6605cd2e550efd6cec9f249ee7e4b026c20294439d1a8",
+          "triangles": 268,
+          "dimensions": [
+            1.56,
+            0.65,
+            1.8905
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_ShipWheel_Standard.glb",
+          "bytes": 40360,
+          "sha256": "4674f78232fe81d961c19613f95ace262cff93237a3b126567accd2afbcb2675",
+          "triangles": 572,
+          "dimensions": [
+            1.56,
+            0.65,
+            1.98
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_ShipWheel_Showcase.glb",
+          "bytes": 70748,
+          "sha256": "0ccf881012dde8683f094fc97d9b6c90ab0c9e905bb8a607419cb2d7e26b608e",
+          "triangles": 884,
+          "dimensions": [
+            1.66522,
+            0.65,
+            2.00231
+          ]
+        }
+      }
+    },
+    {
+      "id": "Lighthouse",
+      "name": "Lighthouse",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_Lighthouse_Simple.glb",
+          "bytes": 24868,
+          "sha256": "fbc2d3fdc0547fe6ffe1b17037c4a69053b316dffeb3a1e59c639fbaf182366d",
+          "triangles": 344,
+          "dimensions": [
+            4.6,
+            4.6,
+            10.45
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_Lighthouse_Standard.glb",
+          "bytes": 75808,
+          "sha256": "ecb8f81796ecb34b086ea543993af86318ac9d742bf6863201f9883c0ae4c202",
+          "triangles": 1104,
+          "dimensions": [
+            4.6,
+            4.6,
+            10.45
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_Lighthouse_Showcase.glb",
+          "bytes": 100224,
+          "sha256": "f4dd68276afc5cadddb18ef0e28aeda0f2e99cc4e8d82f49e026016c2eb4f09c",
+          "triangles": 1480,
+          "dimensions": [
+            4.6,
+            4.6,
+            10.75
+          ]
+        }
+      }
+    },
+    {
+      "id": "MarketStall",
+      "name": "Market Stall",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_MarketStall_Simple.glb",
+          "bytes": 15024,
+          "sha256": "f9d21d2dde858ae089514d6bdef4d88518a3f9e4101023d26ad3b1cb2b3d3946",
+          "triangles": 196,
+          "dimensions": [
+            4.4,
+            3.5,
+            2.88
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_MarketStall_Standard.glb",
+          "bytes": 29408,
+          "sha256": "f94d8081b0572e9c84e57490f29df9e4197653bba0595dd07273609e624ecf99",
+          "triangles": 384,
+          "dimensions": [
+            4.4,
+            3.5,
+            2.88
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_MarketStall_Showcase.glb",
+          "bytes": 50076,
+          "sha256": "22eca981d076b56611418e848078e132d5c04d06f39e7452ecec5a61f77c7996",
+          "triangles": 660,
+          "dimensions": [
+            4.4,
+            3.5,
+            2.88
+          ]
+        }
+      }
+    },
+    {
+      "id": "ShipwreckTunnel",
+      "name": "Shipwreck Tunnel",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_ShipwreckTunnel_Simple.glb",
+          "bytes": 19936,
+          "sha256": "dbe7c4e13dca5ec333293ff1b025bdb88c1956b5da9d3542b22c23bb90284f4b",
+          "triangles": 240,
+          "dimensions": [
+            2.42,
+            2.4,
+            1.98
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_ShipwreckTunnel_Standard.glb",
+          "bytes": 21812,
+          "sha256": "2dfc40030e93618f775fd1c85e3a3edfbaa08ffa34373f640c52390a7aa3dc80",
+          "triangles": 264,
+          "dimensions": [
+            2.42,
+            2.63,
+            2.08
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_ShipwreckTunnel_Showcase.glb",
+          "bytes": 34920,
+          "sha256": "54036a9a360d3cc7399c25f03f23c65acf7ae5b26829d66a29afd4cd71dc5848",
+          "triangles": 432,
+          "dimensions": [
+            2.90446,
+            2.63,
+            2.08
+          ]
+        }
+      }
+    },
+    {
+      "id": "CannonballSlalom",
+      "name": "Cannonball Slalom",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_CannonballSlalom_Simple.glb",
+          "bytes": 13744,
+          "sha256": "84359e8c263de8f7f5ffd694d1602d8478579c8f88886e3e3d252c6fb32c99b9",
+          "triangles": 144,
+          "dimensions": [
+            1.7,
+            2.3,
+            0.6
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_CannonballSlalom_Standard.glb",
+          "bytes": 65672,
+          "sha256": "c051b35f34991e26cfb6b9e47151118c08738c71197691a319f6b504deaec873",
+          "triangles": 804,
+          "dimensions": [
+            1.7,
+            2.3,
+            0.6
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_CannonballSlalom_Showcase.glb",
+          "bytes": 75392,
+          "sha256": "20c5fdff99b43c92cfe9b54abbe2e0cef0f7f571349372101b581a0f09d31f6c",
+          "triangles": 912,
+          "dimensions": [
+            1.7,
+            2.3,
+            0.6
+          ]
+        }
+      }
+    },
+    {
+      "id": "RockArch",
+      "name": "Rock Arch",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_RockArch_Simple.glb",
+          "bytes": 8052,
+          "sha256": "4530917938eb7cc59df6c96a05f319850f6e33b2b27f774134ac58bafedb7ed5",
+          "triangles": 92,
+          "dimensions": [
+            10.0,
+            3.6,
+            8.36507
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_RockArch_Standard.glb",
+          "bytes": 14520,
+          "sha256": "d38e39ada982d5f256b7523b9be0f348a93b3e1d99928655220cf624a7c5da52",
+          "triangles": 156,
+          "dimensions": [
+            10.3255,
+            3.6,
+            8.47965
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_RockArch_Showcase.glb",
+          "bytes": 20956,
+          "sha256": "d14e6051fec3c7a2e09692c25033a06733b91a8b776411023446dc35e00f1442",
+          "triangles": 220,
+          "dimensions": [
+            10.3255,
+            3.6,
+            8.52708
+          ]
+        }
+      }
+    },
+    {
+      "id": "CliffWall",
+      "name": "Cliff Wall",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_CliffWall_Simple.glb",
+          "bytes": 3804,
+          "sha256": "75d3335ae7b491f46a55ccd50152d2472b8dffb614e7e4f13bf9af037b87f83d",
+          "triangles": 40,
+          "dimensions": [
+            6.6,
+            4.6,
+            4.8
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_CliffWall_Standard.glb",
+          "bytes": 6624,
+          "sha256": "114dad73bea3474b5262354e56156a686c2c995f8f86cc3b3692646547c4ec90",
+          "triangles": 76,
+          "dimensions": [
+            6.6,
+            4.78,
+            4.8
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_CliffWall_Showcase.glb",
+          "bytes": 15744,
+          "sha256": "de73cf34cb33944921f3d7d1552f3d549e26c53163ac7d0a39b4ed760f0dda00",
+          "triangles": 156,
+          "dimensions": [
+            6.6,
+            6.07596,
+            5.1
+          ]
+        }
+      }
+    },
+    {
+      "id": "TideDivider",
+      "name": "Tide Divider",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_TideDivider_Simple.glb",
+          "bytes": 7512,
+          "sha256": "ad9978e91798a6895a781a58fd8ac18dabf610424f1e198b8e740d48c20a1b41",
+          "triangles": 96,
+          "dimensions": [
+            0.48,
+            3.0,
+            1.05
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_TideDivider_Standard.glb",
+          "bytes": 11332,
+          "sha256": "c6bcf610aa91ed79bb239483f2df910d46475ef376e598414a0d5354b5276bf0",
+          "triangles": 156,
+          "dimensions": [
+            0.48,
+            3.0,
+            1.05
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_TideDivider_Showcase.glb",
+          "bytes": 26456,
+          "sha256": "de93353829c0b7154ef85c0fdee8b53e8f5d09f704734f2d65d14bf81460564f",
+          "triangles": 372,
+          "dimensions": [
+            0.48,
+            3.0,
+            1.43475
+          ]
+        }
+      }
+    },
+    {
+      "id": "SkullArch",
+      "name": "Skull Arch",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_SkullArch_Simple.glb",
+          "bytes": 27172,
+          "sha256": "a39afc4d2d7405a189dd88996b564234f696cceca9fbadbffd123aaa2d91e917",
+          "triangles": 296,
+          "dimensions": [
+            3.79443,
+            1.08337,
+            2.6
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_SkullArch_Standard.glb",
+          "bytes": 38172,
+          "sha256": "1614fb7c62c97931cb1aeaa5593903fa0b48f387efe740a31cc44b1f3b82edf6",
+          "triangles": 400,
+          "dimensions": [
+            4.83988,
+            1.08337,
+            2.6
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_SkullArch_Showcase.glb",
+          "bytes": 51280,
+          "sha256": "647e31310f37a35000c1bfb7148c99ee51753164558df6534847b42936e72fe1",
+          "triangles": 568,
+          "dimensions": [
+            4.83988,
+            1.32964,
+            2.6
+          ]
+        }
+      }
+    },
+    {
+      "id": "KrakenArch",
+      "name": "Kraken Arch",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_KrakenArch_Simple.glb",
+          "bytes": 21412,
+          "sha256": "076251d3b8d8c835ec20a892c8b84d648cbf9e611bdec3a8f5e8453e56169b12",
+          "triangles": 292,
+          "dimensions": [
+            4.17824,
+            0.6,
+            2.88299
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_KrakenArch_Standard.glb",
+          "bytes": 46816,
+          "sha256": "8e4eaed4a5233a05d07883a0ee9d6ee01a90d6099125aa929f07e10584d4b14f",
+          "triangles": 684,
+          "dimensions": [
+            4.17824,
+            0.69,
+            2.88299
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_KrakenArch_Showcase.glb",
+          "bytes": 70720,
+          "sha256": "614aeb81d91b38372c264341e8f2db5d9c71bbf601627e1c8e3b710a467e2bfd",
+          "triangles": 972,
+          "dimensions": [
+            4.17824,
+            0.69,
+            2.88299
+          ]
+        }
+      }
+    },
+    {
+      "id": "CannonBank",
+      "name": "Cannon Bank",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_CannonBank_Simple.glb",
+          "bytes": 11596,
+          "sha256": "edacf5d745c500bbfe6dbf842afe07bae73160a908f2528bfdf737d901f5132a",
+          "triangles": 148,
+          "dimensions": [
+            2.4183,
+            2.64915,
+            0.9566
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_CannonBank_Standard.glb",
+          "bytes": 49820,
+          "sha256": "70d16dd5c436d087581d993bf92dcc0b2bc8db65aae966725feda455db1ba896",
+          "triangles": 732,
+          "dimensions": [
+            2.4183,
+            2.64915,
+            0.99418
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_CannonBank_Showcase.glb",
+          "bytes": 68924,
+          "sha256": "a769a3bf70f0ebc471a76b2ca6950e58d2e2b586a76430152cf8cc4911fb80e1",
+          "triangles": 1012,
+          "dimensions": [
+            2.4183,
+            2.64915,
+            0.99418
+          ]
+        }
+      }
+    },
+    {
+      "id": "TreasureVaultGate",
+      "name": "Treasure Vault Gate",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_TreasureVaultGate_Simple.glb",
+          "bytes": 11244,
+          "sha256": "fe6ebc1599fb913bba098d49ad12938ab29009eccb497f862595fbe35a5855c9",
+          "triangles": 136,
+          "dimensions": [
+            3.3,
+            1.95301,
+            2.7
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_TreasureVaultGate_Standard.glb",
+          "bytes": 31112,
+          "sha256": "4e466539217a326b466ac34ea6cb9b9ddd251931178e7692149bae385fab7f53",
+          "triangles": 422,
+          "dimensions": [
+            3.3,
+            1.95301,
+            3.46489
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_TreasureVaultGate_Showcase.glb",
+          "bytes": 82432,
+          "sha256": "a025d4e832d34ee93c97215ac59c0a4d8ffdce324c51773c76ef1ef77c240e10",
+          "triangles": 1054,
+          "dimensions": [
+            3.3,
+            2.00703,
+            3.4657
+          ]
+        }
+      }
+    },
+    {
+      "id": "CargoSwingFrame",
+      "name": "Cargo Swing Frame",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_CargoSwingFrame_Simple.glb",
+          "bytes": 8072,
+          "sha256": "f9d580300520ff7f020fe8bddc20df4acff8f0c89323e7346871f41d83ea6118",
+          "triangles": 92,
+          "dimensions": [
+            7.8,
+            1.5,
+            4.825
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_CargoSwingFrame_Standard.glb",
+          "bytes": 30736,
+          "sha256": "7be38bf7348303cb7c8c738f977181a45c0a23d9b6c69b69fececabc43613872",
+          "triangles": 412,
+          "dimensions": [
+            7.8,
+            1.5,
+            4.825
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_CargoSwingFrame_Showcase.glb",
+          "bytes": 59688,
+          "sha256": "df0d5950103602f18fbcb1a37d2cfcaa760c260f67e5fea641395af79f525ff8",
+          "triangles": 820,
+          "dimensions": [
+            7.8,
+            1.5,
+            4.825
+          ]
+        }
+      }
+    },
+    {
+      "id": "CargoSwingWeight",
+      "name": "Cargo Swing Weight",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_CargoSwingWeight_Simple.glb",
+          "bytes": 8676,
+          "sha256": "59dbf8502de3d52bfd3774fc23a4d102fd4a93942037750a69875ffacb753cba",
+          "triangles": 112,
+          "dimensions": [
+            1.2,
+            1.19,
+            4.69
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_CargoSwingWeight_Standard.glb",
+          "bytes": 11656,
+          "sha256": "010ff8066ec8f56a6477cb580e62e96d5018bdfee9433b6c61957e33998e9db1",
+          "triangles": 152,
+          "dimensions": [
+            1.2,
+            1.26,
+            4.69
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_CargoSwingWeight_Showcase.glb",
+          "bytes": 21592,
+          "sha256": "c95c0f6dcf38e4feff55937aa0dd9023152d0b94addc2d9d95e05aed6643c8f8",
+          "triangles": 248,
+          "dimensions": [
+            1.2,
+            1.29977,
+            4.69
+          ]
+        }
+      }
+    },
+    {
+      "id": "BarrelChicane",
+      "name": "Barrel Chicane",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_BarrelChicane_Simple.glb",
+          "bytes": 56156,
+          "sha256": "1fa48297e129072c80e37ecb06b5e23352fca29703a0093b1a7f07fd82153273",
+          "triangles": 804,
+          "dimensions": [
+            2.2067,
+            3.4667,
+            0.935
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_BarrelChicane_Standard.glb",
+          "bytes": 97848,
+          "sha256": "a47d4ae10eeafebba402138419b6e1bb766b4cda2d2d1768a6def18596fa8d45",
+          "triangles": 1416,
+          "dimensions": [
+            2.2067,
+            3.4667,
+            0.96135
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_BarrelChicane_Showcase.glb",
+          "bytes": 171940,
+          "sha256": "e9bf6ae06f6b9f83d06300fc0125b497b294ac37e48b8a62dcce4a033411c565",
+          "triangles": 2532,
+          "dimensions": [
+            2.2441,
+            3.5041,
+            0.9724
+          ]
+        }
+      }
+    },
+    {
+      "id": "WreckHull",
+      "name": "Wreck Hull",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_WreckHull_Simple.glb",
+          "bytes": 19920,
+          "sha256": "d712133d24a8fbcdbfc133948b71df5cda03a7984acb160deec0ed08e090bcdb",
+          "triangles": 240,
+          "dimensions": [
+            8.2,
+            12.53532,
+            3.01955
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_WreckHull_Standard.glb",
+          "bytes": 63852,
+          "sha256": "5e4df5cce50968c1fdb0f05f41f6e23637a36b94da2c0f09e42104bc068d62fa",
+          "triangles": 840,
+          "dimensions": [
+            8.31495,
+            12.53532,
+            3.25453
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_WreckHull_Showcase.glb",
+          "bytes": 126280,
+          "sha256": "3022cd0029874c6359c378d292d2967fdbb863b628a30bb4afaf3a4801d2fa72",
+          "triangles": 1764,
+          "dimensions": [
+            8.31495,
+            12.53532,
+            3.25453
+          ]
+        }
+      }
+    },
+    {
+      "id": "WreckRibArch",
+      "name": "Wreck Rib Arch",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_WreckRibArch_Simple.glb",
+          "bytes": 6812,
+          "sha256": "b06a1414bdb34f7aec61716f2ea8dcf77fb30e108535deb3991961f5da84886e",
+          "triangles": 72,
+          "dimensions": [
+            2.34,
+            0.35,
+            2.75
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_WreckRibArch_Standard.glb",
+          "bytes": 10560,
+          "sha256": "7417ff9d720eefe2c9775898f9ca211775b07067d0a6d3a2c8f4c7aded25551a",
+          "triangles": 120,
+          "dimensions": [
+            2.41,
+            0.415,
+            2.75
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_WreckRibArch_Showcase.glb",
+          "bytes": 39512,
+          "sha256": "dfd3cbb2a36b01f14743ebc2064ec2fc12641bfdd7befda6442ee7e8ba1ccdcb",
+          "triangles": 528,
+          "dimensions": [
+            2.41,
+            0.62117,
+            2.75
+          ]
+        }
+      }
+    },
+    {
+      "id": "WreckMast",
+      "name": "Wreck Mast",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_WreckMast_Simple.glb",
+          "bytes": 4044,
+          "sha256": "37fe23d29c1e266626eae782f98d52931a9204c4e5ef4503331de2f581b49f3f",
+          "triangles": 40,
+          "dimensions": [
+            3.2,
+            0.98264,
+            4.30958
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_WreckMast_Standard.glb",
+          "bytes": 8784,
+          "sha256": "7bcb4e8c93fbd6b847faa58f559692c7c3ee4197a46d36f888528e75f1992894",
+          "triangles": 108,
+          "dimensions": [
+            3.23323,
+            0.99647,
+            4.30958
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_WreckMast_Showcase.glb",
+          "bytes": 66560,
+          "sha256": "5995de28fdf2cdac68027002391b04ceda5c0ecd9a840b1554c4cc89b75412cd",
+          "triangles": 976,
+          "dimensions": [
+            3.23323,
+            1.43958,
+            4.30958
+          ]
+        }
+      }
+    },
+    {
+      "id": "WreckPlankBridge",
+      "name": "Wreck Plank Bridge",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_WreckPlankBridge_Simple.glb",
+          "bytes": 24896,
+          "sha256": "3a7cbf5d2886215be0473b4bcaf95afeb7c90a7064402a7025b472a25774c869",
+          "triangles": 352,
+          "dimensions": [
+            1.82,
+            4.0,
+            1.3
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_WreckPlankBridge_Standard.glb",
+          "bytes": 35656,
+          "sha256": "b8cd11bef30cfa0faea25c9122dd5117c92c09a750d1093818254dad90046e11",
+          "triangles": 512,
+          "dimensions": [
+            1.82,
+            4.0,
+            1.3
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_WreckPlankBridge_Showcase.glb",
+          "bytes": 53996,
+          "sha256": "76005578748d2d7cdb5b7f52a94ba574bd68e0720d45e730c5a21fd97ccd1f8d",
+          "triangles": 784,
+          "dimensions": [
+            1.88,
+            4.0,
+            1.3
+          ]
+        }
+      }
+    },
+    {
+      "id": "CaptainsCabin",
+      "name": "Captains Cabin",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_CaptainsCabin_Simple.glb",
+          "bytes": 56848,
+          "sha256": "2a2806f9ffabab959bd7570a6673df8108befd68a020fd184470073690184594",
+          "triangles": 728,
+          "dimensions": [
+            8.65,
+            10.65,
+            3.8
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_CaptainsCabin_Standard.glb",
+          "bytes": 91412,
+          "sha256": "cfdf088f539e0a442f94758ffc7ad20d732138ed76b74642f472fe68b13d1aae",
+          "triangles": 1208,
+          "dimensions": [
+            8.65,
+            10.91733,
+            3.8
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_CaptainsCabin_Showcase.glb",
+          "bytes": 151848,
+          "sha256": "31329d1cb833315c0a90cb4e1faa09b8be142a9fe06125163ffa54972256a903",
+          "triangles": 2064,
+          "dimensions": [
+            8.65,
+            10.91733,
+            3.8
+          ]
+        }
+      }
+    },
+    {
+      "id": "CaptainsRoof",
+      "name": "Captains Roof",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_CaptainsRoof_Simple.glb",
+          "bytes": 3040,
+          "sha256": "ebda2c15332c058ccb800242555c556fbe787ff1103c1c224f2389d62879a6ee",
+          "triangles": 24,
+          "dimensions": [
+            9.0,
+            10.8,
+            1.48
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_CaptainsRoof_Standard.glb",
+          "bytes": 17240,
+          "sha256": "8fb734824cab25701112414caba8b358c4866c11e59da7ddb8a1a0dc98ae80b2",
+          "triangles": 224,
+          "dimensions": [
+            9.02498,
+            10.8,
+            1.54323
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_CaptainsRoof_Showcase.glb",
+          "bytes": 21032,
+          "sha256": "6f96ab7a3b60657ed16f12246fb57cf039d15f56cf8bcf4ac1368ba0814870df",
+          "triangles": 280,
+          "dimensions": [
+            9.02498,
+            10.8,
+            2.67
+          ]
+        }
+      }
+    },
+    {
+      "id": "MapTableTunnel",
+      "name": "Map Table Tunnel",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_MapTableTunnel_Simple.glb",
+          "bytes": 10568,
+          "sha256": "4bf67796a247dbc3a09eefd3836f932cdfa5d30933a3d429dadea810a5a397f2",
+          "triangles": 120,
+          "dimensions": [
+            3.3,
+            2.4,
+            1.45
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_MapTableTunnel_Standard.glb",
+          "bytes": 17176,
+          "sha256": "3dc5103daf94019ffc6165e3553868bc1cdfc34be381cfedcbd58bf0dc085eb6",
+          "triangles": 212,
+          "dimensions": [
+            3.3,
+            2.4,
+            1.4775
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_MapTableTunnel_Showcase.glb",
+          "bytes": 40220,
+          "sha256": "e7e81dd99240c4e90831e062fc1166b0e9a1593b58e6a8244c5e41a73956b65f",
+          "triangles": 548,
+          "dimensions": [
+            3.3,
+            2.4,
+            1.95895
+          ]
+        }
+      }
+    },
+    {
+      "id": "TreasureAlcove",
+      "name": "Treasure Alcove",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_TreasureAlcove_Simple.glb",
+          "bytes": 27612,
+          "sha256": "850e69ffa27b257e34795701f6c10238f7fadce4a02ebe9702b2d508f8da342d",
+          "triangles": 370,
+          "dimensions": [
+            3.65,
+            2.535,
+            3.0
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_TreasureAlcove_Standard.glb",
+          "bytes": 85076,
+          "sha256": "d504a05584bab276fe332223e4c90ec2a06286df417b51f499aea10a764509d9",
+          "triangles": 1210,
+          "dimensions": [
+            3.65,
+            2.78223,
+            3.0
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_TreasureAlcove_Showcase.glb",
+          "bytes": 122928,
+          "sha256": "a8506f0dca5a2f90f6ed8dde654e85b1c9f91b23d8e85ad6d7fff8d7050e2f72",
+          "triangles": 1662,
+          "dimensions": [
+            3.65,
+            2.78223,
+            3.0
+          ]
+        }
+      }
+    },
+    {
+      "id": "SeaCaveShell",
+      "name": "Sea Cave Shell",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_SeaCaveShell_Simple.glb",
+          "bytes": 15944,
+          "sha256": "3f8d6b72b72fe40923e1eb032469ff8cf110fafa695a565ed53e4e5d3e058215",
+          "triangles": 152,
+          "dimensions": [
+            10.56774,
+            8.12205,
+            5.9
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_SeaCaveShell_Standard.glb",
+          "bytes": 44904,
+          "sha256": "894be3d9c90ae7106f0af7464fdd86e54fe891ca5b308a823dfabc408632e063",
+          "triangles": 560,
+          "dimensions": [
+            10.56774,
+            8.12205,
+            5.9
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_SeaCaveShell_Showcase.glb",
+          "bytes": 63144,
+          "sha256": "b516b2577f53d010cc6cdb6513a80153f4910d94f26820575bb4919d9604d698",
+          "triangles": 720,
+          "dimensions": [
+            10.56774,
+            8.12205,
+            5.9
+          ]
+        }
+      }
+    },
+    {
+      "id": "WaterfallCurtain",
+      "name": "Waterfall Curtain",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_WaterfallCurtain_Simple.glb",
+          "bytes": 7740,
+          "sha256": "6240a47ad15ccf7a43b27b5dc29ccda653fe7b07ad36ce10307e0df07e86276b",
+          "triangles": 84,
+          "dimensions": [
+            1.915,
+            0.77,
+            5.0
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_WaterfallCurtain_Standard.glb",
+          "bytes": 18976,
+          "sha256": "5019bbee9359b6ccf5f076eb982e4eaca9d35c3598708e776c66615caa349ba2",
+          "triangles": 200,
+          "dimensions": [
+            1.915,
+            1.19331,
+            5.06
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_WaterfallCurtain_Showcase.glb",
+          "bytes": 27912,
+          "sha256": "c38766362f850e6bc446f4f59f521350e2099022f68f2f4e8ebe15a73a4017ee",
+          "triangles": 296,
+          "dimensions": [
+            1.9385,
+            1.19331,
+            5.08
+          ]
+        }
+      }
+    },
+    {
+      "id": "TidePoolRocks",
+      "name": "Tide Pool Rocks",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_TidePoolRocks_Simple.glb",
+          "bytes": 28044,
+          "sha256": "8f76f89bc15ca2623ab87587935a02636d534052b728dd4ef3d27248f21f6f35",
+          "triangles": 296,
+          "dimensions": [
+            3.09665,
+            3.10441,
+            0.62
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_TidePoolRocks_Standard.glb",
+          "bytes": 32608,
+          "sha256": "72c039b739beac948b20841bbc8e6568c3d8edc874d60a3939cc73136fabea8c",
+          "triangles": 336,
+          "dimensions": [
+            3.09665,
+            3.10441,
+            0.62
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_TidePoolRocks_Showcase.glb",
+          "bytes": 37172,
+          "sha256": "dcfa8f331fd0b5dd686d227dd6cd6edda4a4f840adfd87fb3dd7a49f54a5321b",
+          "triangles": 376,
+          "dimensions": [
+            3.09665,
+            3.10441,
+            0.82
+          ]
+        }
+      }
+    },
+    {
+      "id": "ShoreFoam",
+      "name": "Shore Foam",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_ShoreFoam_Simple.glb",
+          "bytes": 8688,
+          "sha256": "2543d94c52deaa9c204eeb2837fd29bf63b20406fb5c7f3688017fb0138149ea",
+          "triangles": 96,
+          "dimensions": [
+            4.99985,
+            1.6535,
+            0.018
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_ShoreFoam_Standard.glb",
+          "bytes": 17000,
+          "sha256": "6191c4093c635517e29ecf348dde52cfc4141fba5b3c6f12ea0ebc3f678c0f2d",
+          "triangles": 184,
+          "dimensions": [
+            5.00174,
+            1.71363,
+            0.035
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_ShoreFoam_Showcase.glb",
+          "bytes": 27584,
+          "sha256": "300fe6387abc2653684dce61d538daea8188e6735f395aa43a923c8f28f75a97",
+          "triangles": 292,
+          "dimensions": [
+            5.00444,
+            1.73121,
+            0.035
+          ]
+        }
+      }
+    },
+    {
+      "id": "TidewheelFrame",
+      "name": "Tidewheel Frame",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_TidewheelFrame_Simple.glb",
+          "bytes": 16956,
+          "sha256": "0d0225e7df3d9e41c2aa7aa17980222a67adad9f47e6b6fc4ba3a6f6a081f0ae",
+          "triangles": 224,
+          "dimensions": [
+            5.35,
+            1.62,
+            4.3
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_TidewheelFrame_Standard.glb",
+          "bytes": 45912,
+          "sha256": "c0ed03adeab7e8239227951f0b5987f58e85e351a17a5b034df89f57147435ed",
+          "triangles": 632,
+          "dimensions": [
+            5.35,
+            1.66829,
+            4.3
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_TidewheelFrame_Showcase.glb",
+          "bytes": 49656,
+          "sha256": "ef3e246838df099f39e486cee69d6555573f6e71a42020ee1c3d140d864af661",
+          "triangles": 680,
+          "dimensions": [
+            5.35,
+            1.66829,
+            4.3
+          ]
+        }
+      }
+    },
+    {
+      "id": "TidewheelRotor",
+      "name": "Tidewheel Rotor",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_TidewheelRotor_Simple.glb",
+          "bytes": 23196,
+          "sha256": "37e1f6446a4eccd8441aa04a178327481a0ff67e2b0154223c0f1fea644db944",
+          "triangles": 300,
+          "dimensions": [
+            3.78,
+            0.76,
+            3.78
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_TidewheelRotor_Standard.glb",
+          "bytes": 39188,
+          "sha256": "2b162dbdaccb7cd1a340766d78224a02ca7e5e88237d2c38a45cfbbe7150bc4d",
+          "triangles": 468,
+          "dimensions": [
+            3.78,
+            0.76,
+            3.78
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_TidewheelRotor_Showcase.glb",
+          "bytes": 62616,
+          "sha256": "68796cab51d0d0bb3040641b89ce486b1dd13fd52b1563b910062b8bb5623d45",
+          "triangles": 772,
+          "dimensions": [
+            3.78,
+            0.76,
+            3.78
+          ]
+        }
+      }
+    },
+    {
+      "id": "SluiceGate",
+      "name": "Sluice Gate",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_SluiceGate_Simple.glb",
+          "bytes": 7492,
+          "sha256": "5eb46836eb61ba656feb9a34a0f9c3083f873e026861cf3621ec94b9c856643c",
+          "triangles": 88,
+          "dimensions": [
+            4.2,
+            0.6,
+            2.8
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_SluiceGate_Standard.glb",
+          "bytes": 11240,
+          "sha256": "e3c63f0fbcdfaed1c7970d66a2f64b034812f815e4b78df5b48d9d6b104220cd",
+          "triangles": 136,
+          "dimensions": [
+            4.2,
+            0.6,
+            2.8
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_SluiceGate_Showcase.glb",
+          "bytes": 16892,
+          "sha256": "abcdd787e469f4cb0fe92b4b5763cdcfb3d0cedbd73995ba58982940f89b6ed3",
+          "triangles": 216,
+          "dimensions": [
+            4.2,
+            0.6,
+            3.25
+          ]
+        }
+      }
+    },
+    {
+      "id": "FortBastion",
+      "name": "Fort Bastion",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_FortBastion_Simple.glb",
+          "bytes": 16228,
+          "sha256": "65080cb0f5c4ee22cada06544cea9adcae1d7c2092cb49ed42d70a30b8b4531b",
+          "triangles": 200,
+          "dimensions": [
+            3.7,
+            3.7,
+            3.955
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_FortBastion_Standard.glb",
+          "bytes": 20024,
+          "sha256": "06587baa2359a633155c96ae57b19997a5bfb1104a319b7e67bf675ba8ba54e1",
+          "triangles": 256,
+          "dimensions": [
+            3.7,
+            3.7,
+            3.955
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_FortBastion_Showcase.glb",
+          "bytes": 22856,
+          "sha256": "ae546d7f41634e87b90cb576e9142968bc9112ddb32dc2fc95c407fead89a4ba",
+          "triangles": 296,
+          "dimensions": [
+            3.7,
+            3.7,
+            5.3
+          ]
+        }
+      }
+    },
+    {
+      "id": "FortBankWall",
+      "name": "Fort Bank Wall",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_FortBankWall_Simple.glb",
+          "bytes": 3072,
+          "sha256": "c4098597fe3f20b8f98d4b64d9f7d683e84c7da48fd27e6817a61d5888bc0e7b",
+          "triangles": 24,
+          "dimensions": [
+            3.15,
+            0.52,
+            1.02
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_FortBankWall_Standard.glb",
+          "bytes": 7764,
+          "sha256": "2431e24bdfbc7c25dcdd30d951a1904e2f0e75deaaa3c0e86a9a2998912d5ce3",
+          "triangles": 84,
+          "dimensions": [
+            3.15,
+            0.52,
+            1.02
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_FortBankWall_Showcase.glb",
+          "bytes": 10572,
+          "sha256": "3eb328fcce780c25fa5135be755553a749de9e207605550a98543bcccc64411b",
+          "triangles": 120,
+          "dimensions": [
+            3.15,
+            0.52,
+            1.34
+          ]
+        }
+      }
+    },
+    {
+      "id": "PearlClam",
+      "name": "Pearl Clam",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_PearlClam_Simple.glb",
+          "bytes": 16292,
+          "sha256": "9ef8efff33da547986555a9134462717ce49de4403435f5157d4f904b8bba57c",
+          "triangles": 160,
+          "dimensions": [
+            4.49,
+            2.97724,
+            2.48424
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_PearlClam_Standard.glb",
+          "bytes": 31560,
+          "sha256": "6b1d8f779fd992576ee4095ad73c3d87f1462319c0078deb893f59a74592511e",
+          "triangles": 304,
+          "dimensions": [
+            4.49,
+            2.97724,
+            2.48424
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_PearlClam_Showcase.glb",
+          "bytes": 38912,
+          "sha256": "3f5813aed485c5f3422ab9a18706295fcac137a478858f3e1bcb78f3509cf374",
+          "triangles": 376,
+          "dimensions": [
+            4.49,
+            2.97724,
+            2.48424
+          ]
+        }
+      }
+    },
+    {
+      "id": "CoralCluster",
+      "name": "Coral Cluster",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_CoralCluster_Simple.glb",
+          "bytes": 24748,
+          "sha256": "86de48754cd79fe89eea3dea005b12a779b7527769f55a1c5c420c2e0eefbe00",
+          "triangles": 320,
+          "dimensions": [
+            1.99387,
+            1.36102,
+            1.67
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_CoralCluster_Standard.glb",
+          "bytes": 29312,
+          "sha256": "d78f938fcb11119707912b7fa8a38cbb5accb31bf1b553d9d91bfccce88a1c52",
+          "triangles": 360,
+          "dimensions": [
+            1.99387,
+            1.36102,
+            1.67
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_CoralCluster_Showcase.glb",
+          "bytes": 33876,
+          "sha256": "691b64847b47f67aa985b05d91451fb130aabc951ed8af0bc73614805840dae9",
+          "triangles": 400,
+          "dimensions": [
+            1.99387,
+            1.36102,
+            1.67
+          ]
+        }
+      }
+    },
+    {
+      "id": "SignalBuoy",
+      "name": "Signal Buoy",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_SignalBuoy_Simple.glb",
+          "bytes": 7288,
+          "sha256": "85da221eb422a2452e4805266ec4cabf3ace9c781852f40f424dc69a14a3d05e",
+          "triangles": 88,
+          "dimensions": [
+            1.0,
+            1.0,
+            1.6
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_SignalBuoy_Standard.glb",
+          "bytes": 23688,
+          "sha256": "f6366bcaeb8cb833f6069ff2d0f9fc1f233cf9d8d47a5db9cc30a9da623def9c",
+          "triangles": 324,
+          "dimensions": [
+            1.0,
+            1.0,
+            1.6
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_SignalBuoy_Showcase.glb",
+          "bytes": 58376,
+          "sha256": "062d8499a956ff449af541dc2a6d9bc9fe71b368f43ebc8b8bf58cc5cfe7b46a",
+          "triangles": 848,
+          "dimensions": [
+            1.0,
+            1.0,
+            1.6
+          ]
+        }
+      }
+    },
+    {
+      "id": "SeaStackArch",
+      "name": "Sea Stack Arch",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_SeaStackArch_Simple.glb",
+          "bytes": 6792,
+          "sha256": "54d757f522dc388c1173ea7d2af79c13e6d5d10b7d2d9b717ca5c8ab58de44e6",
+          "triangles": 72,
+          "dimensions": [
+            11.4,
+            3.5,
+            7.4
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_SeaStackArch_Standard.glb",
+          "bytes": 15952,
+          "sha256": "eedca2110f90ce296919d84c055f90adc0c9bbdaaeef00b41ba93734b397ccc9",
+          "triangles": 152,
+          "dimensions": [
+            11.76774,
+            3.61102,
+            7.8
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_SeaStackArch_Showcase.glb",
+          "bytes": 145612,
+          "sha256": "0559c9a7ad40ca639f889ea9577a33f23d2f410a361b081dc73703ba9eedd13b",
+          "triangles": 1744,
+          "dimensions": [
+            11.76774,
+            3.61102,
+            8.44346
+          ]
+        }
+      }
+    },
+    {
+      "id": "LighthouseIsland",
+      "name": "Lighthouse Island",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_LighthouseIsland_Simple.glb",
+          "bytes": 20944,
+          "sha256": "e5d4dc5ff4748d67eb0e0d07a77a7b58d1e3beb7302160fccd7d29b92a5babf3",
+          "triangles": 264,
+          "dimensions": [
+            10.7331,
+            8.5064,
+            10.175
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_LighthouseIsland_Standard.glb",
+          "bytes": 46516,
+          "sha256": "2ee0ce330e8deefa1c52d97c9c6523829dd4a105b25f7612c1caaa36abf1b456",
+          "triangles": 636,
+          "dimensions": [
+            10.7331,
+            8.5064,
+            10.175
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_LighthouseIsland_Showcase.glb",
+          "bytes": 167396,
+          "sha256": "672c6fc3697dc1a20cdacde659a977adca3152a136bc5320bc9db4229ac45e8b",
+          "triangles": 2278,
+          "dimensions": [
+            10.7331,
+            8.5064,
+            10.175
+          ]
+        }
+      }
+    },
+    {
+      "id": "SmugglerVillage",
+      "name": "Smuggler Village",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_SmugglerVillage_Simple.glb",
+          "bytes": 25972,
+          "sha256": "41058ed8b8098bbd801790e44660add49e68bc13be18c02098d3010c0f861d2f",
+          "triangles": 308,
+          "dimensions": [
+            17.8885,
+            7.14538,
+            7.62
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_SmugglerVillage_Standard.glb",
+          "bytes": 71272,
+          "sha256": "2cf2c221e522fe0e76db89f48f61cc6f356cee2d5063e2f0d59ac3ed4c06dfac",
+          "triangles": 944,
+          "dimensions": [
+            17.8885,
+            7.14538,
+            7.62
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_SmugglerVillage_Showcase.glb",
+          "bytes": 255860,
+          "sha256": "ada60952a16f6a39e3634ecaf052a3d83ce8f29a82f3bb830715566dfb420e87",
+          "triangles": 3340,
+          "dimensions": [
+            17.91675,
+            7.14538,
+            7.62
+          ]
+        }
+      }
+    },
+    {
+      "id": "DistantGalleon",
+      "name": "Distant Galleon",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_DistantGalleon_Simple.glb",
+          "bytes": 11288,
+          "sha256": "bebaefca473bb60b9322279aae24aaad052dbc92f7f41dbb10cc55764901b998",
+          "triangles": 140,
+          "dimensions": [
+            5.2,
+            12.0,
+            7.0
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_DistantGalleon_Standard.glb",
+          "bytes": 21592,
+          "sha256": "02e69b4b8e52ce1d8c042981a1072079748477f6e2b2a72eb4c0ff32a95a0ae1",
+          "triangles": 272,
+          "dimensions": [
+            5.2,
+            12.0,
+            7.0
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/pirate-cove/props/PirateCove_DistantGalleon_Showcase.glb",
+          "bytes": 28192,
+          "sha256": "3d3f60f7183ee542892733f3eb5c9120d62cf3c25bd12d756445b24c94facec4",
+          "triangles": 364,
+          "dimensions": [
+            5.2,
+            12.0,
+            7.0
+          ]
+        }
+      }
+    }
+  ]
+}

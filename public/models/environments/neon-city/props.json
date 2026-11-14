@@ -1,0 +1,475 @@
+{
+  "schemaVersion": 1,
+  "pack": "neon-city",
+  "title": "Neon City",
+  "families": [
+    {
+      "id": "ArcadeKiosk",
+      "name": "Arcade Kiosk",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/neon-city/props/Neon_ArcadeKiosk_Simple.glb",
+          "bytes": 18180,
+          "sha256": "b5b62c5ddf8a2f0cfe62f0b861645f4ebe5a4f8164da20e2cc12b24680d76987",
+          "triangles": 240,
+          "dimensions": [
+            4.2,
+            3.7,
+            2.6
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/neon-city/props/Neon_ArcadeKiosk_Standard.glb",
+          "bytes": 33288,
+          "sha256": "3fbafdc1f90f1f628ad29f388f168070805d55eeede14872a976a0b6cdf3c011",
+          "triangles": 456,
+          "dimensions": [
+            4.2,
+            3.7,
+            3.0
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/neon-city/props/Neon_ArcadeKiosk_Showcase.glb",
+          "bytes": 57632,
+          "sha256": "85c05b57468390374f04933b81a428b589822d8bf03035795b122168a1593c5d",
+          "triangles": 768,
+          "dimensions": [
+            4.2,
+            3.7,
+            3.5
+          ]
+        }
+      }
+    },
+    {
+      "id": "DataTower",
+      "name": "Data Tower",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/neon-city/props/Neon_DataTower_Simple.glb",
+          "bytes": 48280,
+          "sha256": "a8aac8b80a19382750bb0276bb317398d100a5836dde35fe7147348503cac934",
+          "triangles": 648,
+          "dimensions": [
+            4.2,
+            3.7,
+            5.1
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/neon-city/props/Neon_DataTower_Standard.glb",
+          "bytes": 63388,
+          "sha256": "cdebb0a4e3286f3515834b988c07cf7caea89e50a0a5e9d570dcbeb207355b98",
+          "triangles": 864,
+          "dimensions": [
+            4.2,
+            3.7,
+            5.5
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/neon-city/props/Neon_DataTower_Showcase.glb",
+          "bytes": 87724,
+          "sha256": "2f6f208769e9ab176e848b2a22a0eaf8f8a35fb0b87c70b220726bd08e57a7f7",
+          "triangles": 1176,
+          "dimensions": [
+            4.2,
+            3.7,
+            6.0
+          ]
+        }
+      }
+    },
+    {
+      "id": "ArcadePassage",
+      "name": "Arcade Passage",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/neon-city/props/Neon_ArcadePassage_Simple.glb",
+          "bytes": 33808,
+          "sha256": "03c8c22e80fb704c8fd20527737623226cf6720518cdf2590b65234f0afb7c7f",
+          "triangles": 448,
+          "dimensions": [
+            7.485,
+            8.25,
+            3.4
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/neon-city/props/Neon_ArcadePassage_Standard.glb",
+          "bytes": 179840,
+          "sha256": "7db6f65e14add99c999243c2552d47e512c1df3492bb29e56f208cbec87dc2a8",
+          "triangles": 2320,
+          "dimensions": [
+            7.51,
+            8.25,
+            3.4
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/neon-city/props/Neon_ArcadePassage_Showcase.glb",
+          "bytes": 183584,
+          "sha256": "32ef48a80626678c40f35d3fedf83f4ebf21d281d99fe5496df69c531ee729d9",
+          "triangles": 2368,
+          "dimensions": [
+            7.56,
+            8.25,
+            3.4
+          ]
+        }
+      }
+    },
+    {
+      "id": "ArcadeRoof",
+      "name": "Arcade Roof",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/neon-city/props/Neon_ArcadeRoof_Simple.glb",
+          "bytes": 6844,
+          "sha256": "4babeee8e10e2b86c20548e29fd5ff05630aab76609a34a78b68ecbfbc47fa3c",
+          "triangles": 84,
+          "dimensions": [
+            7.7,
+            8.5,
+            0.37
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/neon-city/props/Neon_ArcadeRoof_Standard.glb",
+          "bytes": 8720,
+          "sha256": "9df37d8eaa47d0fe3624fb709828e4bf6dbf4f840228de0669adae5dec109c27",
+          "triangles": 108,
+          "dimensions": [
+            7.7,
+            8.5,
+            0.956
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/neon-city/props/Neon_ArcadeRoof_Showcase.glb",
+          "bytes": 13812,
+          "sha256": "d532ce3d17cb139faff4006907f3ed8bc4d87378a22de4ad1210793613fa15fc",
+          "triangles": 188,
+          "dimensions": [
+            7.7,
+            8.5,
+            0.96
+          ]
+        }
+      }
+    },
+    {
+      "id": "ArcadeCabinet",
+      "name": "Arcade Cabinet",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/neon-city/props/Neon_ArcadeCabinet_Simple.glb",
+          "bytes": 13312,
+          "sha256": "8356b711518100219a7709549b3ed8927d994db587080b57ff49fc43421728dc",
+          "triangles": 148,
+          "dimensions": [
+            0.765,
+            0.7625,
+            1.62
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/neon-city/props/Neon_ArcadeCabinet_Standard.glb",
+          "bytes": 23660,
+          "sha256": "d71768a9f5dadb85b51135b3524a4e61f75370321c9190ae2d0fd79dd4963dd6",
+          "triangles": 288,
+          "dimensions": [
+            0.765,
+            0.77,
+            1.62
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/neon-city/props/Neon_ArcadeCabinet_Showcase.glb",
+          "bytes": 31148,
+          "sha256": "8a11bad57b65392c30fab7379ff5400aec65fe7b3b3d18d88d13a950ee4242c9",
+          "triangles": 384,
+          "dimensions": [
+            0.765,
+            0.7725,
+            1.62
+          ]
+        }
+      }
+    },
+    {
+      "id": "PixelGate",
+      "name": "Pixel Gate",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/neon-city/props/Neon_PixelGate_Simple.glb",
+          "bytes": 14344,
+          "sha256": "6a58727d5d2b8136339c4357afa6de8f6e4762676b12f0fabd521a88edf57900",
+          "triangles": 180,
+          "dimensions": [
+            3.9,
+            0.76,
+            3.0
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/neon-city/props/Neon_PixelGate_Standard.glb",
+          "bytes": 25584,
+          "sha256": "72ef7e185fa507fe8f48e39e1a8e5f927a8832403e65d30b9f0f598b979b34f7",
+          "triangles": 324,
+          "dimensions": [
+            3.9,
+            0.78,
+            3.0
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/neon-city/props/Neon_PixelGate_Showcase.glb",
+          "bytes": 28144,
+          "sha256": "9dbb077d85ebe5706c5b4f49aeec0e46dff8e8b8a5c6fc4cbdb14ca0b2f7c746",
+          "triangles": 364,
+          "dimensions": [
+            3.9,
+            0.88,
+            3.07
+          ]
+        }
+      }
+    },
+    {
+      "id": "Skybridge",
+      "name": "Skybridge",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/neon-city/props/Neon_Skybridge_Simple.glb",
+          "bytes": 15524,
+          "sha256": "4c15e2dad78a25661ea366a33949e36a26794ea5e48f7d4b8239a0f9f34ee42e",
+          "triangles": 188,
+          "dimensions": [
+            2.3,
+            8.0,
+            3.69
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/neon-city/props/Neon_Skybridge_Standard.glb",
+          "bytes": 17400,
+          "sha256": "e44e4e69a2903e72b985599474ce84249dfcc626616e2550d91ac371876e5878",
+          "triangles": 212,
+          "dimensions": [
+            2.3,
+            8.0,
+            3.69
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/neon-city/props/Neon_Skybridge_Showcase.glb",
+          "bytes": 24888,
+          "sha256": "7cceb6804e6147a85e07923f92ea659361230df80709ae56db666e9e54d6a5f2",
+          "triangles": 308,
+          "dimensions": [
+            2.3,
+            8.0,
+            3.69
+          ]
+        }
+      }
+    },
+    {
+      "id": "PinballBumper",
+      "name": "Pinball Bumper",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/neon-city/props/Neon_PinballBumper_Simple.glb",
+          "bytes": 12620,
+          "sha256": "1026709d95ccaa9b44df7aa805c0c2b6ef16b01a0356939cd966d41fd8f22afa",
+          "triangles": 176,
+          "dimensions": [
+            0.98,
+            0.98,
+            0.76
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/neon-city/props/Neon_PinballBumper_Standard.glb",
+          "bytes": 20284,
+          "sha256": "0fe583b5d796c3fae909d5d2f87e8def746e8b41d4033fa1692bb319fe3b6c3a",
+          "triangles": 300,
+          "dimensions": [
+            0.98,
+            0.98,
+            0.8
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/neon-city/props/Neon_PinballBumper_Showcase.glb",
+          "bytes": 33244,
+          "sha256": "9d8da8f443913d6e08e5ab7d0c79a9cf4e977230b17d3476ba8b4355ad1e5708",
+          "triangles": 492,
+          "dimensions": [
+            0.98,
+            0.98,
+            0.8
+          ]
+        }
+      }
+    },
+    {
+      "id": "LightBarrier",
+      "name": "Light Barrier",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/neon-city/props/Neon_LightBarrier_Simple.glb",
+          "bytes": 9388,
+          "sha256": "23e23a2536646fd80eb65e2355ba1fd8a7fb8ae25ed3746463afcbe7113024fe",
+          "triangles": 124,
+          "dimensions": [
+            4.0,
+            0.3,
+            1.1
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/neon-city/props/Neon_LightBarrier_Standard.glb",
+          "bytes": 11936,
+          "sha256": "b32e9c4fc3b757a28922089964d4647a9c456e58d7da8e5784cc1cdc17862391",
+          "triangles": 164,
+          "dimensions": [
+            4.0,
+            0.3,
+            1.1
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/neon-city/props/Neon_LightBarrier_Showcase.glb",
+          "bytes": 13812,
+          "sha256": "63ab4c9ce012dffe760ccfd266aab6a96f14f4c536a6cfc3181325b463a59d41",
+          "triangles": 188,
+          "dimensions": [
+            4.0,
+            0.3,
+            1.18
+          ]
+        }
+      }
+    },
+    {
+      "id": "SkylineBlock",
+      "name": "Skyline Block",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/neon-city/props/Neon_SkylineBlock_Simple.glb",
+          "bytes": 40508,
+          "sha256": "3f26cc0155da00596577766765e39af8ef0bbb6e13ac17048b0ef60a9326710a",
+          "triangles": 504,
+          "dimensions": [
+            15.78,
+            5.68,
+            14.36
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/neon-city/props/Neon_SkylineBlock_Standard.glb",
+          "bytes": 54552,
+          "sha256": "fc3b3db471f104b35aed4b18cd6bb8ec7f760572d26692a1144160f26d2102cf",
+          "triangles": 684,
+          "dimensions": [
+            15.78,
+            5.68,
+            14.96
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/neon-city/props/Neon_SkylineBlock_Showcase.glb",
+          "bytes": 88392,
+          "sha256": "f220ff173acd1fa6bcdb5a86e65f5110de5d496bb3678261f3e3ad300d84a27f",
+          "triangles": 1140,
+          "dimensions": [
+            15.78,
+            5.68,
+            15.806
+          ]
+        }
+      }
+    },
+    {
+      "id": "CyberGarden",
+      "name": "Cyber Garden",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/neon-city/props/Neon_CyberGarden_Simple.glb",
+          "bytes": 52460,
+          "sha256": "9fa689373ea7fa1768d87a81598822e2cc87da86b85e738827bebb0fcd6515bc",
+          "triangles": 552,
+          "dimensions": [
+            7.24431,
+            3.53566,
+            3.975
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/neon-city/props/Neon_CyberGarden_Standard.glb",
+          "bytes": 173512,
+          "sha256": "3834c0092e2664db9ce40e15489bec2997e01e63995ca7168de1095b18801dfd",
+          "triangles": 1648,
+          "dimensions": [
+            7.36996,
+            3.96656,
+            4.4125
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/neon-city/props/Neon_CyberGarden_Showcase.glb",
+          "bytes": 175396,
+          "sha256": "e646ea8b8f300ce4d07cb67f174839ae980ace62828daf41f105d6b68091ea52",
+          "triangles": 1672,
+          "dimensions": [
+            7.36996,
+            4.00156,
+            4.4125
+          ]
+        }
+      }
+    },
+    {
+      "id": "RooftopEquipment",
+      "name": "Rooftop Equipment",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/neon-city/props/Neon_RooftopEquipment_Simple.glb",
+          "bytes": 5900,
+          "sha256": "b9bd5578efa4004fa6902ed8e0f08fc22c49467871c8dc8dc9cf260cef1a9ae0",
+          "triangles": 68,
+          "dimensions": [
+            2.345,
+            1.25,
+            0.94
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/neon-city/props/Neon_RooftopEquipment_Standard.glb",
+          "bytes": 12468,
+          "sha256": "edb12540660e03cef0ec9c8cc341ca8c80a66b7400ff743a3ced1e282d2a9ad0",
+          "triangles": 152,
+          "dimensions": [
+            2.345,
+            1.285,
+            0.94
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/neon-city/props/Neon_RooftopEquipment_Showcase.glb",
+          "bytes": 14344,
+          "sha256": "c7f8a889f73d219159cd1df14d45a63b33d88606153381277f45f58c49c3f500",
+          "triangles": 176,
+          "dimensions": [
+            2.345,
+            1.285,
+            1.54
+          ]
+        }
+      }
+    }
+  ]
+}

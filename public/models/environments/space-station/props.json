@@ -1,0 +1,397 @@
+{
+  "schemaVersion": 1,
+  "pack": "space-station",
+  "title": "Space Station",
+  "families": [
+    {
+      "id": "Habitat",
+      "name": "Habitat",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/space-station/props/SpaceStation_Habitat_Simple.glb",
+          "bytes": 18772,
+          "sha256": "1ec7362a685c021b985e89ba3795fc58caaddfc2afb00420693ca2612a8639b6",
+          "triangles": 264,
+          "dimensions": [
+            4.6,
+            4.4,
+            2.9
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/space-station/props/SpaceStation_Habitat_Standard.glb",
+          "bytes": 78756,
+          "sha256": "13d08f0057ec49aa5ba5bd8f30f7075f9c8b489c768b454679b9f3ba22a22fce",
+          "triangles": 1140,
+          "dimensions": [
+            4.6,
+            4.4,
+            3.06
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/space-station/props/SpaceStation_Habitat_Showcase.glb",
+          "bytes": 92032,
+          "sha256": "4bf962f8351217d244e34a451df5ab11d1fdb77cb8756663f5223f2d57c709f4",
+          "triangles": 1336,
+          "dimensions": [
+            4.6,
+            4.4,
+            3.15
+          ]
+        }
+      }
+    },
+    {
+      "id": "Observatory",
+      "name": "Observatory",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/space-station/props/SpaceStation_Observatory_Simple.glb",
+          "bytes": 12584,
+          "sha256": "592dd016d0cc87bebc9bf4c9cbc34ca9d64ec248917f0f792c00bcc0627bb8c4",
+          "triangles": 168,
+          "dimensions": [
+            4.6,
+            4.4,
+            3.12
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/space-station/props/SpaceStation_Observatory_Standard.glb",
+          "bytes": 27448,
+          "sha256": "7ca8b419673ed72119c273aaf98f64469331588732f294c1949e1b6dc6c5b3f9",
+          "triangles": 388,
+          "dimensions": [
+            4.6,
+            4.4,
+            3.93828
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/space-station/props/SpaceStation_Observatory_Showcase.glb",
+          "bytes": 52124,
+          "sha256": "fb17aaa3399e34f281b08ebd288b0ab21728f2aabdb6f5a0cd6313d9672e7952",
+          "triangles": 756,
+          "dimensions": [
+            4.6,
+            4.4,
+            3.93828
+          ]
+        }
+      }
+    },
+    {
+      "id": "CargoCanopy",
+      "name": "Cargo Canopy",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/space-station/props/SpaceStation_CargoCanopy_Simple.glb",
+          "bytes": 11312,
+          "sha256": "9115fac76537a5b669007a6bdb8c226259df66b06f62003f853f8fdd1eef3b21",
+          "triangles": 148,
+          "dimensions": [
+            4.8,
+            5.9395,
+            3.4
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/space-station/props/SpaceStation_CargoCanopy_Standard.glb",
+          "bytes": 16336,
+          "sha256": "e209517cb2f5be028f4e0b9f9aeca73b3cad0311c3a3dd565a034e76ec694673",
+          "triangles": 216,
+          "dimensions": [
+            4.8,
+            5.9395,
+            3.52
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/space-station/props/SpaceStation_CargoCanopy_Showcase.glb",
+          "bytes": 20080,
+          "sha256": "125618f6e51a444b816cf6f4d88df4ab7317c17ccd30e1e0818a8890cd4ff173",
+          "triangles": 264,
+          "dimensions": [
+            4.8,
+            5.9395,
+            3.52
+          ]
+        }
+      }
+    },
+    {
+      "id": "AirlockTunnel",
+      "name": "Airlock Tunnel",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/space-station/props/SpaceStation_AirlockTunnel_Simple.glb",
+          "bytes": 22556,
+          "sha256": "36727519f546c4ffce512fea6140377fea20bc1931da56f655a77f39aee77f04",
+          "triangles": 292,
+          "dimensions": [
+            4.3248,
+            3.7888,
+            3.5034
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/space-station/props/SpaceStation_AirlockTunnel_Standard.glb",
+          "bytes": 35064,
+          "sha256": "a94bb56034446686500af96e4cd5a01f5ef484db5b764ac0bb4d527ae65fae57",
+          "triangles": 456,
+          "dimensions": [
+            4.36,
+            3.7888,
+            3.5034
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/space-station/props/SpaceStation_AirlockTunnel_Showcase.glb",
+          "bytes": 38812,
+          "sha256": "49022b77213744b6582fce8756ae7e403fd0cd6811085294c8eee2dc8935002c",
+          "triangles": 504,
+          "dimensions": [
+            4.42,
+            3.7888,
+            3.5034
+          ]
+        }
+      }
+    },
+    {
+      "id": "BulkheadBaffle",
+      "name": "Bulkhead Baffle",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/space-station/props/SpaceStation_BulkheadBaffle_Simple.glb",
+          "bytes": 8056,
+          "sha256": "95e55bb18fab0013441be3b5711ce04d64afe40e0754c62522badb603f5fe682",
+          "triangles": 108,
+          "dimensions": [
+            2.2,
+            0.5708,
+            1.08
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/space-station/props/SpaceStation_BulkheadBaffle_Standard.glb",
+          "bytes": 11804,
+          "sha256": "7a13b3c8683fb5ab873cb6baaca014cb422a8023afdc57bc834a05406159942a",
+          "triangles": 156,
+          "dimensions": [
+            2.2,
+            0.5808,
+            1.08
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/space-station/props/SpaceStation_BulkheadBaffle_Showcase.glb",
+          "bytes": 13676,
+          "sha256": "23d79330d7d64e74356e466dd673dbb41b6cba0f7d99ababde12372aa321e5bd",
+          "triangles": 180,
+          "dimensions": [
+            2.2,
+            0.5808,
+            1.11
+          ]
+        }
+      }
+    },
+    {
+      "id": "DockingBridge",
+      "name": "Docking Bridge",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/space-station/props/SpaceStation_DockingBridge_Simple.glb",
+          "bytes": 11812,
+          "sha256": "d822d93256bbd56863190d5d1ab91b98d333264212ee5fcabeed15ebb91b5bf0",
+          "triangles": 140,
+          "dimensions": [
+            2.24,
+            4.0,
+            1.22
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/space-station/props/SpaceStation_DockingBridge_Standard.glb",
+          "bytes": 18180,
+          "sha256": "9bc71fda6ba54d5c0d9301819f1165496310cc756f63c0feac518dc59740b249",
+          "triangles": 240,
+          "dimensions": [
+            2.24,
+            4.0,
+            1.22
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/space-station/props/SpaceStation_DockingBridge_Showcase.glb",
+          "bytes": 21924,
+          "sha256": "35b3587089845e650360568d2b5e7b7ce6e93540629429ab5801befd88e3a0e9",
+          "triangles": 288,
+          "dimensions": [
+            2.24,
+            4.0,
+            1.22
+          ]
+        }
+      }
+    },
+    {
+      "id": "ReactorCore",
+      "name": "Reactor Core",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/space-station/props/SpaceStation_ReactorCore_Simple.glb",
+          "bytes": 18276,
+          "sha256": "7ed38fe281a97fa7dfe23528970b92c4d90847c5100292118f9c5b71f75c745c",
+          "triangles": 252,
+          "dimensions": [
+            3.6,
+            3.6,
+            4.2
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/space-station/props/SpaceStation_ReactorCore_Standard.glb",
+          "bytes": 56304,
+          "sha256": "5b0d53ad02287a5507a9112a4002bf0178f1500d26dda771f0b1c818b60871ee",
+          "triangles": 828,
+          "dimensions": [
+            3.6,
+            3.6,
+            4.2
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/space-station/props/SpaceStation_ReactorCore_Showcase.glb",
+          "bytes": 60096,
+          "sha256": "a63439ab2a750912efacdb863641116963bdcbcacb21fdd5820133cfd14fb2ea",
+          "triangles": 884,
+          "dimensions": [
+            3.6,
+            3.6,
+            5.1
+          ]
+        }
+      }
+    },
+    {
+      "id": "SolarTruss",
+      "name": "Solar Truss",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/space-station/props/SpaceStation_SolarTruss_Simple.glb",
+          "bytes": 24916,
+          "sha256": "2c6ea48e81af30b59b9efdc43e76050f88895536bee9438b51c089e98adf8c47",
+          "triangles": 308,
+          "dimensions": [
+            9.0,
+            3.51,
+            3.18
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/space-station/props/SpaceStation_SolarTruss_Standard.glb",
+          "bytes": 39904,
+          "sha256": "9d3939de9a1fb51a88f9f75987d43489a043703a63ec2275848ff70f04bb82f6",
+          "triangles": 500,
+          "dimensions": [
+            9.0,
+            3.51,
+            3.18
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/space-station/props/SpaceStation_SolarTruss_Showcase.glb",
+          "bytes": 47392,
+          "sha256": "d5d580e4a4089052a625d83778c026a89c90e68340288d5a916b5997139031d1",
+          "triangles": 596,
+          "dimensions": [
+            9.0,
+            3.51,
+            3.18
+          ]
+        }
+      }
+    },
+    {
+      "id": "OrbitalRingBackdrop",
+      "name": "Orbital Ring Backdrop",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/space-station/props/SpaceStation_OrbitalRingBackdrop_Simple.glb",
+          "bytes": 52420,
+          "sha256": "a9477b191a5a3939a85105e388bee73b8898c428da8d3dcf2d0b25e57234cf5e",
+          "triangles": 760,
+          "dimensions": [
+            16.3,
+            8.0,
+            17.15
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/space-station/props/SpaceStation_OrbitalRingBackdrop_Standard.glb",
+          "bytes": 60584,
+          "sha256": "3ef43abc76d4d84be7f755a336f5f50216d52101cb6da605f3e8cf53f4b60eaa",
+          "triangles": 872,
+          "dimensions": [
+            16.3,
+            8.0,
+            17.15
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/space-station/props/SpaceStation_OrbitalRingBackdrop_Showcase.glb",
+          "bytes": 79592,
+          "sha256": "97c7945bbf02bbcda981f32d924f830d306bbafa9bec8c00e1e2cb04f006bccf",
+          "triangles": 1160,
+          "dimensions": [
+            16.3,
+            8.0,
+            17.15
+          ]
+        }
+      }
+    },
+    {
+      "id": "StationFacade",
+      "name": "Station Facade",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/space-station/props/SpaceStation_StationFacade_Simple.glb",
+          "bytes": 22132,
+          "sha256": "93df8d4fdabca5cfaf9abef64449f0844a9aab9e06dd497bf8030f871e0cc9f3",
+          "triangles": 304,
+          "dimensions": [
+            15.0,
+            5.0,
+            6.6
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/space-station/props/SpaceStation_StationFacade_Standard.glb",
+          "bytes": 29628,
+          "sha256": "febe55280e7051a0ee110bc8d84f7c9ab57f82313dc13d4838202005928ab52a",
+          "triangles": 400,
+          "dimensions": [
+            15.0,
+            5.0,
+            6.6
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/space-station/props/SpaceStation_StationFacade_Showcase.glb",
+          "bytes": 56800,
+          "sha256": "d65249a10995d9b9f2c5dfccd410679cd2f25a309f1478921687f023aca31191",
+          "triangles": 752,
+          "dimensions": [
+            15.0,
+            5.0,
+            6.6
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+{
+  "schemaVersion": 1,
+  "pack": "blockland",
+  "title": "Blockland",
+  "families": [
+    {
+      "id": "VillageHouse",
+      "name": "Village House",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/blockland/props/Blockland_VillageHouse_Simple.glb",
+          "bytes": 20284,
+          "sha256": "197aca9abeba1bb3563d70554351cdb723558f119397957854a9670442a10832",
+          "triangles": 264,
+          "dimensions": [
+            4.2,
+            4.395,
+            4.02
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/blockland/props/Blockland_VillageHouse_Standard.glb",
+          "bytes": 74044,
+          "sha256": "7df02d579848ba195cc4429c2661fdc4fd80c795f09776165cc64947b90da945",
+          "triangles": 968,
+          "dimensions": [
+            4.2,
+            4.55,
+            4.31
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/blockland/props/Blockland_VillageHouse_Showcase.glb",
+          "bytes": 195248,
+          "sha256": "d8207011f16a343b5e3657de28231afc3e4ba4e7ba3ed2299c9c4fb89f726f23",
+          "triangles": 2496,
+          "dimensions": [
+            4.2,
+            4.55,
+            4.31
+          ]
+        }
+      }
+    },
+    {
+      "id": "CastleGatehouse",
+      "name": "Castle Gatehouse",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/blockland/props/Blockland_CastleGatehouse_Simple.glb",
+          "bytes": 33368,
+          "sha256": "09fd95cd0d60fb74dd26c80bb1bc0ba546832b13767bfe96ae94ba24c0738f56",
+          "triangles": 420,
+          "dimensions": [
+            4.5,
+            3.32,
+            4.02
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/blockland/props/Blockland_CastleGatehouse_Standard.glb",
+          "bytes": 89540,
+          "sha256": "3caf904f74f877e7cdff9f94244f745a0148e25b195bcae9ed2615c4a1b1d265",
+          "triangles": 1140,
+          "dimensions": [
+            4.5,
+            3.32,
+            4.6
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/blockland/props/Blockland_CastleGatehouse_Showcase.glb",
+          "bytes": 171912,
+          "sha256": "92d20e888bf4f8da176ee8f0b3921f8db8038f2b157b03b8b9b5335c208c1f92",
+          "triangles": 2196,
+          "dimensions": [
+            4.5,
+            3.32,
+            4.6
+          ]
+        }
+      }
+    },
+    {
+      "id": "CourtyardTower",
+      "name": "Courtyard Tower",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/blockland/props/Blockland_CourtyardTower_Simple.glb",
+          "bytes": 16972,
+          "sha256": "0dde0c17b318b216d81dc7e9e30120d1a745834c94ba6402917a9f075d98240d",
+          "triangles": 232,
+          "dimensions": [
+            3.0,
+            3.02,
+            7.36
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/blockland/props/Blockland_CourtyardTower_Standard.glb",
+          "bytes": 65560,
+          "sha256": "c2c90a9c4aa543f400826c01483a726b77d1f91a27ab8bb9ba20b5b3647a60c1",
+          "triangles": 936,
+          "dimensions": [
+            3.0,
+            3.02,
+            7.36
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/blockland/props/Blockland_CourtyardTower_Showcase.glb",
+          "bytes": 108760,
+          "sha256": "a9b42bcef6a62e0b0a9220a563b46f118a90eea079cfe21275dac5c5222efde1",
+          "triangles": 1512,
+          "dimensions": [
+            3.0,
+            3.02,
+            7.36
+          ]
+        }
+      }
+    },
+    {
+      "id": "TripleArch",
+      "name": "Triple Arch",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/blockland/props/Blockland_TripleArch_Simple.glb",
+          "bytes": 14348,
+          "sha256": "942050b7ac1d493c6012cac09d9fa86faf7b8c88f51b8387dbcbf095982e3bd1",
+          "triangles": 180,
+          "dimensions": [
+            8.2,
+            1.5,
+            3.8
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/blockland/props/Blockland_TripleArch_Standard.glb",
+          "bytes": 21840,
+          "sha256": "c2e2a498085fb6eecb2a11961b0795a669469ac86d76eacd974cbe7bba93c98e",
+          "triangles": 276,
+          "dimensions": [
+            8.2,
+            1.5,
+            3.8
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/blockland/props/Blockland_TripleArch_Showcase.glb",
+          "bytes": 44312,
+          "sha256": "1624888ebc1b3586c40329a202662e2ced13cfefc7ddb2848a7af7a0e64e91c7",
+          "triangles": 564,
+          "dimensions": [
+            8.2,
+            1.5,
+            3.8
+          ]
+        }
+      }
+    },
+    {
+      "id": "TerraceBridge",
+      "name": "Terrace Bridge",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/blockland/props/Blockland_TerraceBridge_Simple.glb",
+          "bytes": 15584,
+          "sha256": "5ba9454966768a3b5868369f6be75769b451990da8ba8c6543fb4a8c0aff23b1",
+          "triangles": 188,
+          "dimensions": [
+            3.38,
+            3.4,
+            2.58
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/blockland/props/Blockland_TerraceBridge_Standard.glb",
+          "bytes": 21204,
+          "sha256": "503c207607a9f665e7d608d3e478cda56638550820441aac785e348caf578fbc",
+          "triangles": 260,
+          "dimensions": [
+            3.46,
+            3.4,
+            2.64
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/blockland/props/Blockland_TerraceBridge_Showcase.glb",
+          "bytes": 27568,
+          "sha256": "2e7e1e6c0e56a74f0f95d8fb589a55229c38d9775b76b0d8bbc970dcf965b908",
+          "triangles": 360,
+          "dimensions": [
+            3.46,
+            3.4,
+            2.64
+          ]
+        }
+      }
+    },
+    {
+      "id": "RetainingWallStraight",
+      "name": "Retaining Wall Straight",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/blockland/props/Blockland_RetainingWallStraight_Simple.glb",
+          "bytes": 3724,
+          "sha256": "1905e6d54e8ba5013db4691a80e409026baf605adc5993f7c6aaa7f408a6aa75",
+          "triangles": 40,
+          "dimensions": [
+            4.0,
+            0.8,
+            2.2
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/blockland/props/Blockland_RetainingWallStraight_Standard.glb",
+          "bytes": 11368,
+          "sha256": "adcec4806202426b851b9fb1b50236947e3bbf51a7df5a331ee215a2ff05395a",
+          "triangles": 160,
+          "dimensions": [
+            4.0,
+            0.8,
+            2.2
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/blockland/props/Blockland_RetainingWallStraight_Showcase.glb",
+          "bytes": 17660,
+          "sha256": "0b67661dbedba23a965cc9313d32a87dcc3210c86e541d5cbf87505fd9102972",
+          "triangles": 248,
+          "dimensions": [
+            4.0,
+            0.8,
+            2.2
+          ]
+        }
+      }
+    },
+    {
+      "id": "RetainingWallCorner",
+      "name": "Retaining Wall Corner",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/blockland/props/Blockland_RetainingWallCorner_Simple.glb",
+          "bytes": 4928,
+          "sha256": "3c509ac5734316322aae22550b5f4fba121178546fb9ba38549c77376321fb0f",
+          "triangles": 48,
+          "dimensions": [
+            4.1,
+            4.1,
+            2.2
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/blockland/props/Blockland_RetainingWallCorner_Standard.glb",
+          "bytes": 10548,
+          "sha256": "156c85ed158cdb68e999f23efc245a3de7a484e96ef9e8f9ed5b7034dfc22920",
+          "triangles": 120,
+          "dimensions": [
+            4.1,
+            4.1,
+            2.2
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/blockland/props/Blockland_RetainingWallCorner_Showcase.glb",
+          "bytes": 11488,
+          "sha256": "7dbd513ed6ef2b7c0dc097e2a9120dabfa431c1fe5f655482423ea8803866e97",
+          "triangles": 132,
+          "dimensions": [
+            4.1,
+            4.1,
+            2.34
+          ]
+        }
+      }
+    },
+    {
+      "id": "TownBackdrop",
+      "name": "Town Backdrop",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/blockland/props/Blockland_TownBackdrop_Simple.glb",
+          "bytes": 38732,
+          "sha256": "565bf72bc332aaf26ec127154f08b4f39ae0c2d82a1e8ffc2b6adedc8f48e332",
+          "triangles": 504,
+          "dimensions": [
+            18.0,
+            7.0,
+            8.32
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/blockland/props/Blockland_TownBackdrop_Standard.glb",
+          "bytes": 136516,
+          "sha256": "31a7f32f191cdee37918ad3ff62527eeb6ada3016b52dd737a94f041ffc6b67f",
+          "triangles": 1824,
+          "dimensions": [
+            18.0,
+            7.0,
+            8.32
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/blockland/props/Blockland_TownBackdrop_Showcase.glb",
+          "bytes": 262088,
+          "sha256": "9dde9e3d35c9b680fe968bc6a4a5814bbdfb781527a0643698a74a14ad9ecd6f",
+          "triangles": 3456,
+          "dimensions": [
+            18.0,
+            7.0,
+            8.32
+          ]
+        }
+      }
+    },
+    {
+      "id": "BlockGrove",
+      "name": "Block Grove",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/blockland/props/Blockland_BlockGrove_Simple.glb",
+          "bytes": 29020,
+          "sha256": "551c448ef1b560793255c931888a93531d53d4643d13d61ddbb3813361a80d28",
+          "triangles": 402,
+          "dimensions": [
+            12.0,
+            5.04503,
+            4.88
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/blockland/props/Blockland_BlockGrove_Standard.glb",
+          "bytes": 85664,
+          "sha256": "dc6fd3dc48b90fc52732fad4ae7e70c731e3c1686ec376c0476de939f47ec944",
+          "triangles": 1304,
+          "dimensions": [
+            12.24,
+            5.05135,
+            5.6795
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/blockland/props/Blockland_BlockGrove_Showcase.glb",
+          "bytes": 88472,
+          "sha256": "998b0d10b119ae910c72bdc62d0c29df90a98a2528ca4df70fca0a32de182aec",
+          "triangles": 1340,
+          "dimensions": [
+            12.24,
+            5.05135,
+            5.6795
+          ]
+        }
+      }
+    },
+    {
+      "id": "LanternPair",
+      "name": "Lantern Pair",
+      "tiers": {
+        "Simple": {
+          "url": "/models/environments/blockland/props/Blockland_LanternPair_Simple.glb",
+          "bytes": 8692,
+          "sha256": "71c5ab5ffa864693170e2f2f28d8bdce790bb5d4e516c4465729e4fa2aa272dd",
+          "triangles": 96,
+          "dimensions": [
+            2.65,
+            0.65,
+            2.17
+          ]
+        },
+        "Standard": {
+          "url": "/models/environments/blockland/props/Blockland_LanternPair_Standard.glb",
+          "bytes": 16184,
+          "sha256": "a519458dd32326cce53c6ebfb0a017c4db972bf507f69230b80d46c30aec3721",
+          "triangles": 192,
+          "dimensions": [
+            2.65,
+            0.65,
+            2.17
+          ]
+        },
+        "Showcase": {
+          "url": "/models/environments/blockland/props/Blockland_LanternPair_Showcase.glb",
+          "bytes": 18060,
+          "sha256": "dd7e972a6742b0547b15df544609d3d36a4d5f7a42f2db5cebdbc4e2f722d3c7",
+          "triangles": 216,
+          "dimensions": [
+            2.65,
+            0.65,
+            2.37
+          ]
+        }
+      }
+    }
+  ]
+}
