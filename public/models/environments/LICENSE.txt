@@ -1,0 +1,16 @@
+WIRED UP STUDIOS — THEMED ENVIRONMENT ASSETS
+SPDX-License-Identifier: CC0-1.0
+
+To the extent possible under law, the creator has waived all copyright and
+related or neighboring rights in the creator-owned assets in these ten packs
+under CC0 1.0 Universal: Pirate Cove, Candyland, Space Station, Haunted Woods,
+Tropical, Blockland, Backyard, Desert, Frosty, and Neon City.
+You may copy, modify, distribute and use these assets, including commercially,
+without asking permission. Credit appreciated, never required.
+Governing legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+Scope: original meshes, vertex colors, scene layouts, collision guides and asset
+metadata in these environment downloads. This notice does not relicense the
+website, third-party software, dependencies, trademarks or reference material.
+Existing third-party rights remain unaffected. Assets are provided as-is.
+CC0 does not grant trademark or patent rights.

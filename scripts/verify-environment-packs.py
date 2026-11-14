@@ -37,7 +37,7 @@ for pack in c['packs']:
     for key in ['fbx_file']+(['file'] if kind=='models' else []):assert prefix+asset[key] in names
    for n,item in json.loads(z.read(checksum)).items():
     payload=z.read(n);assert len(payload)==item['bytes'] and digest(payload)==item['sha256'];checks+=1
-   assert all(not re.search(rb'[A-Za-z]:[\\/]',z.read(n)) for n in names if n.endswith(('.json','.txt')))
+   assert all(not re.search(rb'(?<![A-Za-z0-9])[A-Za-z]:[\\/]',z.read(n)) for n in names if n.endswith(('.json','.txt')))
    if release['license_approved']:assert any(n.endswith('LICENSE.txt') for n in names)
  for d in pack['downloads']:
   expected=all_files[d['url'].rsplit('/',1)[-1]];assert all(d[k]==expected[k] for k in ['url','bytes','sha256'])

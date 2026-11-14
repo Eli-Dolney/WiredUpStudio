@@ -11,7 +11,7 @@ def record(path,url):return dict(url=url,bytes=path.stat().st_size,sha256=sha(pa
 def clean(v):
  if isinstance(v,dict):return {k:clean(x) for k,x in v.items() if k not in ['source_root','source_folder','source','superseded','review','preview']}
  if isinstance(v,list):return [clean(x) for x in v]
- if isinstance(v,str) and re.search(r'[A-Za-z]:[\\/]',v):return Path(v.replace('\\','/')).name
+ if isinstance(v,str) and re.search(r'(?<![A-Za-z0-9])[A-Za-z]:[\\/]',v):return Path(v.replace('\\','/')).name
  return v
 themes=[
  ('PirateCove','pirate-cove','Pirate Cove','Timber harbors, coastal villages, ships, skull passages, and a lighthouse skyline.'),
@@ -123,7 +123,7 @@ LICENSE
    for name,data in files.items():z.writestr(name,data)
   with zipfile.ZipFile(out) as z:
    assert z.testzip() is None
-   assert all(not re.search(rb'[A-Za-z]:[\\/]',z.read(n)) for n in z.namelist() if n.endswith('.json')),filename
+   assert all(not re.search(rb'(?<![A-Za-z0-9])[A-Za-z]:[\\/]',z.read(n)) for n in z.namelist() if n.endswith('.json')),filename
   item=record(out,BASE+filename);release_files.append(dict(item,name=filename,theme=theme))
   if a.cc0:
    (WEB/'downloads').mkdir(exist_ok=True);shutil.copy2(out,WEB/'downloads'/filename)

@@ -1,6 +1,9 @@
 {
   "schemaVersion": 1,
-  "license": null,
+  "license": {
+    "label": "CC0 1.0 Universal",
+    "url": "/models/environments/LICENSE.txt"
+  },
   "packs": [
     {
       "id": "pirate-cove",
@@ -29,7 +32,20 @@
         "sha256": "8a877527fbe7212e529b62115296928ce2847f8e0bc2240cf9936fdde666d8f9"
       },
       "notes": "/models/environments/pirate-cove/README.txt",
-      "downloads": []
+      "downloads": [
+        {
+          "url": "/models/environments/downloads/pirate-cove-models.zip",
+          "bytes": 12666168,
+          "sha256": "f2399b6ac83f95e8e014ecc097d50b25e0ae707553e67fa4dcef48e09170467c",
+          "label": "FBX + GLB pack"
+        },
+        {
+          "url": "/models/environments/downloads/pirate-cove-unity.zip",
+          "bytes": 7281320,
+          "sha256": "2a68f6346777dc0aa6221011ec9f3f7575df9650fb28909d4eeb7538799e1ab8",
+          "label": "Unity import pack"
+        }
+      ]
     },
     {
       "id": "candyland",
@@ -49,7 +65,20 @@
         "sha256": "3787b7ce130f6bbd550fccb7f0ae0a48cd15b38195364c8d5191c98e621d1038"
       },
       "notes": "/models/environments/candyland/README.txt",
-      "downloads": []
+      "downloads": [
+        {
+          "url": "/models/environments/downloads/candyland-models.zip",
+          "bytes": 2742979,
+          "sha256": "e273295014c49008def1073bb6e3c016121dedd75556acc4d0c7ef81de48d405",
+          "label": "FBX + GLB pack"
+        },
+        {
+          "url": "/models/environments/downloads/candyland-unity.zip",
+          "bytes": 1538661,
+          "sha256": "173d929ab5760bce5c4788b6422ef1187f7513b5ccd4a2e65e57e1590cd7fc9a",
+          "label": "Unity import pack"
+        }
+      ]
     },
     {
       "id": "space-station",
@@ -69,7 +98,20 @@
         "sha256": "9c06f15b19c0aa0dd7228372cc171bd5b510401668f4c2dc029659d0dbb3cf19"
       },
       "notes": "/models/environments/space-station/README.txt",
-      "downloads": []
+      "downloads": [
+        {
+          "url": "/models/environments/downloads/space-station-models.zip",
+          "bytes": 2857572,
+          "sha256": "0405b1bb1e8f4e2669137ae3370791502b80d827c0fd76b2050bab7d37598f9e",
+          "label": "FBX + GLB pack"
+        },
+        {
+          "url": "/models/environments/downloads/space-station-unity.zip",
+          "bytes": 1554606,
+          "sha256": "0b1862c3d868aa2a2902343766f93de68e8ce8b3c0737f041bb4ca7c328cdad8",
+          "label": "Unity import pack"
+        }
+      ]
     },
     {
       "id": "haunted-woods",
@@ -89,7 +131,20 @@
         "sha256": "abf89a2c9e280e0ec03df6173e39eddade0bdb9219971a29b255183348ebbe87"
       },
       "notes": "/models/environments/haunted-woods/README.txt",
-      "downloads": []
+      "downloads": [
+        {
+          "url": "/models/environments/downloads/haunted-woods-models.zip",
+          "bytes": 3109040,
+          "sha256": "0232762b520952f4268dc081200043be22c177649feaaa47b5b7a30ac5ecaae9",
+          "label": "FBX + GLB pack"
+        },
+        {
+          "url": "/models/environments/downloads/haunted-woods-unity.zip",
+          "bytes": 1758078,
+          "sha256": "5dcaded373454c96925648925534a9517c0f51ad190df37db3534dc71fcb6a14",
+          "label": "Unity import pack"
+        }
+      ]
     },
     {
       "id": "tropical",
@@ -109,7 +164,20 @@
         "sha256": "5a30fb6d23f04daf7c306fc9928719e4aefbaeb0956de77d0edf881e64d6e8f6"
       },
       "notes": "/models/environments/tropical/README.txt",
-      "downloads": []
+      "downloads": [
+        {
+          "url": "/models/environments/downloads/tropical-models.zip",
+          "bytes": 6092855,
+          "sha256": "bd096ec8b131c98b140864e726aaf593ce2873c84d6ab05b57129800a0011222",
+          "label": "FBX + GLB pack"
+        },
+        {
+          "url": "/models/environments/downloads/tropical-unity.zip",
+          "bytes": 3231850,
+          "sha256": "2fa890eaf824a432a1741a95b488a33bc723caa1de4e307628b42af68d72f536",
+          "label": "Unity import pack"
+        }
+      ]
     },
     {
       "id": "blockland",
@@ -129,7 +197,20 @@
         "sha256": "42fe7184bf65d494b52055010898d0149181eec412beac10a23aba5d2822ffc3"
       },
       "notes": "/models/environments/blockland/README.txt",
-      "downloads": []
+      "downloads": [
+        {
+          "url": "/models/environments/downloads/blockland-models.zip",
+          "bytes": 2784012,
+          "sha256": "f7419a40b846d0f0b6f333bf97d1a44aaaaf4e30caf9214f53b4f15bf5735a2a",
+          "label": "FBX + GLB pack"
+        },
+        {
+          "url": "/models/environments/downloads/blockland-unity.zip",
+          "bytes": 1456762,
+          "sha256": "3357a9b87b8e879f5fee836e820309d9c8e3e62776bbe7dbf77aa15ae85717c6",
+          "label": "Unity import pack"
+        }
+      ]
     },
     {
       "id": "backyard",
@@ -149,7 +230,20 @@
         "sha256": "4aa2926ad32680e68a9bafc0a06f65d2379c48825a7886efe3aa6da0a63cff40"
       },
       "notes": "/models/environments/backyard/README.txt",
-      "downloads": []
+      "downloads": [
+        {
+          "url": "/models/environments/downloads/backyard-models.zip",
+          "bytes": 5697663,
+          "sha256": "f9a323a299dc4c8011b3c41c3cf8f887397c2811208620156a59d48297b78281",
+          "label": "FBX + GLB pack"
+        },
+        {
+          "url": "/models/environments/downloads/backyard-unity.zip",
+          "bytes": 3068162,
+          "sha256": "26855425cc952740c081db9d6e5b2b69930d556da838bae768cab42584d17ad6",
+          "label": "Unity import pack"
+        }
+      ]
     },
     {
       "id": "desert",
@@ -169,7 +263,20 @@
         "sha256": "644e014ece8a8d0cf208849bb09a222e0514d942078c1b0adce08035d6a7ec15"
       },
       "notes": "/models/environments/desert/README.txt",
-      "downloads": []
+      "downloads": [
+        {
+          "url": "/models/environments/downloads/desert-models.zip",
+          "bytes": 3145610,
+          "sha256": "2a6e67154db630d5e7038c8a1363933547a3cf961a9e03834c1aeaea7f606b60",
+          "label": "FBX + GLB pack"
+        },
+        {
+          "url": "/models/environments/downloads/desert-unity.zip",
+          "bytes": 1737695,
+          "sha256": "4cb6917b5d67e73c6fd8006e2d596600745c141a46a08c2f00c562301e022197",
+          "label": "Unity import pack"
+        }
+      ]
     },
     {
       "id": "frosty",
@@ -189,7 +296,20 @@
         "sha256": "ab9b8bad8cc62fb9b7a9af5fef49b21cae267546d34bed7db2ab3d28a48427ef"
       },
       "notes": "/models/environments/frosty/README.txt",
-      "downloads": []
+      "downloads": [
+        {
+          "url": "/models/environments/downloads/frosty-models.zip",
+          "bytes": 3764821,
+          "sha256": "8697a9227a56ec82971f48869cce1c8c8b61855cccb06f94cdeb7425f4ba79c8",
+          "label": "FBX + GLB pack"
+        },
+        {
+          "url": "/models/environments/downloads/frosty-unity.zip",
+          "bytes": 2082444,
+          "sha256": "4981ed848dff22804e100162fbb95b010c34ec83181f04de3c1fc19ba1390b2a",
+          "label": "Unity import pack"
+        }
+      ]
     },
     {
       "id": "neon-city",
@@ -209,7 +329,20 @@
         "sha256": "662aa941f386fb4ecd94fc21c5b5fb12451c42fd567b92e63eabb3ea9fe227aa"
       },
       "notes": "/models/environments/neon-city/README.txt",
-      "downloads": []
+      "downloads": [
+        {
+          "url": "/models/environments/downloads/neon-city-models.zip",
+          "bytes": 4712381,
+          "sha256": "bc4b28fcfe82fcbda32c6d006f31ff8e67eade6194b2b953bdc4123ad503f05d",
+          "label": "FBX + GLB pack"
+        },
+        {
+          "url": "/models/environments/downloads/neon-city-unity.zip",
+          "bytes": 2572758,
+          "sha256": "96e1f00226fc64fce7366bdefe0bb04682e4eee00a12c7d12ca7bc14c6515d56",
+          "label": "Unity import pack"
+        }
+      ]
     }
   ]
 }

@@ -35,4 +35,4 @@ Moving props are posed geometry. Runtime mechanics require game implementation.
 Original low-poly production geometry was built in Blender, not ComfyUI.
 
 LICENSE
-Publication is pending the owner's license selection.
+CC0 1.0 Universal. See LICENSE.txt. Credit appreciated, never required.
