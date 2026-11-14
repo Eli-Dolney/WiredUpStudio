@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "license": null,
+  "packs": [
+    {
+      "id": "pirate-cove",
+      "title": "Pirate Cove",
+      "description": "Timber harbors, coastal villages, ships, skull passages, and a lighthouse skyline.",
+      "families": 76,
+      "components": 361,
+      "holes": [
+        "Three Tides",
+        "Smuggler's Skull Run",
+        "Kraken Courtyard",
+        "Cannon Ricochet",
+        "Treasure Vault",
+        "Cargo Crossing",
+        "Shipwreck Passage",
+        "Captain's Cabin Finale",
+        "Waterfall Grotto",
+        "Tidewheel Run",
+        "Smuggler's Fort",
+        "Pearl Lagoon"
+      ],
+      "image": "/models/environments/pirate-cove/district.jpg",
+      "model": {
+        "url": "/models/environments/pirate-cove/district.glb",
+        "bytes": 2077512,
+        "sha256": "8a877527fbe7212e529b62115296928ce2847f8e0bc2240cf9936fdde666d8f9"
+      },
+      "notes": "/models/environments/pirate-cove/README.txt",
+      "downloads": []
+    },
+    {
+      "id": "candyland",
+      "title": "Candyland",
+      "description": "Gingerbread buildings, cookie bridges, peppermint obstacles, and a sugar windmill town.",
+      "families": 10,
+      "components": 59,
+      "holes": [
+        "Frosting Fold",
+        "Cookie Crossroads",
+        "Sweet Shop Shortcut"
+      ],
+      "image": "/models/environments/candyland/district.jpg",
+      "model": {
+        "url": "/models/environments/candyland/district.glb",
+        "bytes": 2074980,
+        "sha256": "3787b7ce130f6bbd550fccb7f0ae0a48cd15b38195364c8d5191c98e621d1038"
+      },
+      "notes": "/models/environments/candyland/README.txt",
+      "downloads": []
+    },
+    {
+      "id": "space-station",
+      "title": "Space Station",
+      "description": "Airlocks, solar trusses, docking bridges, habitat buildings, and an orbital-ring backdrop.",
+      "families": 10,
+      "components": 59,
+      "holes": [
+        "Airlock Alley",
+        "Solar Split",
+        "Reactor Run"
+      ],
+      "image": "/models/environments/space-station/district.jpg",
+      "model": {
+        "url": "/models/environments/space-station/district.glb",
+        "bytes": 2125772,
+        "sha256": "9c06f15b19c0aa0dd7228372cc171bd5b510401668f4c2dc029659d0dbb3cf19"
+      },
+      "notes": "/models/environments/space-station/README.txt",
+      "downloads": []
+    },
+    {
+      "id": "haunted-woods",
+      "title": "Haunted Woods",
+      "description": "Crooked cottages, hollow trees, root bridges, graveyard obstacles, and a manor courtyard.",
+      "families": 10,
+      "components": 58,
+      "holes": [
+        "Hollow Heart",
+        "Graveyard Gambit",
+        "Manor Descent"
+      ],
+      "image": "/models/environments/haunted-woods/district.jpg",
+      "model": {
+        "url": "/models/environments/haunted-woods/district.glb",
+        "bytes": 1686632,
+        "sha256": "abf89a2c9e280e0ec03df6173e39eddade0bdb9219971a29b255183348ebbe87"
+      },
+      "notes": "/models/environments/haunted-woods/README.txt",
+      "downloads": []
+    },
+    {
+      "id": "tropical",
+      "title": "Tropical",
+      "description": "Stilt huts, palms, tiki gates, lagoon boardwalks, rock grottoes, and island silhouettes.",
+      "families": 10,
+      "components": 58,
+      "holes": [
+        "Lagoon Split",
+        "Tiki Terrace",
+        "Waterfall Grotto"
+      ],
+      "image": "/models/environments/tropical/district.jpg",
+      "model": {
+        "url": "/models/environments/tropical/district.glb",
+        "bytes": 2018148,
+        "sha256": "5a30fb6d23f04daf7c306fc9928719e4aefbaeb0956de77d0edf881e64d6e8f6"
+      },
+      "notes": "/models/environments/tropical/README.txt",
+      "downloads": []
+    },
+    {
+      "id": "blockland",
+      "title": "Blockland",
+      "description": "Stepped houses, castle gateways, modular retaining walls, archways, and a tower square.",
+      "families": 10,
+      "components": 60,
+      "holes": [
+        "Block Switchback",
+        "Archway Choice",
+        "Tower Courtyard"
+      ],
+      "image": "/models/environments/blockland/district.jpg",
+      "model": {
+        "url": "/models/environments/blockland/district.glb",
+        "bytes": 1829420,
+        "sha256": "42fe7184bf65d494b52055010898d0149181eec412beac10a23aba5d2822ffc3"
+      },
+      "notes": "/models/environments/blockland/README.txt",
+      "downloads": []
+    },
+    {
+      "id": "backyard",
+      "title": "Backyard",
+      "description": "Garden sheds, greenhouses, flower beds, hedges, wheelbarrow chutes, and neighborhood scenery.",
+      "families": 12,
+      "components": 66,
+      "holes": [
+        "Wheelbarrow Run",
+        "Greenhouse Shortcut",
+        "Garden Stream Crossing"
+      ],
+      "image": "/models/environments/backyard/district.jpg",
+      "model": {
+        "url": "/models/environments/backyard/district.glb",
+        "bytes": 2120240,
+        "sha256": "4aa2926ad32680e68a9bafc0a06f65d2379c48825a7886efe3aa6da0a63cff40"
+      },
+      "notes": "/models/environments/backyard/README.txt",
+      "downloads": []
+    },
+    {
+      "id": "desert",
+      "title": "Desert",
+      "description": "Frontier buildings, mine passages, ore carts, water towers, cactus gardens, and mesa walls.",
+      "families": 12,
+      "components": 65,
+      "holes": [
+        "Canyon Fork",
+        "Minecart Passage",
+        "Water Tower Switchback"
+      ],
+      "image": "/models/environments/desert/district.jpg",
+      "model": {
+        "url": "/models/environments/desert/district.glb",
+        "bytes": 1576904,
+        "sha256": "644e014ece8a8d0cf208849bb09a222e0514d942078c1b0adce08035d6a7ec15"
+      },
+      "notes": "/models/environments/desert/README.txt",
+      "downloads": []
+    },
+    {
+      "id": "frosty",
+      "title": "Frosty",
+      "description": "Snowy cabins, igloos, timber bridges, ice arches, pine groves, and mountain silhouettes.",
+      "families": 13,
+      "components": 69,
+      "holes": [
+        "Igloo Passage",
+        "Iceberg Choice",
+        "Lodge Balcony"
+      ],
+      "image": "/models/environments/frosty/district.jpg",
+      "model": {
+        "url": "/models/environments/frosty/district.glb",
+        "bytes": 2023180,
+        "sha256": "ab9b8bad8cc62fb9b7a9af5fef49b21cae267546d34bed7db2ab3d28a48427ef"
+      },
+      "notes": "/models/environments/frosty/README.txt",
+      "downloads": []
+    },
+    {
+      "id": "neon-city",
+      "title": "Neon City",
+      "description": "Arcade buildings, pixel gates, skybridges, pinball bumpers, cyber gardens, and a city skyline.",
+      "families": 12,
+      "components": 65,
+      "holes": [
+        "Arcade Alley",
+        "Rooftop Split",
+        "Data Tower Descent"
+      ],
+      "image": "/models/environments/neon-city/district.jpg",
+      "model": {
+        "url": "/models/environments/neon-city/district.glb",
+        "bytes": 2824984,
+        "sha256": "662aa941f386fb4ecd94fc21c5b5fb12451c42fd567b92e63eabb3ea9fe227aa"
+      },
+      "notes": "/models/environments/neon-city/README.txt",
+      "downloads": []
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+THEMED ENVIRONMENT PACKS / WEBSITE INTEGRATION
+
+Section: /3d-models#environments
+Ten theme cards, real district posters, a theme filter, hole inventories,
+Simple/Standard/Showcase descriptions, static 3D district previews and download links.
+The existing animal catalog, viewer and license are preserved.
+
+The environment viewer is lazy-loaded on demand. It hides named collision guides,
+frames only visible meshes, supports orbit/pan/zoom and reset, and disposes GPU
+resources on close or change. Water is static in GLB; desktop posters may use the
+Pirate Unity coastal shader. This difference is disclosed beside the preview.
+
+PUBLIC DOWNLOAD SCOPE
+FBX + GLB ZIP: all 920 component exports across ten packs, 39 assembled hole kits,
+ten district scenes, portable metadata, preview and import instructions.
+Unity ZIP: FBX variants and the same placement metadata under Assets/ThirdParty.
+Native Blender source libraries, production scripts and internal audit logs are
+not in these web downloads. Public GLB geometry remains editable in Blender.
+The canonical local delivery archives are unchanged.
+
+PACKAGING
+python scripts/stage-environment-packs.py --library <accepted-library-folder> --releases <release-output-folder>
+The default stages preview-only catalog data. Add --cc0 only after the owner
+authorizes CC0 for these ten packs. It adds scoped license files and download links.
+python scripts/verify-environment-packs.py <release-output-folder>
+npm run build
+node scripts/verify-animal-packs.mjs
+node scripts/verify-atlas-dragon.mjs
+
+With --cc0, verified ZIPs are copied to public/models/environments/downloads/.
+All current public ZIPs are below 13 MB, matching the site's static download approach.
+Publish files and catalog together through the existing site deployment.
+Download records contain bytes and SHA-256. Each archive also has internal checksums.
+The website uses the existing main -> Cloudflare Pages wiredupstudio integration.
+Check the live catalog and representative downloads after deployment.
+
+If adding revised releases later, use versioned filenames and refresh hashes
+together with the catalog. Keep animal license scope separate.
