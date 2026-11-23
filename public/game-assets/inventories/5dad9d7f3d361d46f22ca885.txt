@@ -1,0 +1,14 @@
+Artwork/Icon.png
+Artwork/SystemSplash.png
+Shaders/BakedRoom.shader
+Shaders/Contact.shader
+Shaders/Fx.shader
+Shaders/Preview.shader
+Shaders/RetroTV.shader
+Shaders/RoomOccluder.shader
+Shaders/Sky.shader
+Shaders/Terrain.shader
+Shaders/Toy.shader
+Shaders/Tread.shader
+Shaders/Vignette.shader
+Shaders/Water.shader

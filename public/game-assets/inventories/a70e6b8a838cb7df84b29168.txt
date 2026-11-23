@@ -1,0 +1,3 @@
+DiningRoom.blend
+DiningRoom_Geometry.fbx
+DiningRoom_Lighting.png

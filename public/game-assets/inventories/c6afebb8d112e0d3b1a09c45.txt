@@ -1,0 +1,15 @@
+Arch.fbx
+Barrel.fbx
+Campfire.fbx
+DesertRock.fbx
+HubVisual.fbx
+MesaRock.fbx
+PostVisual.fbx
+RailTrack.fbx
+Saguaro.fbx
+SaloonFront.fbx
+SliderVisual.fbx
+Tent.fbx
+Totem.fbx
+Wagon.fbx
+WaterTower.fbx
