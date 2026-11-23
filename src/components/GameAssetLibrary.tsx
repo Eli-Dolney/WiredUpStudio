@@ -1,52 +1,46 @@
-import { lazy, Suspense, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import './GameAssetLibrary.css';
 
-const Model = lazy(() => import('./environments/PropPreview'));
+import GameModelCollection from './GameModelCollection';
 type Variant = { url: string; format: string; filename: string };
-type Family = { name: string; variants: Record<string, Variant> };
+export type Family = { name: string; variants: Record<string, Variant> };
 type Part = { url: string; bytes: number; filename: string };
-type Collection = { game: string; name: string; files: number; formats: string[]; inventory: string; cover: string; parts: Part[]; items: Family[] };
-const tiers = ['Original', 'Simple', 'Standard', 'Showcase'];
+export type Collection = { game: string; name: string; files: number; formats: string[]; inventory: string; cover: string; parts: Part[]; items: Family[] };
+function CollectionDownloads({ pack }: { pack: Collection }) {
+  return <div className="environment-downloads">{pack.parts.map((part, index) =>
+    <a className="btn btn-volt model-download" key={part.url} href={part.url} download={part.filename}>
+      {pack.parts.length === 1 ? 'Download collection' : 'Download part '+(index+1)+' of '+pack.parts.length}
+      <span>ZIP · {(part.bytes / 1048576).toFixed(1)} MB ↓</span>
+    </a>)}</div>;
+}
 
 function CollectionView({ pack }: { pack: Collection }) {
   const [familyName, setFamilyName] = useState(pack.items[0]?.name);
-  const [tier, setTier] = useState('Standard');
-  const [showModel, setShowModel] = useState(false);
   const family = pack.items.find(item => item.name === familyName);
-  const choices = tiers.filter(key => family?.variants[key]);
-  const selected = choices.includes(tier) ? tier : choices[0];
-  const asset = family?.variants[selected];
+  const asset = family && Object.values(family.variants)[0];
+  const metadata = <p className="environment-meta">{pack.files.toLocaleString()} source files · {pack.formats.join(' / ')} · <a className="model-notes-link" href={pack.inventory} target="_blank" rel="noreferrer">View file list ↗</a></p>;
+  if (asset?.format === 'glb') return <>
+    <div className="game-model-heading"><h3>{pack.name}</h3><CollectionDownloads pack={pack}/></div>
+    {metadata}
+    {pack.cover && <details className="environment-included"><summary>Collection overview image</summary><img loading="lazy" src={pack.cover} alt={pack.name+' overview'} style={{maxWidth:'100%',maxHeight:430}}/></details>}
+    <GameModelCollection pack={pack}/>
+  </>;
   return <div className="game-library-card">
     <div className="game-library-media">
-      {asset?.format === 'glb' && (showModel || !pack.cover) ?
-        <Suspense fallback={<p role="status">Loading the model viewer…</p>}>
-          <Model url={asset.url} familyId={pack.name+'/'+familyName} title={familyName || pack.name} frameSpan={0}/>
-        </Suspense> :
-        asset?.format === 'png' ? <img src={asset.url} alt={familyName}/> :
+      {asset?.format === 'png' ? <img src={asset.url} alt={familyName}/> :
         asset?.format === 'ogg' || asset?.format === 'wav' ?
           <div className="game-listen"><p>{familyName}</p><audio controls preload="none" src={asset.url}/></div> :
-        pack.cover ? <img src={pack.cover} alt={pack.name+' environment overview'}/> : null}
-      {asset?.format === 'glb' && pack.cover && !showModel &&
-        <button className="btn btn-volt game-open" onClick={() => setShowModel(true)}>Preview {familyName} in 3D</button>}
+        pack.cover ? <img src={pack.cover} alt={pack.name+' overview'}/> : null}
     </div>
     <div className="game-library-detail">
-      <h3>{pack.name}</h3>
-      <p className="environment-meta">{pack.files.toLocaleString()} source files · {pack.formats.join(' / ')}</p>
-      <a className="model-notes-link" href={pack.inventory} target="_blank" rel="noreferrer">View file list ↗</a>
+      <h3>{pack.name}</h3>{metadata}
       {family && <label className="game-field">Preview asset
-        <select aria-label="Preview asset" value={familyName} onChange={e => {setFamilyName(e.target.value);setShowModel(true);}}>
+        <select aria-label="Preview asset" value={familyName} onChange={e=>setFamilyName(e.target.value)}>
           {pack.items.map(item => <option key={item.name}>{item.name}</option>)}
         </select>
       </label>}
-      {choices.length > 1 && <div className="game-tiers" aria-label="Detail level">{choices.map(key =>
-        <button key={key} className="model-close" aria-pressed={selected === key}
-          onClick={() => {setTier(key);setShowModel(true);}}>{key}</button>)}</div>}
       {asset && <a className="model-notes-link" href={asset.url} download={asset.filename}>Download {familyName} · {asset.format.toUpperCase()} ↓</a>}
-      <div className="environment-downloads">{pack.parts.map((part, index) =>
-        <a className="btn btn-volt model-download" key={part.url} href={part.url} download={part.filename}>
-          {pack.parts.length === 1 ? 'Download collection' : 'Download part '+(index+1)+' of '+pack.parts.length}
-          <span>ZIP · {(part.bytes / 1048576).toFixed(1)} MB ↓</span>
-        </a>)}</div>
+      <CollectionDownloads pack={pack}/>
     </div>
   </div>;
 }
