@@ -8,6 +8,7 @@ import Games from "./components/Games";
 import Hero from "./components/Hero";
 import Lab from "./components/Lab";
 import Models from "./components/Models";
+import Mods from "./components/Mods";
 import Nav from "./components/Nav";
 import Ticker from "./components/Ticker";
 import Ventures from "./components/Ventures";
@@ -43,6 +44,7 @@ export default function App() {
           <Ventures />
           <Channel />
           <Games />
+          <Mods />
           <Lab />
           <Connect />
           </>}
